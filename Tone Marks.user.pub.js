@@ -5,6 +5,8 @@
 // @description  try to take over the world!
 // @author       Cathalinaheart
 // @match        https://archiveofourown.org/*
+// @updateURL    https://github.com/Cathalinaheart/AO3-Tone-Marks/blob/main/Tone%20Marks.user.pub.js
+// @downloadURL  https://github.com/Cathalinaheart/AO3-Tone-Marks/blob/main/Tone%20Marks.user.pub.js
 // @grant        none
 // ==/UserScript==
 //function from https://stackoverflow.com/questions/18474497/replace-text-in-a-website
