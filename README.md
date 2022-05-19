@@ -1,6 +1,5 @@
 # AO3-Tone-Marks
 
-This is based on GodofLaundryBaskets <a href="">Google Docs Tone Mark Script.</a>
-Click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone%20Marks.pub.user.js">here</a> to install it.
+This is based on GodofLaundryBaskets [Google Docs Tone Mark Script](https://godoflaundrybaskets.dreamwidth.org/3315.html) and Cathalinaheart's [Tampermonkey version](https://github.com/Cathalinaheart/AO3-Tone-Marks).
 
-I...don't really know what I am doing here? But it should work and I am planning on adding more fandoms. Currently MDZS, Guardian and NiF are supported.
+Still figuring out what I want to do with it exactly.
