@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.1.4
+// @version      1.1.5
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -36,12 +36,6 @@ function doTheThing() {
       doReplacements(blurbs[i]);
     }
   }
-
-  // Set hover text to original text that got replaced.
-  const replacements = Array.from(document.querySelectorAll('.replacement'));
-  replacements.forEach(function(span) {
-    span.setAttribute('title', span.dataset.orig);
-  });
 }
 doTheThing();
 
@@ -242,35 +236,35 @@ function replaceAll(allReplacementsString, element) {
 function genericReplacements() {
   return `
       # titles
-      daren|dàren
-      guifei|gùifēi
-      furen|fūren
+      da ren|dàren
+      gui fei|gùifēi
+      fu ren|fūren
       ## I *think* guniang is this --> 姑娘?
-      guniang|gūniang
+      gu niang|gūniang
       ## gongzi (公子, gōngzī)
-      gongzi|gōngzī
+      gong zi|gōngzī
 
       # sibling relations
       ## Eldest brother: 大哥
-      dage|dàgē
+      da ge|dàgē
       ## Elder brother: 哥哥
-      gege|gēge
+      ge ge|gēge
       ge|gē
       ## Elder sister 姐姐
-      jiejie|jiějie
+      jie jie|jiějie
       ## sect sister (elder) 师姐
-      shijie|shījiě
+      shi jie|shījiě
       jie|jiě
       ## Elder brother (more formal) 兄长
-      xiongzhang|Xiōngzhǎng
+      xiong zhang|Xiōngzhǎng
       ## (name-)xiong (兄 Xiōng)
       xiong|xiōng
 
       # misc
       ## Jiāng Hú 江湖
-      jianghu|Jiānghú
+      jiang hu|Jiānghú
       ## guqin ( Chinese: 古琴;  pinyin: gǔqín)
-      guqin|gǔqín
+      gu qin|gǔqín
       `;
 }
 
