@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.0.4
+// @version      1.0.5
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -130,13 +130,13 @@ function doReplacements(element) {
   // 'fandom' or 'fandoms' class.
   const workFandoms =
       Array.from(element.querySelectorAll('.fandoms .tag,.fandom .tag'));
-  if (hasFandom(workFandoms, 'Untamed') || hasFandom(workFandoms, 'Módào')) {
+  if (hasFandom('Untamed', workFandoms) || hasFandom('Módào', workFandoms)) {
     replaceAll(mdzsReplacements(), simplified);
   }
-  if (hasFandom(workFandoms, 'Guardian')) {
+  if (hasFandom('Guardian', workFandoms)) {
     replaceAll(guardianReplacements(), simplified);
   }
-  if (hasFandom(workFandoms, 'Nirvana in Fire')) {
+  if (hasFandom('Nirvana in Fire', workFandoms)) {
     replaceAll(nirvanaReplacements(), simplified);
   }
   replaceAll(genericReplacements(), simplified);
