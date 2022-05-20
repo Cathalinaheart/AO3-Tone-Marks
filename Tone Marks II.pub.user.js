@@ -1182,9 +1182,9 @@ function wordOfHonorReplacements() {
       # 容炫 Róng Xuàn
       rong xuan|Róng Xuàn
       ## 岳风儿 Yuè Fēng'ĕr
-      yue feng|Yuè Fēng
       yue feng er|Yuè Fēng'ĕr
       yue feng'er|Yuè Fēng'ĕr
+      yue feng|Yuè Fēng
 
       # Yuè Yáng Sect
       ## 高崇Gāo Chóng
