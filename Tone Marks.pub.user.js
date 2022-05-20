@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  try to take over the world!
 // @author       Cathalinaheart
-// @match        https://archiveofourown.org/*
+// @match        https://archiveofourown.org/works/*
 // @updateURL    https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone%20Marks.user.pub.js
 // @downloadURL  https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone%20Marks.user.pub.js
 // @grant        none
