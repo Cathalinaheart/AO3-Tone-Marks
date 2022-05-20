@@ -7,7 +7,8 @@ You need to have tampermonkey/greasemonkey installed and then you just need to c
 
 ## Supported Fandoms
 MDZS, Guardian, NiF
-More coming soon!
+
+More coming soon! Next planned one is SVSSS
 
 ## Issues
-If you spot an issue like missing tone marks, please let me know either by submitting an issue here or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com
+If you spot an issue like missing tone marks, please let me know either by submitting an issue here or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com.
