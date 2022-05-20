@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.0.10
+// @version      1.1
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -140,7 +140,10 @@ function doReplacements(element) {
   // 'fandom' or 'fandoms' class.
   const workFandoms =
       Array.from(element.querySelectorAll('.fandoms .tag,.fandom .tag'));
-  if (hasFandom('Untamed', workFandoms) || hasFandom('Módào', workFandoms)) {
+  if (hasFandom('Word of Honor|Faraway Wanderers|Qi Ye', workFandoms)) {
+    replaceAll(wordOfHonorReplacements(), simplified);
+  }
+  if (hasFandom('Untamed|Módào', workFandoms)) {
     replaceAll(mdzsReplacements(), simplified);
   }
   if (hasFandom('Guardian', workFandoms)) {
@@ -1001,6 +1004,310 @@ function nirvanaReplacements() {
       ## Yán hòu 言后 (Empress Yan)
       ## (conflicts with Marquis Yán (Yán hóuyé 言侯爷), so move to the end)
       yan hou|Yán hòu
+      `;
+}
+
+
+/**
+ * Hard-coded Word of Honor pinyin replacement rules.
+ */
+function wordOfHonorReplacements() {
+  return `
+      # Mostly from: https://lunatique.dreamwidth.org/221218.html
+      ## I (irrationalpie) changed some capitalization and spacing?
+      ## But I was just guessing
+
+      # Shan He Ling Pronunciation Guide
+      # MAIN CAST
+      ## 周子舒 Zhōu Zǐshū
+      zzs|Zhōu Zǐshū
+      zhou zi shu|Zhōu Zǐshū
+      zi shu|Zǐshū
+      ## 周絮 Zhōu Xù
+      zhou xu|Zhōu Xù
+      zx|Zhōu Xù
+      ## 阿絮 āh-Xù
+      ah xu|āh-Xù
+      a xu|āh-Xù
+      ## 天窗首领  Tiān Chuāng shŏu lĭng | Leader of Window of Heaven
+      tian chuang|Tiān Chuāng
+      shou ling|shŏulĭng
+      ## 庄主 Zhuāng zhŭ (manor host/owner/master)
+      zhuang zhu|Zhuāngzhŭ
+      ## 痨病鬼 láo bìng gŭi (by Ah Xiang)
+      lao bing gui|láo bìng gŭi
+
+      # 温客行 Wēn Kèxíng (1:10)
+      wen ke xing|Wēn Kèxíng
+      wkx|Wēn Kèxíng
+      ke xing|Kèxíng
+      ## 老温 lǎo Wēn (by ZZS)
+      lao wen|lǎo Wēn
+      ## 主人 zhǔrén | Master (by ah-Xiang)
+      zhu ren|zhǔrén
+      ## 谷主 gǔzhǔ | valley master (by all Ghosts)
+      gu zhu|gǔzhǔ
+      ## 甄衍 Zhēn Yăn (WKX’s childhood name)
+      zhen yan|Zhēn Yăn
+      ## 温叔 Wēn shū | Uncle Wen (by Chengling)
+      wen shu|Wēn shū
+      ## 阿行 āh-xíng （by Auntie Luo)
+      ah xing|āh-xíng
+      a xing|āh-xíng
+
+      # 顾湘 Gù Xiāng (2:22)
+      gu xiang|Gù Xiāng
+      gx|Gù Xiāng
+      ## 阿絮 āh-Xiāng
+      ah xiang|āh-Xiāng
+      a xiang|āh-Xiāng
+      ## 丫头 yā tou (by WZX)
+      ya tou|yātou
+      ## 无心紫煞 Wú Xīn Zǐ Shà (Heartless Purple Fiend)
+      wu xin zi sha|Wú Xīn Zǐ Shà
+      ## 顾姑娘 Gù gūniàng (miss Gu)
+      gu guniang|Gù gūniàng
+
+      # 张成岭 Zhāng Chénglǐng (3:10)
+      zhang cheng ling|Zhāng Chénglǐng
+      zcl|Zhāng Chénglǐng
+      ## 金豆侠 jīn dòu xiá (by Ah Xiang)
+      jin dou xia|jīn dòu xiá
+
+      # 曹蔚宁 Cáo Wèiníng (3:30)
+      cao wei ning|Cáo Wèiníng
+      cwn|Cáo Wèiníng
+      wn|Wèiníng
+      ## 曹大哥 Cáo dà gē (by Ah Xiang)
+      cao da ge|Cáo dàgē
+      ## 傻瓜 shă guā (by Ah Xiang)
+      sha gua|shăguā
+      ## 清风山 Qīngfēng Shān (Qing Feng Sword Sect
+      # 清风剑 Qīng Fēng Jiàn Sect
+      qing feng shan|Qīngfēng Shān
+      qing feng jian|Qīngfēng Jiàn
+      qing feng|Qīngfēng
+      ## 莫怀阳 Mò Huáiyáng
+      mo huai yang|Mò Huáiyáng
+
+      # 叶白衣 Yè Báiyī (3:57)
+      ye bai yi|Yè Báiyī
+      bai yi|Báiyī
+      yby|Yè Báiyī
+      ## 长明剑仙 Cháng Míng Jiàn Xiān (~changming sword immortal)
+      chang ming jian xian|Chángmíng Jiàn Xiān
+      chang ming|Chángmíng
+      ## 叶前辈 Yè qiánbèi
+      ye qian bei|Yè qiánbèi
+
+      # WINDOW OF HEAVEN (4:35)
+      ## 天窗 Tiān Chuāng
+      tian chuang|Tiān Chuāng
+      ## 晋王 Jìn wáng (Prince Jin)
+      jin wang|Jìn wáng
+      prince jin|Prince Jìn
+      ## Helian Yi (赫连翊, Hèlián Yì)
+      he lian yi|Hèlián Yì
+      ## 韩英 Hán Yīng
+      han ying|Hán Yīng
+      hy|Hán Yīng
+      ## Duàn Pengju (段鵬舉 Duàn Péngjǔ)
+      duan peng ju|Duàn Péngjǔ
+
+
+      # FOUR SEASONS MANOR (5:00)
+      ## 四季山庄 Sì jì shān zhuāng (~four seasons + mountain villa)
+      si ji shan zhuang|Sìjì Shānzhuāng
+      si ji|Sìjì
+      shan zhuang|Shānzhuāng
+      ## 秦怀章 Qín Huáizhāng (ZZS’s master)
+      qin huai zhang|Qín Huáizhāng
+      ## 秦九霄 Qin Jiuxiao (ZZS’s shidi) (九霄 jiǔxiāo?)
+      ## aka 梁九霄 - Liáng Jiǔxiāo in the novel
+      qin jiuxiao|Qín jiǔxiāo
+      liang jiuxiao|Liáng jiǔxiāo
+      jiuxiao|jiǔxiāo
+
+      # 温如玉 Wēn Rúyù (WKX’s father)
+      wen ru yu|Wēn Rúyù
+      ## 谷妙妙 Gu Miaomiao (WKX’s mother) Gǔ Miàomiào
+      gu miao miao|Gǔ Miàomiào
+
+      # GHOST VALLEY (6:10)
+      ## 鬼谷 Gŭi gŭ
+      gui gu|Gŭigŭ
+      ## 青崖山 Qīngyá shān (mount qingya)
+      qing ya shan|Qīngyá shān
+      qing ya|Qīngyá
+
+      # 罗浮梦 Luó Fúmèng
+      luo fu meng|Luó Fúmèng
+      ## 喜丧鬼 Xǐ Sāng Guǐ (Tragicomic Ghost)
+      xi sang gui|Xǐsāng Guǐ
+      ## 薄情簿主 Bó Qíng Bù Zhŭ
+      bo qing bu zhu|Bóqíng Bù Zhŭ
+      ## 罗姨 Luó yí (Aunt Luó)
+      luo yi|Luó yí
+
+      # 柳千巧 Liǔ Qiānqiǎo
+      liu qian qiao|Liǔ Qiānqiǎo
+      ## 千巧姐 Qiānqiăo-jiĕ (by Ah Xiang)
+      qian qiao jie|Qiānqiǎo jiĕ
+      ## 艳鬼 Yàn Guǐ (Beauty Ghost)
+      yan gui|Yàn Guǐ
+
+      # SCORPIONS (7:43)
+      ## 毒蝎 Dú Xiē
+      du xie|Dú Xiē
+      ## 蝎王 Xiē Wáng (Scorpion King)
+      xie wang|Xiē Wáng
+      ## 蝎儿 Xiē'ér
+      xie er|Xiē'ér
+      xie'er|Xiē'ér
+
+      # 毒菩萨 Dú Pú Sà (Evil Bodhisattva)
+      du pu sa|Dú Púsà
+      ## 俏罗汉 Qiào luóhàn (Pretty Arhat)
+      qiao luo han|Qiào luóhàn
+      ## 秦松 Qín Sōng 魅曲 Mèiqǔ (phantom musician)
+      qin song|Qín Sōng
+      mei qu|Mèiqǔ
+      ## 金毛蒋怪 Jīnmáo Jiăngguài (Blond Monster Jiang)
+      jin mao jiang guai|Jīnmáo Jiăngguài
+
+      # FIVE LAKE ALLIANCE (8:55)
+      ## 五湖盟 Wǔhú Méng
+      wu hu meng|Wǔhú Méng
+
+      # 容炫 Róng Xuàn
+      rong xuan|Róng Xuàn
+      ## 岳风儿 Yuè Fēng'ĕr
+      yue feng|Yuè Fēng
+      yue feng er|Yuè Fēng'ĕr
+      yue feng'er|Yuè Fēng'ĕr
+
+      # Yuè Yáng Sect
+      ## 高崇Gāo Chóng
+      gao chong|Gāo Chóng
+      ## 岳阳派 Yuè Yáng Sect
+      yue yang|Yuèyáng
+      ## 高盟主 Gāo méng zhŭ
+      gao meng zhu|Gāo méngzhŭ
+      ## 大哥 Da ge
+      gao da ge|Gāo dàgē
+      ## 高小怜 Gāo Xiǎolián (Daughter of Gao Chong)
+      gao xiao lian|Gāo Xiǎolián
+      ## 小怜姐 xiǎo lián jie
+      xiao lian jie|Xiǎolián jiĕ
+      xiaolian|Xiǎolián
+      ## 邓宽 Dèng Kuān (Head Disciple Yue Yang Sect)
+      deng kuan|Dèng Kuān
+
+      # 赵敬 Zhào Jìng
+      zhao jing|Zhào Jìng
+      ## 太湖派  Tài Hú Sect
+      tai hu|Tài Hú
+      ## 赵盟主 Zhào méng zhŭ (Sect Leader Zhao)
+      zhao meng zhu|Zhào méngzhŭ
+      ## 赵玄德 Zhào Xuándé
+      zhao xuan de|Zhào Xuándé
+      ## 义夫 Yì fù (by Xie’er)
+      yi fu|Yì fù
+
+      # 沈慎 Shen Shen
+      shen shen|Shěn Shèn
+      ## 大孤山派 Da Gu Shan Sect
+      da gu shan|Dà Gū Shān
+      ## 沈掌门 Shen zhang men
+      shen zhang men|Shěn zhǎngmén
+      ## (五弟 wu di -> 5th brother)
+      wu di|wǔdì
+
+      # 张玉森 Zhāng Yùsēn (Cheng Ling’s father)
+      zhang yu sen|Zhāng Yùsēn
+      ## 镜湖派 Jìng Hú Mountain Pavilion
+      jing hu|Jìng Hú
+
+      # 陆太冲 Lù Tàichōng (Sect Leader of Dan Yang Sect)
+      lu tai chong|Lù Tàichōng
+
+
+      # OTHER SECTS/ JIANG HU PPL (11:47)
+      ## 华山 Huáshān Sect
+      hua shan|Huáshān
+      ## 于丘烽 Yú Qiūfēng
+      yu qiu feng|Yú Qiūfēng
+      ## 烽郎 Fēng-láng (by Liu Qianqao)
+      feng lang|Fēng láng
+
+      # 安吉四贤 Ānjí sì xián (sages of anji??)
+      ## names?
+      an ji si xian|Ānjí sì xián
+
+      # 隆源阁 Lóngyuán gé
+      long yuan ge|Lóngyuán gé
+      long yuan|Lóngyuán
+      ## 龙雀 Lóng Què
+      long que|Lóng Què
+      ## 龙孝 Lóng Xiào
+      long xiao|Lóng Xiào
+
+      # 泰山派 Tàishān Sect
+      tai shan|Tàishān
+      ## 傲峡子 Aò Lái Zĭ
+      ao lai zi|Aò Lái Zĭ
+
+      # 桃红 Táo Hóng
+      tao hong|Táo Hóng
+      ## 绿柳 Lü4 Liŭ (Lǜ)
+      lü liu|Lǜ Liŭ
+      lu liu|Lǜ Liŭ
+      lv liu|Lǜ Liŭ
+
+      # OTHER TERMS (14:05)
+      ## 山河岭 Shān Hé Lìng
+      shan he ling|Shān Hé Lìng
+      ## 知己 zhī jĭ (Soulmate)
+      zhi ji|zhījĭ
+      ## 琉璃甲 Liú Lí Jiă
+      liu li jia|Liúlí Jiă
+      liu li|Liúlí
+      ## 孟婆汤 Mèng Pó Tāng (Waters of Lethe)
+      meng po tang|Mèng Pó Tāng
+      meng po|Mèng Pó
+      ## 醉生梦死 Zùi Shēng Mèng Sĭ (Drunk Like a Dream)
+      zui sheng meng si|Zùi Shēng Mèng Sĭ
+
+      # SECT TERMS (15:03)
+      ## 师父 shī fù (master)
+      shi fu|shīfù
+      ## 师叔 shī shū (uncle)
+      shi shu|shīshū
+      ## 师娘 shī niáng (“mother”, wife of shifu)
+      shi niang|shīniáng
+      ## 师兄 shī xiōng (older brother)
+      shi xiong|shīxiōng
+      ## 师弟 shī dì (younger brother)
+      shi di|shīdì
+      ## 师姐 shī jiĕ (older sister)
+      shi jie|shījiĕ
+      ## 师妹 shī mèi (younger sister)
+      shi mei|shīmèi
+      ## 师侄 shī zhí (nephew)
+      shi zhi|shīzhí
+
+      # 徒弟 tú dì (disciple)
+      tu di|túdì
+
+      # Extra
+      ##  天涯客 | Faraway Wanderers - priest, 七爷 | Qi Ye - priest
+      tian ya ke|Tiān Yá Kè
+      qi ye|Qī Yé
+      ## 景北渊, Jǐng Běiyuān
+      jing bei juan|Jǐng Běiyuān
+      ## 与溪, Wǔ Xī is the Great Shaman of Nanjiang (南疆, Nán Jiāng)
+      wu xi|Wǔ Xī
+      nan jiang|Nánjiāng
       `;
 }
 })();
