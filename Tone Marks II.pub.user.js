@@ -29,7 +29,7 @@ function doTheThing() {
     console.log(
         'On a bookmark or search page, potentially making pinyin replacements...')
     // get all the work blurbs
-    const blurbs = Array.from(element.querySelectorAll('.blurb'));
+    const blurbs = Array.from(document.querySelectorAll('.blurb'));
     for (let i = 0; i < blurbs.length; i++) {
       didSomething = doReplacements(blurbs[i]) || didSomething;
     }
