@@ -14,7 +14,6 @@ More coming soon! Next planned one is SVSSS
 If you spot an issue like missing tone marks, please let me know either by submitting an issue here or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com.
 
 ## Other
-
 If you'd like to see the replacements underlined, you can add the following to your ao3 site skin:
 ```css
 .replacement {
