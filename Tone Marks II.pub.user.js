@@ -1,14 +1,12 @@
 // ==UserScript==
-// @name         Tone Marks
+// @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.0.3
+// @version      1.0.4
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
-// @updateURL
-// https://github.com/irrationalpie7/AO3-Tone-Marks/raw/main/Tone%20Marks.pub.user.js
-// @downloadURL
-// https://github.com/irrationalpie7/AO3-Tone-Marks/raw/main/Tone%20Marks.pub.user.js
+// @updateURL    https://github.com/irrationalpie7/AO3-Tone-Marks/raw/main/Tone%20Marks%20II.pub.user.js
+// @downloadURL  https://github.com/irrationalpie7/AO3-Tone-Marks/raw/main/Tone%20Marks%20II.pub.user.js
 // @grant        none
 // ==/UserScript==
 
