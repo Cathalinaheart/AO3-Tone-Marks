@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.1.7
+// @version      1.1.8
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -40,7 +40,7 @@ function doTheThing() {
   // Clean up re-replacements.
   const replacements = Array.from(document.querySelectorAll('.replacement'));
   replacements.forEach(function(span) {
-    span.innerHTML = span.dataset.orig;
+    span.innerHTML = span.dataset.new;
   });
 }
 doTheThing();
