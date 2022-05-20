@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         Tone Marks II
+// @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
 // @updateURL
-// https://github.com/irrationalpie7/AO3-Tone-Marks/raw/main/Tone%20Marks%20II.pub.user.js
+// https://github.com/irrationalpie7/AO3-Tone-Marks/raw/main/Tone%20Marks.pub.user.js
 // @downloadURL
-// https://github.com/irrationalpie7/AO3-Tone-Marks/raw/main/Tone%20Marks%20II.pub.user.js
+// https://github.com/irrationalpie7/AO3-Tone-Marks/raw/main/Tone%20Marks.pub.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -128,8 +128,9 @@ function doReplacements(element) {
   const simplified = {innerHTML: element.innerHTML};
 
   // Anything with a 'tag' class that's a descendant of something with a
-  // 'fandom' class.
-  const workFandoms = Array.from(element.querySelectorAll('.fandom .tag'));
+  // 'fandom' or 'fandoms' class.
+  const workFandoms =
+      Array.from(element.querySelectorAll('.fandoms .tag,.fandom .tag'));
   if (hasFandom(workFandoms, 'Untamed') || hasFandom(workFandoms, 'Módào')) {
     replaceAll(mdzsReplacements(), simplified);
   }
