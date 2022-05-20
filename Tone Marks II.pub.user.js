@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.0.9
+// @version      1.0.10
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -282,6 +282,8 @@ function mdzsReplacements() {
       laozu|Lǎozǔ
       wei|Wèi
       wuxian|Wúxiàn
+      # little apple (the donkey) (小苹果 xiăo píngguǒ)
+      xiao ping guo|xiăo-Píngguǒ
       ## Jiang Cheng (江澄 Jiāng Chéng), courtesy name Jiang Wanyin (江晚吟 Jiāng Wǎnyín), and his title Sandu Shengshou (三毒圣手 Sāndú shèngshǒu)
       jiang cheng|Jiāng Chéng
       jiang wanyin|Jiāng Wǎnyín
@@ -355,6 +357,9 @@ function mdzsReplacements() {
       jin zixun|Jīn Zixūn
       jz xun|Jīn Zixūn
       zixun|Zixūn
+      ## Qín Sù 秦愫
+      qin su|Qín Sù
+      qs|Qín Sù
       ## Carp Tower (金鳞台, Jīnlín Tái; also: Koi Tower, Jinlin Tower)
       jin lin tower|Jīnlín Tower
       jin lin tai|Jīnlín Tái
@@ -462,6 +467,9 @@ function mdzsReplacements() {
       Wen|Wēn
 
       # misc people
+      ## Sū Shè 苏涉 / Mǐnshàn 悯善
+      su she|Sū Shè
+      su minshan|Sū Mǐnshàn
       ## Song Lan (宋岚, Sòng Lán), courtesy name Song Zichen (宋子琛)
       Song Lan|Sòng Lán
       sl|Sòng Lán
@@ -530,7 +538,12 @@ function mdzsReplacements() {
       yashi|Yǎshì
       ## Lánshì 兰室 - Classroom
       lanshi|Lánshì
-
+      ## qín 琴
+      qin|qín
+      ## dízì 笛子 - bamboo flute
+      dizi|dízì
+      ## xiāo 箫 - LXC’s flute -- omitted due to # of conflicts:
+      ## xiao|xiāo [flute]/xiăo [small]/Xiǎo [xxc]
 
       # attempt to match lan|Lán at the end, after conflict with Song Lan doesn't matter
       lan|Lán
