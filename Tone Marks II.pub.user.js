@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.1.6
+// @version      1.1.7
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -36,6 +36,12 @@ function doTheThing() {
       doReplacements(blurbs[i]);
     }
   }
+
+  // Clean up re-replacements.
+  const replacements = Array.from(document.querySelectorAll('.replacement'));
+  replacements.forEach(function(span) {
+    span.innerHTML = span.dataset.orig;
+  });
 }
 doTheThing();
 
@@ -61,16 +67,12 @@ function escaped(unsafe) {
  * The regex will also match an incomplete html tag preceding the match, which
  * you can check for to avoid replacing within an html tag's attributes.
  *
- * It will also match a span tag which has opened but not yet closed if it has
- * the "replacement" class--this is to avoid replacing part of something we've
- * already matched. E.g., the word boundaries in jiějie aren't computed
- * appropriately, so this avoids us replacing the accent-less jie.
  * @param {string[]} words
  * @return {RegExp}
  */
 function wordsMatchRegex(words) {
   return new RegExp(
-      '((<[a-z]+ [^>]*)|<span [^>]*class="replacement"[^>]*>[^<]*)?\\b(' +
+      '(<[a-z]+ [^>]*)?\\b(' +
           words
               .map(
                   word =>
