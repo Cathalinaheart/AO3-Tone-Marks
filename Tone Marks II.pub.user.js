@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.1.2
+// @version      1.1.3
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -16,16 +16,19 @@
 function doTheThing() {
   // Check whether this page is an ao3 work.
   const works_regex = /https:\/\/archiveofourown\.org(\/.*)?\/works\/[0-9]+.*/;
-  const blurbs_regex =
-      /https:\/\/archiveofourown\.org(\/.*)?\/(works|bookmarks)\/?(\?.*|$|)$/;
+  const edit_page_regex = /\/works\/[0-9]+\/edit/;
 
   let didSomething = false;
   if (window.location.href.match(works_regex) !== null) {
     console.log('On a works page, potentially making pinyin replacements...')
-    didSomething = doReplacements(document.getElementById('main'));
-  } else if (window.location.href.match(blurbs_regex) !== null) {
-    console.log(
-        'On a bookmark or search page, potentially making pinyin replacements...')
+    // don't make replacements on the new work/edit work (tag) page, that sounds
+    // confusing.
+    if (window.location.href.match(edit_page_regex) === null &&
+        !window.location.href.includes('works/new')) {
+      didSomething = doReplacements(document.getElementById('main'));
+    }
+  } else {
+    console.log('Not on a works page; going to try to pinyin replacement per blurb...')
     // get all the work blurbs
     const blurbs = Array.from(document.querySelectorAll('.blurb'));
     for (let i = 0; i < blurbs.length; i++) {
