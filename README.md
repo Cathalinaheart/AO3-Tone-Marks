@@ -1,5 +1,23 @@
 # AO3-Tone-Marks
 
-This is based on GodOfLaundryBasket's [Google Docs Tone Mark Script](https://godoflaundrybaskets.dreamwidth.org/3315.html) and Cathalinaheart's [Tampermonkey version](https://github.com/Cathalinaheart/AO3-Tone-Marks). Once you've installed Tampermonkey/greasemonkey, you can install my version (called "Tone Marks II" to differentiate from Cathalinaheart's version) by clicking [here](https://github.com/irrationalpie7/AO3-Tone-Marks/raw/main/Tone%20Marks%20II.pub.user.js). If you have Cathalinaheart's version installed and you want to see how mine works, you will probably have to temporarily disable their version (click on the tampermonkey/greasemonkey extension and you should get a pop-up that lets you do that), otherwise the two scripts will fight.
+This is based on GodofLaundryBaskets <a href="https://godoflaundrybaskets.dreamwidth.org/3315.html">Google Docs Tone Mark Script.</a>
 
-My version currently underlines replaced words, and has a slightly different format for specifying replacements that I find easier to maintain. Also, if you are on a search page, it tries to choose the correct replacement rule based on the fandom(s) of each work blurb on the page.
+## Installation
+You need to have tampermonkey/greasemonkey installed and then you just need to click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone%20Marks.pub.user.js">here</a> to install it.
+
+## Supported Fandoms
+MDZS, Guardian, NiF, Word of Honor
+
+More coming soon! Next planned one is SVSSS
+
+## Issues
+If you spot an issue like missing tone marks, please let me know either by submitting an issue here or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com.
+
+## Other
+
+If you'd like to see the replacements underlined, you can add the following to your ao3 site skin:
+```css
+.replacement {
+  text-decoration: underline;
+}
+```
