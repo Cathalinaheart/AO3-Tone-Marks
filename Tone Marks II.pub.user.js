@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.1.3
+// @version      1.1.4
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -16,45 +16,37 @@
 function doTheThing() {
   // Check whether this page is an ao3 work.
   const works_regex = /https:\/\/archiveofourown\.org(\/.*)?\/works\/[0-9]+.*/;
+  // Check whether it's an editing page.
   const edit_page_regex = /\/works\/[0-9]+\/edit/;
 
-  let didSomething = false;
   if (window.location.href.match(works_regex) !== null) {
-    console.log('On a works page, potentially making pinyin replacements...')
-    // don't make replacements on the new work/edit work (tag) page, that sounds
-    // confusing.
     if (window.location.href.match(edit_page_regex) === null &&
         !window.location.href.includes('works/new')) {
-      didSomething = doReplacements(document.getElementById('main'));
+      console.log('On a works page, potentially making pinyin replacements...')
+      // Don't make replacements on the new work/edit work (tag) page, that
+      // sounds confusing.
+      doReplacements(document.getElementById('main'));
     }
   } else {
-    console.log('Not on a works page; going to try to pinyin replacement per blurb...')
-    // get all the work blurbs
+    console.log(
+        'Not on a works page; going to try to do pinyin replacement per blurb...')
+    // Get all the work/series blurbs
     const blurbs = Array.from(document.querySelectorAll('.blurb'));
     for (let i = 0; i < blurbs.length; i++) {
-      didSomething = doReplacements(blurbs[i]) || didSomething;
+      doReplacements(blurbs[i]);
     }
   }
-  if (!didSomething) {
-    return;
-  }
 
-  // Set styling for replacements.
-  const style = document.createElement('style');
-  style.setAttribute('type', 'text/css');
-  const css = `
-        .replacement{
-        text-decoration: underline;
-        }
-        `;
-  style.textContent = css.trim();
-  const main = document.getElementById('main');
-  main.append(style);
+  // Set hover text to original text that got replaced.
+  const replacements = Array.from(document.querySelectorAll('.replacement'));
+  replacements.forEach(function(span) {
+    span.setAttribute('title', span.dataset.orig);
+  });
 }
 doTheThing();
 
 /**
- * Replace special html and/or regex characters characters.
+ * Replaces special html characters.
  * @param {string} str
  * @returns {string}
  */
@@ -71,11 +63,13 @@ function escaped(unsafe) {
  * Returns a regex to match a sequence of words, allowing an optional
  * dash (-) or space ( ) between each word. The beginning and end of the
  * matching sequence must be at a word boundary.
+ *
+ * The regex will also match an incomplete html tag preceding the match, which
+ * you can check for to avoid replacing within an html tag's attributes.
  * @param {string[]} words
  * @return {RegExp}
  */
 function wordsMatchRegex(words) {
-  // Also match anything that looks like an incomplete tag.
   return new RegExp(
       '(<[a-z]+ [^>]*)?\\b(' +
           words
@@ -88,18 +82,22 @@ function wordsMatchRegex(words) {
 }
 
 /**
- * Wrap the replacement in a span.
+ * Wraps the replacement text in a span and returns the span as a string.
+ *
+ * The span will have class 'replacement' and attributes 'data-orig' with the
+ * original match and 'data-new' with the replacement text.
  * @param {string} replacement The new text
  * @param {string} match The original text which is being replaced
  * @return {string}
  */
 function replacementHtml(replacement, match) {
-  return '<span class="replacement" data-orig="' + escaped(match) +
-      '" data-new="' + escaped(replacement) + '">' + escaped(replacement) +
-      '</span>';
+  return '<span class="replacement" data-orig="' + match + '" data-new="' +
+      escaped(replacement) + '">' + escaped(replacement) + '</span>';
 }
 
 /**
+ * Replaces all occurrences that match 'from' in main's innerHTML with a span
+ * whose text is 'to'.
  *
  * @param {{innerHTML: string}} main
  * @param {RegExp} from
@@ -108,6 +106,8 @@ function replacementHtml(replacement, match) {
 function replaceTextOnPage(main, from, to) {
   main.innerHTML = main.innerHTML.replace(from, (match) => {
     if (match.startsWith('<')) {
+      // Skip matches occurring inside incomplete html tags. This avoids e.g.
+      // replacing within the href for a work tag.
       return match;
     }
     return replacementHtml(to, match);
@@ -117,6 +117,7 @@ function replaceTextOnPage(main, from, to) {
 /**
  * Checks whether 'fandom' (ignoring case) is a substring of any of the fandom
  * tags.
+ *
  * @param {string} fandom
  * @param {Element[]} fandomTags
  * @returns {boolean}
@@ -132,51 +133,52 @@ function hasFandom(fandom, fandomTags) {
 }
 
 /**
+ * Replaces pinyin for all text in element, using the fandoms in the element's
+ * work tags to decide which rules to use.
  *
  * @param {HTMLElement} element
- * @returns {boolean} whether any changes were made to the element
  */
 function doReplacements(element) {
-  const simplified = {innerHTML: element.innerHTML};
+  // Having a simplified element to pass to 'replaceAll' allows us to avoid
+  // re-rendering the element every time its inner html gets updated.
+  const simplifiedElement = {innerHTML: element.innerHTML};
 
   // Anything with a 'tag' class that's a descendant of something with a
   // 'fandom' or 'fandoms' class.
   const workFandoms =
       Array.from(element.querySelectorAll('.fandoms .tag,.fandom .tag'));
   if (hasFandom('Word of Honor|Faraway Wanderers|Qi Ye', workFandoms)) {
-    replaceAll(wordOfHonorReplacements(), simplified);
+    replaceAll(wordOfHonorReplacements(), simplifiedElement);
   }
   if (hasFandom('Untamed|Módào', workFandoms)) {
-    replaceAll(mdzsReplacements(), simplified);
+    replaceAll(mdzsReplacements(), simplifiedElement);
   }
   if (hasFandom('Guardian', workFandoms)) {
-    replaceAll(guardianReplacements(), simplified);
+    replaceAll(guardianReplacements(), simplifiedElement);
   }
   if (hasFandom('Nirvana in Fire', workFandoms)) {
-    replaceAll(nirvanaReplacements(), simplified);
+    replaceAll(nirvanaReplacements(), simplifiedElement);
   }
-  replaceAll(genericReplacements(), simplified);
+  replaceAll(genericReplacements(), simplifiedElement);
 
   // Return now if it turns out we didn't make any changes.
-  if (simplified.innerHTML === element.innerHTML) {
-    console.log('No matching fandoms, or no text found that needed replacing.')
-    return false;
+  if (simplifiedElement.innerHTML === element.innerHTML) {
+    console.log('No matching fandoms, or no text found that needed replacing.');
+    return;
   }
 
-  // This is the line where everything could possibly explode if we haven't
-  // escaped things properly.
-  element.innerHTML = simplified.innerHTML;
-  return true;
+  // Actually replace element's innerHTML.
+  element.innerHTML = simplifiedElement.innerHTML;
 }
 
 /**
- * Turn a long replacements string into a list of match objects, where:
+ * Turns a long replacements string into a list of match objects, where:
  *  - match.words is an array of strings that form the individual words to
  * match
  *  - match.replacement is the text to replace that sequence with
  *
  * @param {string} replacements
- * @returns {{words:string[],replacement:string}}
+ * @returns {{words:string[],replacement:string}[]}
  */
 function splitReplacements(replacements) {
   return replacements.split('\n')
@@ -196,17 +198,21 @@ function splitReplacements(replacements) {
 }
 
 /**
- * Use the hard-coded replacement rules string to replace matches with pinyin
- * in the associated doc.
+ * Replaces all matches in element.innerHTML with their replacements, as encoded
+ * in the rules string.
+ *
  * @param {string} allReplacementsString
- * @param {{innerHTML: string}} main
+ * @param {{innerHTML: string}} element
  */
-function replaceAll(allReplacementsString, main) {
+function replaceAll(allReplacementsString, element) {
+  // Avoid updating element.innerHTML until the very end.
+  const simplifiedElement = {innerHTML: element.innerHTML};
   const replacements = splitReplacements(allReplacementsString);
-  replacements.forEach(function(element) {
+  replacements.forEach(function(rule) {
     replaceTextOnPage(
-        main, wordsMatchRegex(element.words), element.replacement);
+        simplifiedElement, wordsMatchRegex(rule.words), rule.replacement);
   });
+  element.innerHTML = simplifiedElement.innerHTML;
 }
 
 // About the <fandom>Replacements functions:
