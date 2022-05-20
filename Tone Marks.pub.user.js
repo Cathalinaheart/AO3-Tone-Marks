@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      2
 // @description  Add tone marks on Ao3 works
 // @author       Cathalinaheart
 // @match        https://archiveofourown.org/*
