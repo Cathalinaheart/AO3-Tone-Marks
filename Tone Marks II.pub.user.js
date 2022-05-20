@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.1.1
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -1304,7 +1304,8 @@ function wordOfHonorReplacements() {
       tian ya ke|Tiān Yá Kè
       qi ye|Qī Yé
       ## 景北渊, Jǐng Běiyuān
-      jing bei juan|Jǐng Běiyuān
+      jing bei yuan|Jǐng Běiyuān
+      bei yuan|Běiyuān
       ## 与溪, Wǔ Xī is the Great Shaman of Nanjiang (南疆, Nán Jiāng)
       wu xi|Wǔ Xī
       nan jiang|Nánjiāng
