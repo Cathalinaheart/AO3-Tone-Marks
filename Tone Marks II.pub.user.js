@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.1.1
+// @version      1.1.2
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -1070,6 +1070,7 @@ function wordOfHonorReplacements() {
 
       # 张成岭 Zhāng Chénglǐng (3:10)
       zhang cheng ling|Zhāng Chénglǐng
+      cheng ling|Chénglǐng
       zcl|Zhāng Chénglǐng
       ## 金豆侠 jīn dòu xiá (by Ah Xiang)
       jin dou xia|jīn dòu xiá
@@ -1114,7 +1115,6 @@ function wordOfHonorReplacements() {
       ## Duàn Pengju (段鵬舉 Duàn Péngjǔ)
       duan peng ju|Duàn Péngjǔ
 
-
       # FOUR SEASONS MANOR (5:00)
       ## 四季山庄 Sì jì shān zhuāng (~four seasons + mountain villa)
       si ji shan zhuang|Sìjì Shānzhuāng
@@ -1124,9 +1124,9 @@ function wordOfHonorReplacements() {
       qin huai zhang|Qín Huáizhāng
       ## 秦九霄 Qin Jiuxiao (ZZS’s shidi) (九霄 jiǔxiāo?)
       ## aka 梁九霄 - Liáng Jiǔxiāo in the novel
-      qin jiuxiao|Qín jiǔxiāo
-      liang jiuxiao|Liáng jiǔxiāo
-      jiuxiao|jiǔxiāo
+      qin jiuxiao|Qín Jiǔxiāo
+      liang jiuxiao|Liáng Jiǔxiāo
+      jiuxiao|Jiǔxiāo
 
       # 温如玉 Wēn Rúyù (WKX’s father)
       wen ru yu|Wēn Rúyù
