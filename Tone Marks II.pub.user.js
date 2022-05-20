@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.0.6
+// @version      1.0.7
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -73,9 +73,10 @@ function escaped(unsafe) {
  * @return {RegExp}
  */
 function wordsMatchRegex(words) {
+  // Also match anything that looks like an incomplete tag.
   return new RegExp(
-      '(data-(orig|new)="[^"]*)?\\b(' +
-          words.map(word => escaped(word)).join('( |-)?') + ')\\b',
+      '(<[a-z]+ [^>]*)?\\b(' + words.map(word => escaped(word)).join('( |-)?') +
+          ')\\b',
       'gi');
 }
 
@@ -99,7 +100,7 @@ function replacementHtml(replacement, match) {
  */
 function replaceTextOnPage(main, from, to) {
   main.innerHTML = main.innerHTML.replace(from, (match) => {
-    if (match.startsWith('data-orig="') || match.startsWith('data-new="')) {
+    if (match.startsWith('<')) {
       return match;
     }
     return replacementHtml(to, match);
