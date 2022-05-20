@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks II
 // @namespace    http://tampermonkey.net/
-// @version      1.0.7
+// @version      1.0.8
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -61,8 +61,7 @@ function escaped(unsafe) {
       .replaceAll('<', '&lt;')
       .replaceAll('>', '&gt;')
       .replaceAll('"', '&quot;')
-      .replaceAll('\'', '&#039;')
-      .replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1');
+      .replaceAll('\'', '&#039;');
 }
 
 /**
@@ -75,7 +74,12 @@ function escaped(unsafe) {
 function wordsMatchRegex(words) {
   // Also match anything that looks like an incomplete tag.
   return new RegExp(
-      '(<[a-z]+ [^>]*)?\\b(' + words.map(word => escaped(word)).join('( |-)?') +
+      '(<[a-z]+ [^>]*)?\\b(' +
+          words
+              .map(
+                  word =>
+                      escaped(word).replace(/([.?*+^$[\]\\(){}|])/g, '\\$1'))
+              .join('( |-)?') +
           ')\\b',
       'gi');
 }
@@ -273,17 +277,19 @@ function mdzsReplacements() {
       young master wei|Young Master Wèi
       yiling patriarch|Yílíng Patriarch
       yiling laozu|Yílíng Lǎozǔ
+      yiling wei|Yílíng Wèi
       yiling|Yílíng
       laozu|Lǎozǔ
       wei|Wèi
       wuxian|Wúxiàn
       ## Jiang Cheng (江澄 Jiāng Chéng), courtesy name Jiang Wanyin (江晚吟 Jiāng Wǎnyín), and his title Sandu Shengshou (三毒圣手 Sāndú shèngshǒu)
       jiang cheng|Jiāng Chéng
+      jiang wanyin|Jiāng Wǎnyín
+      wanyin|Wǎnyín
       a cheng|Ā-Chéng
       sandu shengshou|Sāndú Shèngshǒu
       sandu|Sāndú
       shengshou|Shèngshǒu
-      wanyin|Wǎnyín
       ## Yu Ziyuan (虞紫鸢, Yú Zǐyuān) and title Madam Yu (虞夫人, Yú fūrén) and the Violet Spider (紫蜘蛛, Zǐ Zhīzhū).
       yu ziyuan|Yú Zǐyuān
       yu furen|Yú fūrén
