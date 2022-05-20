@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      1.0.2
+// @version      1.0.3
 // @description  Add tone marks on Ao3 works
 // @author       irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -111,8 +111,9 @@ function replaceTextOnPage(main, from, to) {
  * @returns {boolean}
  */
 function hasFandom(fandom, fandomTags) {
+  const fandomRegex = new RegExp(fandom, 'i');
   for (let i = 0; i < fandomTags.length; i++) {
-    if (fandomTags[i].innerHTML.match(new RegExp(fandom, 'i')) !== null) {
+    if (fandomTags[i].innerHTML.match(fandomRegex) !== null) {
       return true;
     }
   }
