@@ -1,7 +1,7 @@
 # Yunmeng Jiang Sect and related stuff
 ## Wei Ying (魏婴 Wèi Yīng), courtesy name Wei Wuxian (魏无羡, Wèi Wúxiàn) and his title Yiling Patriarch (夷陵老祖, Yílíng Lǎozǔ)
 wei ying|Wèi Yīng
-wei wuxian|<button onclick="playAudio('https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3')">Wèi Wúxiàn</button>
+wei wuxian|Wèi Wúxiàn|https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3
 wy|Wèi Yīng
 wwx|Wèi Wúxiàn
 a xian|Ā-Xiàn
