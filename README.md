@@ -14,7 +14,7 @@ More coming soon! Next planned one is SVSSS
 If you spot an issue like missing tone marks, please let me know either by submitting an issue here or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com.
 
 ## Other
-###Underline Replacements
+###### Underline Replacements
 If you'd like to see the replacements underlined, you can add the following to your ao3 site skin:
 ```css
 .replacement {
@@ -22,7 +22,7 @@ If you'd like to see the replacements underlined, you can add the following to y
 }
 ```
 
-###The fandom.txt file format
+###### The fandom.txt file format
 For each line 'some text here|fancy replacement', the script replaces all
 instances of 'some text here' in the doc with 'fancy replacement'.
 
