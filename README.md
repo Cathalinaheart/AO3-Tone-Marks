@@ -5,6 +5,8 @@ This is based on GodofLaundryBaskets <a href="https://godoflaundrybaskets.dreamw
 ## Installation
 You need to have tampermonkey/greasemonkey installed and then you just need to click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone%20Marks.pub.user.js">here</a> to install it.
 
+On first use (or after an upgrade) you will be notified that a userscript wants to use a foreign ressource, you can confirm this for always. The file it wants to load is https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/playaudio.min.js, which is necessary to be able to play the audio guide clips.
+
 ## Supported Fandoms
 MDZS, TGCF, Guardian, NiF, Word of Honor, King's Avatar
 
