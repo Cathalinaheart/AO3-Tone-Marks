@@ -8,9 +8,15 @@ You need to have tampermonkey/greasemonkey installed and then you just need to c
 On first use (or after an upgrade) you will be notified that a userscript wants to use a foreign ressource, you can confirm this for always. The file it wants to load is https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/playaudio.min.js, which is necessary to be able to play the audio guide clips.
 
 ## Supported Fandoms
-MDZS, TGCF, Guardian, NiF, Word of Honor, King's Avatar
+##### Tone Marks
+MDZS, TGCF, Guardian, NiF, Word of Honor, King's Avatar.
 
-Audio guide support is currently in progress.
+More are in progress.
+
+##### Pronunciation Guide on Page
+MDZS
+
+Audio guide support is currently in progress. Not every word has audio at this point that can be linked.
 
 ## Contributing
 If you would like to help contribute tone marks for fandoms that are not yet supported, you can do that in the google sheet <a href="https://docs.google.com/spreadsheets/d/1cfmiVdMwXTU4EgG45kow9MKWMOSwmiShX5iO50bmwmU/edit?usp=sharing">here</a>
