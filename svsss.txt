@@ -1,0 +1,118 @@
+#Qing Jing Peak Characters (+ Swords)
+##Shen Qingiu (both versions)
+shen qing qiu|Shěn Qīngqiū
+sqq|Shěn Qīngqiū
+qing qiu|Qīngqiū
+shen yuan|Shěn Yuán
+shen jiu|Shěn Jiǔ
+shen|Shěn
+xiao jiu|Xiǎo-Jiǔ
+xiu ya|Xiū Yǎ
+## Luo Binghe
+luo bing he|Luò Bīnghé
+lbh|Luò Bīnghé
+luo bing ge|Luò Bīnggē
+luo bing mei|Luò Bīngmèi
+bing he|Bīnghé
+bing ge|Bīnggē
+bing mei|Bīngmèi
+xin mo|Xīn Mó
+zheng yang|Zhèng Yáng
+##Ning Yingying
+ning ying ying|Níng Yīngyīng
+nyy|Níng Yīngyīng
+##Ming Fan
+ming fan|Míng Fān
+mf|Míng Fān
+# The rest of Cang Qiong Mountain Sect
+##Liu Qingge
+liu qing ge|Liǔ Qīnggē
+lqg|Liǔ Qīnggē
+cheng luan|Chéng Luán
+##Yue Qingyuan
+yue qing yuan|Yuè Qīngyuán
+yqy|Yuè Qīngyuán
+yue qi|Yuè Qī
+qi ge|Qī-gē
+xuan su|Xuán Sù
+##Shang Qinghua
+shang qinghua|Shàng Qīnghuá
+sqh|Shàng Qīnghuá
+##Qi Qingqi
+qi qing qi|Qí Qīngqī
+qqq|Qí Qīngqī
+##Liu Mingyan
+liu ming yan|Liǔ Míngyān
+lmy|Liǔ Míngyān
+liu su mian hua|Liǔ Sù Mián Huā
+liu|Liǔ
+ming yan|Míngyān
+##Mu Qingfang
+mu qing fang|Mù Qīngfāng
+mqf|Mù Qīngfāng
+##Yang Yixuan
+yang yi xuan|Yáng Yīxuán
+yyx|Yáng Yīxuán
+##Wei Qingwei
+wei qing wei|Wèi Qīngwēi
+#Huan Hua Palace
+##Old Palace Master
+lao gong zhu|Lǎo Gōngzhǔ
+##Little Palace Mistress
+xiao gong zhu|Xiǎo Gōngzhǔ
+##Su Xiyan
+su xi yan|Sū Xīyán
+sxy|Sū Xīyán
+##Gongyi Xiao
+gong yi xiao|Gōngyí Xiāo
+gyx|Gōngyí Xiāo
+##Qin Wanyue
+qin wan yue|Qín Wǎnyuē
+##Qing Wanrong
+qin wan rong|Qín Wǎnróng
+#Demons
+##Mobei-jun
+mo bei jun|Mòběi-jūn
+mbj|Mòběi-jūn
+##Zhuzhi-lang
+zhu zhi lang|Zhúzhī-láng
+zzl|Zhúzhī-láng
+##Tianlang-jun
+tian lang jun|Tiānláng-jūn
+tlj|Tiānláng-jūn
+##Linguang-jun
+lin guang jun|Lǐnguāng-jūn
+lgj|Lǐnguāng-jūn
+##Sha Hualing
+sha hua ling|Shā Huālíng
+shl|Shā Huālíng
+#Meng Mo
+Meng Mo|Mèng Mó
+##Madam Meiyin
+mei yin|Mèiyīn 
+#Sects and Places
+##CQM Sect
+cang qiong|Cāngqióng
+qiong ding|Qióng Dǐng
+qing jing|Qīng Jìng
+xian shu|Xiān Shū 
+an ding|Ān Dìng
+qian cao|Qiān Cǎo
+bai zhan|Bǎi Zhàn
+zui xian|Zuì Xiān
+wan jian|Wàn Jiàn
+ku xing|Kǔ Xíng
+##Huan Hua
+huan hua|Huàn Huā
+bai lu|Bái Lù
+##Other sects
+zhao hua|Zhāo Huá
+tian yi|Tiān yī
+##Other places
+jin lan|Jīn Lán
+hua yue|Huā Yuè
+jue di|Jué Dì
+#Misc People
+qiu jian luo|Qiū Jiǎnluó
+qiu hai tang|Qiū Hǎitáng
+wu yan zi|Wú Yànzǐ
