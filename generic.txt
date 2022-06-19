@@ -16,7 +16,7 @@ ge|gē
 ## Elder sister 姐姐
 jie jie|jiějie
 ## sect sister (elder) 师姐
-shi jie|shījiě
+shi jie|shījiě|https://archive.org/download/mdzs-pronunciation-guide/shijie.mp3
 jie|jiě
 ## Elder brother (more formal) 兄长
 xiong zhang|Xiōngzhǎng
@@ -27,4 +27,4 @@ xiong|xiōng
 ## Jiāng Hú 江湖
 jiang hu|Jiānghú
 ## guqin ( Chinese: 古琴;  pinyin: gǔqín)
-gu qin|gǔqín
+gu qin|gǔqín|https://archive.org/download/mdzs-pronunciation-guide/guqin.mp3
