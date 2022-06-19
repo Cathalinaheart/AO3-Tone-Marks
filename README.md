@@ -1,6 +1,6 @@
 # AO3-Tone-Marks
 
-This is based on GodofLaundryBaskets <a href="https://godoflaundrybaskets.dreamwidth.org/3315.html">Google Docs Tone Mark Script.</a> It will display the tone marks over the supported chinese names, and if the audio is available allow you to click on that name and listen to the audio guide for that name recorded by luna directly on the AO3 page.
+This is based on GodofLaundryBaskets <a href="https://godoflaundrybaskets.dreamwidth.org/3315.html">Google Docs Tone Mark Script.</a> It will display the tone marks over the supported chinese names, and if the audio is available allow you to click on that name and listen to the audio guide for that name recorded by <a href="https://lunatique.dreamwidth.org/221218.html">lunatique</a> directly on the AO3 page.
 
 ## Installation
 You need to have tampermonkey/greasemonkey installed and then you just need to click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone%20Marks.pub.user.js">here</a> to install it.
