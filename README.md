@@ -24,6 +24,14 @@ If you'd like to see the replacements underlined, you can add the following to y
   text-decoration: underline;
 }
 ```
+######  Hide the speaker symbol
+If you would like to hide the speaker symbol with a work skin, you can add the following to your ao3 site skin:
+```css
+.audio-guide {
+  display: none;
+}
+```
+You can still play the audio by directly clicking on the name.
 
 ###### The fandom.txt file format
 For each line 'some text here|fancy replacement', the script replaces all
