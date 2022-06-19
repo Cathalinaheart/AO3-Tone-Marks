@@ -3,29 +3,29 @@
 ## But I was just guessing
 
 # Láng Yá Băng  琅琊榜
-lang ya bang|Láng Yá Băng
+lang ya bang|Láng Yá Băng|https://archive.org/download/nif-pronunciation-guide/Lang%20Ya%20Bang.mp3
 
 # Part 1 - Main Cast (MCS, NH, JY, LC)
 ## Méi Cháng Sū 梅长苏
-mei chang su|Méi Chángsū
+mei chang su|Méi Chángsū|https://archive.org/download/nif-pronunciation-guide/Mei%20Changsu.mp3
 chang su|Chángsū
 ## Sū Zhé 苏哲
-su zhe|Sū Zhé
+su zhe|Sū Zhé|https://archive.org/download/nif-pronunciation-guide/Su%20Zhe.mp3
 ## Lín Shū 林殊
 lin shu|Lín Shū
 ## xiăo-Shū 小殊
-xiao shu|xiăo-Shū
+xiao shu|xiăo-Shū|https://archive.org/download/nif-pronunciation-guide/xiao-Shu.mp3
 ## Zōng zhŭ 宗主 (Chief)
-zong zhu|Zōngzhŭ
+zong zhu|Zōngzhŭ|https://archive.org/download/nif-pronunciation-guide/Zong%20Zhu.mp3
 ## Sū xiānsheng 苏先生 (Sir Su)
-su xian sheng|Sū xiānsheng
+su xian sheng|Sū xiānsheng|https://archive.org/download/nif-pronunciation-guide/Su%20xian-sheng.mp3
 sir su|Sir Sū
 su manor|Sū Manor
 ## Sū gēge 苏哥哥 (big brother)
 su gege|Sū gēge
 ## Mù Ní Huáng 穆霓凰
 ## Ní Huáng jiějie  霓凰姐姐 (big sister)
-mu ni huang|Mù Níhuáng
+mu ni huang|Mù Níhuáng|https://archive.org/download/nif-pronunciation-guide/Mu%20Ni%20Huang.mp3
 ni huang|Níhuáng
 mu manor|Mù Manor
 ## Ní Huáng Jùn Zhŭ  霓凰郡主 (Princess/Duchess)
@@ -34,207 +34,207 @@ mu manor|Mù Manor
 Níhuáng jun zhu|Níhuáng jùnzhŭ
 jun zhu|Jùnzhŭ
 ## Xiāo Jĭng Yán 萧景琰
-xiao jing yan|Xiāo Jĭngyán
+xiao jing yan|Xiāo Jĭngyán|https://archive.org/download/nif-pronunciation-guide/Xiao%20Jing%20Yan.mp3
 jing yan|Jĭngyán
 ## Jìng wáng 靖王 (Prince Jing)
-jing wang|Jìng wáng
+jing wang|Jìng wáng|https://archive.org/download/nif-pronunciation-guide/Jin%20Wang.mp3
 prince jing|Prince Jìng
 jing manor|Jìng Manor
 ## Diàn xià 殿下 (your highness)
-dian xia|Diànxià
+dian xia|Diànxià|https://archive.org/download/nif-pronunciation-guide/Dian%20xia.mp3
 ## Shŭi Niú 水牛 (water buffalo)
-shui niu|Shŭiniú
+shui niu|Shŭiniú|https://archive.org/download/nif-pronunciation-guide/Shui%20Niu.mp3
 
 # Lìn Chén 蔺晨 / Lìn Chén gēge 蔺晨哥哥 (big brother)
-lin chen ge ge|Lìn Chén gēge
-lin chen|Lìn Chén
+lin chen ge ge|Lìn Chén gēge|https://archive.org/download/nif-pronunciation-guide/Lin%20Chen%20gege.mp3
+lin chen|Lìn Chén|https://archive.org/download/nif-pronunciation-guide/Lin%20Chen.mp3
 ## Shào Gé Zhŭ 少阁主(Young Master)
 ## ¯\_(ツ)_/¯ no idea on spacing/caps
-shao ge zhu|Shào Gézhŭ
+shao ge zhu|Shào Gézhŭ|https://archive.org/download/nif-pronunciation-guide/Shao%20Ge%20Zhu.mp3
 
 # Part 2 - Jiang Zuo Alliance (FL,LG,ZP,GY,TL,MiaoYin,Mr13,PhysYan)
 ## Jiāng Zuŏ Méng 江左盟 (Jiang Zuo Alliance)
-jiang zuo meng|Jiāngzuŏ Méng
+jiang zuo meng|Jiāngzuŏ Méng|https://archive.org/download/nif-pronunciation-guide/Jiang%20Zuo%20Meng.mp3
 jiang zuo|Jiāngzuŏ
 ## Fēi Liú 飞流
-Fei Liu|Fēi Liú
+Fei Liu|Fēi Liú|https://archive.org/download/nif-pronunciation-guide/Fei%20Liu.mp3
 ## Lí Gāng 黎纲
-li gang|Lí Gāng
+li gang|Lí Gāng|https://archive.org/download/nif-pronunciation-guide/Li%20Gang.mp3
 ## Zhēn Píng 甄平
-zhen ping|Zhēn Píng
+zhen ping|Zhēn Píng|https://archive.org/download/nif-pronunciation-guide/Zheng%20Ping.mp3
 ## Gōng Yŭ 宫羽 (I think I also heard her called guniang/姑娘?)
-gong yu|Gōng Yŭ
+gong yu|Gōng Yŭ|https://archive.org/download/nif-pronunciation-guide/Gong%20Yu.mp3
 gong gu niang|Gōng gūniang
 ## Wèi Zhēng 卫峥
-wei zheng|Wèi Zhēng
+wei zheng|Wèi Zhēng|https://archive.org/download/nif-pronunciation-guide/Wei%20Zheng.mp3
 ## Tóng Lù 童路
-tong lu|Tóng Lù
+tong lu|Tóng Lù|https://archive.org/download/nif-pronunciation-guide/Tong%20Lu.mp3
 ## Shísān xiānsheng 十三先生(Mr. Shisan)
-shi san xian sheng|Shísān xiānsheng
+shi san xian sheng|Shísān xiānsheng|https://archive.org/download/nif-pronunciation-guide/Shisan%20xian-sheng.mp3
 ## Yàn dàifu  晏大夫(Physician Yan)
-yan daifu|Yàn dàifu
+yan daifu|Yàn dàifu|https://archive.org/download/nif-pronunciation-guide/Yan%20daifu.mp3
 
 # Part 3 - Households (MQ,LX,JinYang,NF,LZY,QM,TS,Foya,etc)
 ## Chìyàn Jūn 赤焰军 (Chìyàn army)
-chiyan jun|Chìyàn Jūn
+chiyan jun|Chìyàn Jūn|https://archive.org/download/nif-pronunciation-guide/Chiyan%20Jun.mp3
 chiyan|Chìyàn
 ## Cháng Lín Jūn 长林军 (Cháng Lín army)
-changlin jun|Chánglín Jūn
+changlin jun|Chánglín Jūn|https://archive.org/download/nif-pronunciation-guide/Chang%20Lin%20Jun.mp3
 changlin|Chánglín
 
 # Mù Qīng  穆青 / Qīng-er 青儿
-mu qing|Mù Qīng
-qing er|Qīng-er
+mu qing|Mù Qīng|https://archive.org/download/nif-pronunciation-guide/Mu%20Qing.mp3
+qing er|Qīng-er|https://archive.org/download/nif-pronunciation-guide/Qing-er.mp3
 ## General Lín Xiè 林燮 / fù shuài 父帅 (father-general)
-lin zie|Lín Xiè
+lin zie|Lín Xiè|https://archive.org/download/nif-pronunciation-guide/Lin%20Xie.mp3
 fu shuai|fùshuài
 ## Jìn Yáng 晋阳 (Grand Princess Jin Yang) (lin shu's mother)
-jin yang|Jìnyáng
+jin yang|Jìnyáng|https://archive.org/download/nif-pronunciation-guide/Jin%20Yang.mp3
 ## lin manor, lin family
 lin manor|Lín Manor
 lin family|Lín family
 ## Niè Fēng 聂锋 / Niè dage 聂大哥
-nie feng|Niè Fēng
+nie feng|Niè Fēng|https://archive.org/download/nif-pronunciation-guide/Nie%20Feng.mp3
 nie dage|Niè dàgē
 ## Niè Duó 聂铎
-nie duo|Niè Duó
+nie duo|Niè Duó|https://archive.org/download/nif-pronunciation-guide/Nie%20Duo.mp3
 
 # Liè Zhàn Yīng 列战英
-lie zhan ying|Liè Zhànyīng
+lie zhan ying|Liè Zhànyīng|https://archive.org/download/nif-pronunciation-guide/Lie%20Zhan%20Ying.mp3
 zhan ying|Zhànyīng
 ## Qī Mĕng 戚猛
-qi meng|Qī Mĕng
+qi meng|Qī Mĕng|https://archive.org/download/nif-pronunciation-guide/Qi%20Meng.mp3
 ## Xiāo Tíng Shēng 萧庭生
-xiao ting sheng|Xiāo Tíngshēng
-ting sheng|Tíngshēng
+xiao ting sheng|Xiāo Tíngshēng|https://archive.org/download/nif-pronunciation-guide/Xiao%20ting%20Sheng.mp3
+ting sheng|Tíngshēng|https://archive.org/download/nif-pronunciation-guide/Ting%20Sheng.mp3
 ## Fóyá 佛牙
-fo ya|Fóyá
+fo ya|Fóyá|https://archive.org/download/nif-pronunciation-guide/Foya.mp3
 
 # Part 4 - Royal Palace (dadperor, JYu,JH,CP,Jingmom,consorts)
 ## Liáng Royal Family
 ## Xiāo Xuǎn 萧选 / Bì Xià 陛下 (your majesty) aka dadperor
-xiao xuan|Xiāo Xuǎn
-bi xia|Bìxià
+xiao xuan|Xiāo Xuǎn|https://archive.org/download/nif-pronunciation-guide/Xiao%20Xuan.mp3
+bi xia|Bìxià|https://archive.org/download/nif-pronunciation-guide/Bi%20Xia.mp3
 ## Xiāo Jĭng Yŭ, 萧景禹 / Prince Qí 祁王 aka whalebro
-xiao jing yu|Xiāo Jĭngyŭ
+xiao jing yu|Xiāo Jĭngyŭ|https://archive.org/download/nif-pronunciation-guide/Xiao%20Jing%20Yu.mp3
 jing yu|Jĭngyŭ
-qi wang|Qí wáng
+qi wang|Qí wáng|https://archive.org/download/nif-pronunciation-guide/Qi%20Wang.mp3
 prince qi|Prince Qí
 ## Xiāo Jĭng Huán萧景桓 / Prince Yù  誉王
-xiao jing huan|Xiāo Jĭnghuán
+xiao jing huan|Xiāo Jĭnghuán|https://archive.org/download/nif-pronunciation-guide/Xiao%20Jing%20Huan.mp3
 jing huan|Jĭnghuán
-yu wang|Yù wáng
+yu wang|Yù wáng|https://archive.org/download/nif-pronunciation-guide/Yu%20Wang.mp3
 prince yu|Prince Yù
 yu manor|Yù Manor
 ## Xiāo Jĭng Xuān 萧景宣 / Prince Xiàn / 太子 Tài Zĭ (crown prince)
 xiao jing xuan|Xiāo Jĭngxuān
 jing xuan|Jĭngxuān
-xian wang|Xiàn wáng
+xian wang|Xiàn wáng|https://archive.org/download/nif-pronunciation-guide/Xian%20Wang.mp3
 prince xian|Prince Xiàn
-tai zi|Tàizĭ
+tai zi|Tàizĭ|https://archive.org/download/nif-pronunciation-guide/Taizi.mp3
 ## Jì wáng 纪王 (Prince Jì)
-ji wang|Jì wáng
+ji wang|Jì wáng|https://archive.org/download/nif-pronunciation-guide/Ji%20Wang.mp3
 prince ji|Prince Jì
 ## Princess Jĭng Níng 景宁
-jing ning|Jĭngníng
+jing ning|Jĭngníng|https://archive.org/download/nif-pronunciation-guide/Jing%20Ning.mp3
 
 # Tàinăinai 太奶奶 (Great-grandmother)
-tai nai nai|Tàinăinai
+tai nai nai|Tàinăinai|
 ## Jìng fēi 静妃 (Consort Jing)
-jing fei|Jìng fēi
+jing fei|Jìng fēi|https://archive.org/download/nif-pronunciation-guide/Jing%20Fei.mp3
 consort jing|Consort Jìng
 concubine jing|Concubine Jìng
 ## Lì Yáng 莅阳 (Grand Princess Liyang)
-li yang|Lìyáng
+li yang|Lìyáng|https://archive.org/download/nif-pronunciation-guide/Li%20Yang.mp3
 ## Yán hòu 言后 (Empress Yan)
 ## (conflicts with Marquis Yán (Yán hóuyé 言侯爷), so move to the end)
 ### yan hou|Yán hòu
 ## Yuè gùi fēi 越贵妃 (Noble Consort Yue)
-yue gui fei|Yuè gùifēi
+yue gui fei|Yuè gùifēi|https://archive.org/download/nif-pronunciation-guide/Yue%20gui%20fei.mp3
 consort yue|Consort Yuè
 concubine yue|Concubine Yuè
 ## Hùi fēi 惠妃 (Consort Hui)
-hui fei|Hùi fēi
+hui fei|Hùi fēi|https://archive.org/download/nif-pronunciation-guide/Hui%20fei.mp3
 consort hui|Consort Hùi
 concubine hui|Concubine Hùi
 ## Chén fēi 陈妃 (Consort Chen) / Lín Yùeyáo 林乐瑶
-chen fei|Chén fēi
+chen fei|Chén fēi|https://archive.org/download/nif-pronunciation-guide/Chen%20fei.mp3
 consort chen|Consort Chén
 concubine chen|Concubine Chén
-lin yueyao|Lín Yùeyáo
+lin yueyao|Lín Yùeyáo|https://archive.org/download/nif-pronunciation-guide/Lin%20Yueyao.mp3
 yueyao|Yùeyáo
 ## niáng niang 娘娘 (madam?)
-niang niang|niángniang
+niang niang|niángniang|https://archive.org/download/nif-pronunciation-guide/Niannian.mp3
 
 # Part 5 - Palace adjacent & Nobles (MZ,GZ,SZ,CQ,JR,YJ,YQ,XY,XB,XQ,Zhuo fam)
 ## Méng Zhì 蒙挚/ Méng dàgē 蒙大哥
-meng zhi|Méng Zhì
+meng zhi|Méng Zhì|https://archive.org/download/nif-pronunciation-guide/Meng%20Zhi.mp3
 meng da ge|Méng dàgē
 ## 大统领 dàtǒnglǐng
 ## --> I *think* these are the chars/pinyin for Méng Zhì's title as commander?
 meng da tong ling|Méng dàtǒnglǐng
 ## Gāo Zhàn 高湛 / Gāo gōng-gong 高公公
-gao zhan|Gāo Zhàn
-gao gong gong|Gāo gōnggong
+gao zhan|Gāo Zhàn|https://archive.org/download/nif-pronunciation-guide/Gao%20Zhan.mp3
+gao gong gong|Gāo gōnggong|https://archive.org/download/nif-pronunciation-guide/Gao%20gong-gong.mp3
 ## Shĕn Zhūi 沈追 /Shĕn dà ren 沈大人 (minister Shen)
-shen zhui|Shĕn Zhūi
-shen da ren|Shĕn dàren
+shen zhui|Shĕn Zhūi|https://archive.org/download/nif-pronunciation-guide/Shen%20Zhui.mp3
+shen da ren|Shĕn dàren|https://archive.org/download/nif-pronunciation-guide/Shen%20da%20ren.mp3
 ## Cài Quán 蔡荃 / Cài dà ren 蔡大人 (minister Cai)
-cai quan|Cài Quán
-cai da ren|Cài dàren
+cai quan|Cài Quán|https://archive.org/download/nif-pronunciation-guide/Cai%20Quan.mp3
+cai da ren|Cài dàren|https://archive.org/download/nif-pronunciation-guide/Cai%20da%20ren.mp3
 
 # Nobles
 ## Yán Yù Jīn言豫津
-yan yu jin|Yán Yùjīn
+yan yu jin|Yán Yùjīn|https://archive.org/download/nif-pronunciation-guide/Yan%20Yu%20Jin.mp3
 yu jin|Yùjīn
 
 # Marquis Yán Qùe 言阙- Yán hóuyé 言侯爷
-yan que|Yán Qùe
-yan hou ye|Yán hóuyé
+yan que|Yán Qùe|https://archive.org/download/nif-pronunciation-guide/Yan%20Que.mp3
+yan hou ye|Yán hóuyé|https://archive.org/download/nif-pronunciation-guide/Yan%20%20hou%20ye.mp3
 hou ye|hóuyé
 ## Xiāo Jǐng Ruì 萧景睿
-xiao jing rui|Xiāo Jǐngruì
+xiao jing rui|Xiāo Jǐngruì|https://archive.org/download/nif-pronunciation-guide/Xiao%20Jing%20Rui.mp3
 jing rui|Jǐngruì
 ## Marquis Xiè Yù 谢玉  / Níng Guó Hóu 宁国侯 (Marquis of Ning)
-xie yu|Xiè Yù
-ning guo hou|Níng guóhóu
+xie yu|Xiè Yù|https://archive.org/download/nif-pronunciation-guide/Xie%20Yu.mp3
+ning guo hou|Níng guóhóu|https://archive.org/download/nif-pronunciation-guide/Ning%20Guo%20hou.mp3
 marquis of ning|Marquis of Níng
 xie manor|Xiè Manor
 ## Xiè Bì 谢弼
-xie bi|Xiè Bì
+xie bi|Xiè Bì|https://archive.org/download/nif-pronunciation-guide/Xie%20Bi.mp3
 ## Xiè Qí 谢绮
-xie qi|Xiè Qí
+xie qi|Xiè Qí|https://archive.org/download/nif-pronunciation-guide/Xie%20Qi.mp3
 ## Yŭ Wén Niàn 宇文念
-yu wen nian|Yŭwén Niàn
+yu wen nian|Yŭwén Niàn|https://archive.org/download/nif-pronunciation-guide/Yu%20Wen%20Nian.mp3
 ## Prince Yŭ Wén Xuān 宇文暄
-yu wen xuan|Yŭwén Xuān
+yu wen xuan|Yŭwén Xuān|https://archive.org/download/nif-pronunciation-guide/Yu%20Wen%20Xuan.mp3
 ## Yŭ Wén Lín 宇文霖
-yu wen lin|Yŭwén Lín
+yu wen lin|Yŭwén Lín|https://archive.org/download/nif-pronunciation-guide/Yu%20Wen%20Lin.mp3
 
 # Tiān Quán Shān Zhuāng 天泉山庄 (Tian Quan Manor)
-tian quan shan zhuang|Tiān Quán Shānzhuāng
-tian quan|Tiān Quán
+tian quan shan zhuang|Tiān Quán Shānzhuāng|https://archive.org/download/nif-pronunciation-guide/Tian%20Quan%20Shan%20Zhuang.mp3
+tian quan|Tiān Quán|https://archive.org/download/nif-pronunciation-guide/Tian%20Quan%20Manor.mp3
 ## Zhuó Dĭngfēng 卓鼎风
-zhuo ding feng|Zhuó Dĭngfēng
+zhuo ding feng|Zhuó Dĭngfēng|https://archive.org/download/nif-pronunciation-guide/Zhuo%20Dingfeng.mp3
 ## Zhuó fū ren Madam Zhuó  卓夫人
 zhuo fu ren|Zhuó fūren
 madam zhuo|Madam Zhuó
 ## Zhuó Qīng Yáo 卓青遥
-zhuo qing yao|Zhuó Qīngyáo
+zhuo qing yao|Zhuó Qīngyáo|https://archive.org/download/nif-pronunciation-guide/Zhuo%20Qing%20Yao.mp3
 
 # Part 6 - Others (XJ,XD,XC,XQ,Banruo,Hua ladies, Locations)
 # Xuán Jìng Sī 悬镜司 (Xuan Jing Bureau)
-xuan jing si|Xuánjìng Sī
+xuan jing si|Xuánjìng Sī|https://archive.org/download/nif-pronunciation-guide/Xuan%20Jing%20Si.mp3
 xuan jing|Xuánjìng
 ## Xià Jiāng 夏江
-xia jiang|Xià Jiāng
+xia jiang|Xià Jiāng|https://archive.org/download/nif-pronunciation-guide/Xia%20Jiang.mp3
 ## Xià Dōng 夏冬/Dōng jiě 冬姐
-xia dong|Xià Dōng
+xia dong|Xià Dōng|https://archive.org/download/nif-pronunciation-guide/Xia%20Dong.mp3
 dong jie|Dōng jiě
 ## Xià Chūn 夏春
-xia chun|Xià Chūn
+xia chun|Xià Chūn|https://archive.org/download/nif-pronunciation-guide/Xia%20Chun.mp3
 ## Xià Qiū 夏秋
-xia qiu|Xià Qiū
+xia qiu|Xià Qiū|https://archive.org/download/nif-pronunciation-guide/Xia%20Qiu.mp3
 ## Bonus: The Legend of XiaXia
 xia xia|Xià Xià
 
@@ -243,68 +243,68 @@ xia xia|Xià Xià
 hua zu|Huá Zú
 hua|Huá
 ## Qín Bān Ruò 秦般若
-qin ban ruo|Qín Bānruò
+qin ban ruo|Qín Bānruò|https://archive.org/download/nif-pronunciation-guide/Qin%20Ban%20Ruo.mp3
 ban ruo|Bānruò
 ## Sì Jiĕ 四姐 (4th sister) /  Jùn Niáng 隽娘
-si jie|Sì Jiĕ
-jun niang|Jùn Niáng
+si jie|Sì Jiĕ|https://archive.org/download/nif-pronunciation-guide/Si%20Jie.mp3
+jun niang|Jùn Niáng|https://archive.org/download/nif-pronunciation-guide/Jun%20Niang.mp3
 ## Princess Xuán Jī 璇玑公主 (Xuánjī gōngzhǔ)
 princess xuan ji|Princess Xuánjī
-xuan ji gong zhu|Xuánjī gōngzhǔ
-xuan ji|Xuánjī
+xuan ji gong zhu|Xuánjī gōngzhǔ|https://archive.org/download/nif-pronunciation-guide/Xuan%20Ji%20gongzhu.mp3
+xuan ji|Xuánjī|https://archive.org/download/nif-pronunciation-guide/Xuan%20Ji.mp3
 ## Princess Líng Lóng 玲珑公主
-princess ling long|Princess Línglóng
-ling long gong zhu|Línglóng gōngzhǔ
-ling long|Línglóng
+princess ling long|Princess Línglóng|https://archive.org/download/nif-pronunciation-guide/Ling%20Long.mp3
+ling long gong zhu|Línglóng gōngzhǔ|https://archive.org/download/nif-pronunciation-guide/Ling%20Long%20gongzhu.mp3
+ling long|Línglóng|https://archive.org/download/nif-pronunciation-guide/Ling%20Long.mp3
 gong zhu|Gōngzhǔ
 
 # Locations:
 ## Méi Lĭng 梅岭 / Mei Cliff
-mei ling|Méilĭng
+mei ling|Méilĭng|https://archive.org/download/nif-pronunciation-guide/Meiling.mp3
 ## Láng Yá Gé 琅琊阁(Lang Ya Hall) / Láng Yá Shān 琅琊山 (Lang ya Mountain)
-lang ya ge|Lángyá Gé
-lang ya shan|Lángyá Shān
+lang ya ge|Lángyá Gé|https://archive.org/download/nif-pronunciation-guide/Lang%20Ya%20Ge.mp3
+lang ya shan|Lángyá Shān|https://archive.org/download/nif-pronunciation-guide/Lang%20Ya%20Shan.mp3
 lang ya|Lángyá
 ## Láng Zhōu
-lang zhou|Láng Zhōu
+lang zhou|Láng Zhōu|https://archive.org/download/nif-pronunciation-guide/Lang%20Zhou.mp3
 ## Dà Liáng 大梁
-da liang|Dà Liáng
+da liang|Dà Liáng|https://archive.org/download/nif-pronunciation-guide/Da%20Liang.mp3
 ## Jīn Líng 金陵
-jin ling|Jīnlíng
+jin ling|Jīnlíng|https://archive.org/download/nif-pronunciation-guide/Jin%20Ling.mp3
 ## Xuĕ Lú 雪庐
-xue lu|Xuĕ Lú
+xue lu|Xuĕ Lú|https://archive.org/download/nif-pronunciation-guide/Xue%20Lu.mp3
 ## Miào Yīn Fáng 妙音坊 (Miao Yin Court)
-miao yin fang|Miàoyīn Fáng
+miao yin fang|Miàoyīn Fáng|https://archive.org/download/nif-pronunciation-guide/Miao%20Yin%20Fang.mp3
 miao yin|Miàoyīn
 ## Hóng Xiù Zhāo  红袖招
-hong xiu zhao|Hóng Xiù Zhāo
+hong xiu zhao|Hóng Xiù Zhāo|https://archive.org/download/nif-pronunciation-guide/Hong%20Xiu%20Zhao.mp3
 ## Luó Shì Jiē 螺市街 (Luóshì street)
-luo shi jie|Luóshì Jiē
+luo shi jie|Luóshì Jiē|https://archive.org/download/nif-pronunciation-guide/Luo%20Shi%20Jie.mp3
 luo shi|Luóshì
 ## Zhĭ Luó Gōng 芷萝宫 (zhiluo palace)
-zhi luo gong|Zhĭluó Gōng
+zhi luo gong|Zhĭluó Gōng|https://archive.org/download/nif-pronunciation-guide/Zhi%20Luo%20Gong.mp3
 zhi luo palace|Zhĭluó Palace
 ## Jiǔān Shān 九安山 (Jiǔān mountain--where the hunting palace was)
-jiu an shan|Jiǔān Shān
-jiu an|Jiǔān
+jiu an shan|Jiǔān Shān|https://archive.org/download/nif-pronunciation-guide/Jiu%20An%20Shan.mp3
+jiu an|Jiǔān|https://archive.org/download/nif-pronunciation-guide/Jiu%20An%20Mountain.mp3
 ## Yào Wáng Gǔ 药王谷 (Yàowáng Valley)
-yao wang gu|Yàowáng Gǔ
+yao wang gu|Yàowáng Gǔ|https://archive.org/download/nif-pronunciation-guide/Yao%20Wang%20Gu.mp3
 yao wang valley|Yàowáng Valley
 ## Yún Nán 云南 (province mu nihuang is from)
-yun nan|Yúnnán
+yun nan|Yúnnán|https://archive.org/download/nif-pronunciation-guide/Yun%20Nan.mp3
 ## Dōng Hăi 东海 (East China Sea?)
-dong hai|Dōng Hăi
+dong hai|Dōng Hăi|https://archive.org/download/nif-pronunciation-guide/Dong%20Hai.mp3
 ## Nán Chŭ 南楚 / Southern Chŭ (country that borders yunnan)
-nan chu|Nán Chŭ
+nan chu|Nán Chŭ|https://archive.org/download/nif-pronunciation-guide/Nan%20Chu.mp3
 southern chu|Southern Chŭ
 ## Dà Yú 大渝
-da yu|Dà Yú
+da yu|Dà Yú|https://archive.org/download/nif-pronunciation-guide/Da%20Yu.mp3
 ## Bĕi Yàn 北燕
-bei yan|Bĕi Yàn
+bei yan|Bĕi Yàn|https://archive.org/download/nif-pronunciation-guide/Bei%20Yan.mp3
 ## Yè Qín
-ye quin|Yè Qín
+ye quin|Yè Qín|https://archive.org/download/nif-pronunciation-guide/Ye%20Qin.mp3
 ## Jiāng Hú 江湖
-jiang hu|Jiānghú
+jiang hu|Jiānghú|https://archive.org/download/nif-pronunciation-guide/Jianghu.mp3
 
 # A few misc partial names and titles to try to catch partial matches
 ## Lín Shū 林殊 / Lìn Chén 蔺晨
