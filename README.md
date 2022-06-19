@@ -9,12 +9,12 @@ On first use (or after an upgrade) you will be notified that a userscript wants 
 
 ## Supported Fandoms
 ##### Tone Marks
-MDZS, TGCF, Guardian, NiF, Word of Honor, King's Avatar.
+MDZS, TGCF, SVSSS, Guardian, NiF, Word of Honor, King's Avatar.
 
 More are in progress.
 
 ##### Pronunciation Guide on Page
-MDZS
+MDZS, Guardian, NiF
 
 Audio guide support is currently in progress. Not every word has audio at this point that can be linked.
 
