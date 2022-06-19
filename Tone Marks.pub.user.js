@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      4.0.1
+// @version      4.0.2
 // @description  Add tone marks on Ao3 works, and add quick audio guide clips were available
 // @author       Cathalinaheart, irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -17,6 +17,7 @@
 // @resource     nirvana_in_fire https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/nirvana_in_fire.txt
 // @resource     tgcf https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/tgcf.txt
 // @resource     word_of_honor https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/word_of_honor.txt
+// @resource     svsss https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/svsss.txt
 // @resource     audioplay https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/playaudio.min.js
 // @resource     IMPORTED_CSS https://fonts.googleapis.com/icon?family=Material+Icons
 // clang-format on
@@ -208,6 +209,10 @@ async function doReplacements(element) {
    if (hasFandom(
            'TGCF|Tiān Guān Cì Fú|Heaven Official\'s Blessing', workFandoms)) {
      replaceAll(await getReplacements('tgcf'), simplifiedElement);
+   }
+  if (hasFandom(
+           'SVSSS|Scum Villain|Scumbag System', workFandoms)) {
+     replaceAll(await getReplacements('svsss'), simplifiedElement);
    }
    replaceAll(await getReplacements('generic'), simplifiedElement);
 
