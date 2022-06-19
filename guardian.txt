@@ -1,33 +1,33 @@
 # guardian
 ## Zhao Yunlan (赵云澜 / 趙云瀾, Zhào Yúnlán)
 Chief Zhao|Chief Zhào
-Zhao Yun Lan|Zhào Yúnlán
+Zhao Yun Lan|Zhào Yúnlán|https://archive.org/download/guardian-pronunciation-guide/Zhao%20Yunlan.mp3
 Yunlan|Yúnlán
 ## in the past: Kunlan Kūnlún | 昆仑
-Kunlun|Kūnlún
+Kunlun|Kūnlún|https://archive.org/download/guardian-pronunciation-guide/Kunlun.mp3
 ## Shen Wei (沈巍	Shěn Wēi) or Xiao Wei Xiǎo Wēi 小巍
-Shen Wei|Shěn Wēi
+Shen Wei|Shěn Wēi|https://archive.org/download/guardian-pronunciation-guide/Shen%20Wei.mp3
 Professor Shen|Professor Shěn
-Hei Pao Shi|Hēi Páo Shǐ
-Xiao Wei|Xiǎo Wēi")
+Hei Pao Shi|Hēi Páo Shǐ|https://archive.org/download/guardian-pronunciation-guide/Hei%20pao%20shi.mp3
+Xiao Wei|Xiǎo Wēi|https://archive.org/download/guardian-pronunciation-guide/Xiao%20Wei.mp3
 ## Zhao Xinci (赵心慈	Zhào Xīncí)
-Zhao Xin Ci|Zhào Xīncí
+Zhao Xin Ci|Zhào Xīncí|https://archive.org/download/guardian-pronunciation-guide/Zhao%20Xinci.mp3
 ## Guo Ying 郭英 Guō Yīng
 Guo Ying|Guō Yīng
 ## Guo Changcheng 郭长城 Guō Chángchéng
-Guo Chang Cheng|Guō Chángchéng
+Guo Chang Cheng|Guō Chángchéng|https://archive.org/download/guardian-pronunciation-guide/Guo%20Changcheng.mp3
 ## Zhu Hong 祝红 Zhù hóng
-Zhu Hong|Zhù Hóng
+Zhu Hong|Zhù Hóng|https://archive.org/download/guardian-pronunciation-guide/Zhu%20Hong.mp3
 ## Da Qing 大庆 Dàqìng
-Da Qing|Dà Qìng
+Da Qing|Dà Qìng|https://archive.org/download/guardian-pronunciation-guide/Da%20Qing.mp3
 ## Chu Shuzhi 楚恕之 Chǔ shù zhī
-Chu Shu Zhi|Chǔ Shùzhī
+Chu Shu Zhi|Chǔ Shùzhī|https://archive.org/download/guardian-pronunciation-guide/Chu%20Shuzhi.mp3
 ## Wang Zheng 汪徵 Wāng zhēng
-Wang Zheng|Wāng Zhēng
+Wang Zheng|Wāng Zhēng|https://archive.org/download/guardian-pronunciation-guide/Wang%20Zheng.mp3
 ## Lin Jing 林静 Lín Jìng
-Lin Jing|Lín Jìng
+Lin Jing|Lín Jìng|https://archive.org/download/guardian-pronunciation-guide/Lin%20Jing.mp3
 ## Sang Zan 桑赞 Sāng Zàn
-Sang Zan|Sāng Zàn
+Sang Zan|Sāng Zàn|https://archive.org/download/guardian-pronunciation-guide/Sang%20Zan.mp3
 ## Old Li 老李 lǎo Lǐ Old Lǐ
 Old Li|Old Lǐ
 Lao Li|Lǎo Lǐ
@@ -72,7 +72,7 @@ Da Ji|Dà Jí
 ## Bai Suxia 白素霞 Bái Sùxiá
 Bai Su Xia|Bái Sùxiá
 ## Shen Xi 沈溪 Shěn Xī
-Shen Xi|Shěn Xī
+Shen Xi|Shěn Xī|https://archive.org/download/guardian-pronunciation-guide/Shen%20Xi.mp3
 ## Zhang Shi 獐狮 Zhāng Shī
 Zhang Shi|Zhāng Shī
 ## Chu Nianzhi 楚念之 Chǔ Niànzhī
@@ -89,10 +89,10 @@ Long City|Lóng City
 
 # TERMS
 ## Haixing 海星 Hǎixīng
-Hai Xing|Hǎixīng
+Hai Xing|Hǎixīng|https://archive.org/download/guardian-pronunciation-guide/Hai%20Xing.mp3
 ## Dixing 地星(人) Dexīngrén
 Di Xing Ren|Dixīngrén
-Di Xing|Dixīng
+Di Xing|Dixīng|https://archive.org/download/guardian-pronunciation-guide/Di%20Xing.mp3
 Ya Shou|Yàshòu
 ## Rebel Chieftain 贼酋 zéiqiú
 Zei Qiu|Zéiqiú
