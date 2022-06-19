@@ -8,7 +8,10 @@ You need to have tampermonkey/greasemonkey installed and then you just need to c
 ## Supported Fandoms
 MDZS, TGCF, Guardian, NiF, Word of Honor, King's Avatar
 
-More coming soon! Next planned one is SVSSS
+Audio guide support is currently in progress.
+
+## Contributing
+If you would like to help contribute tone marks for fandoms that are not yet supported, you can do that in the google sheet <a href="https://docs.google.com/spreadsheets/d/1cfmiVdMwXTU4EgG45kow9MKWMOSwmiShX5iO50bmwmU/edit?usp=sharing">here</a>
 
 ## Issues
 If you spot an issue like missing tone marks, please let me know either by submitting an issue here or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com.
