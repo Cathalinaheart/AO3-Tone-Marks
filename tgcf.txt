@@ -1,0 +1,276 @@
+# Tiān Guān Cì Fú
+tian guan ci fu|Tiān Guān Cì Fú
+
+# Items
+## Cursed Shackles (咒枷, Zhòu Jiā)
+zhou jia|Zhòu Jiā
+## Deathly Spirit Butterflies (死灵蝶, Sǐ Líng Dié)
+si ling die|Sǐ Líng Dié
+## E-Ming (厄命, È-Mìng)
+e ming|È-Mìng
+## Fang Xin (芳心剑, Fāngxīn Jiàn)
+fang xin jian|Fāngxīn Jiàn
+fang xin|Fāngxīn
+## Form Revealing Water (现形水, Xiànxíng Shuǐ)
+xian xing shui|Xiànxíng Shuǐ
+xian xing|Xiànxíng
+## Ghost Scent Candy (鬼味糖, Guǐ Wèi Táng)
+gui wei tang|Guǐ Wèi Táng
+## The Golden Longevity Lockets (长命金锁, Chángmìng Jīn Suǒ)
+chang ming jin suo|Chángmìng Jīn Suǒ
+## Hong Jing (红镜, Hóngjìng)
+hong jing|Hóngjìng
+## Incorruptible Chastity Meatballs (玉洁冰清丸, Yù Jié Bīng Qīng Wán)
+yu jie bing qing wan|Yù Jié Bīng Qīng Wán
+## Love for All Seasons (百年好合羹, Bǎinián Hǎo Hé Gēng)
+bai nian hao he gang|Bǎinián Hǎo Hé Gēng
+## The Rain Master Hat (雨师笠, Yǔ Shī Lì)
+yu shi li|Yǔ Shī Lì
+## The red string (红线, hóngxiàn)
+hong xian|hóngxiàn
+## Ruoye (若邪, Ruòyé)
+ruo ye|Ruòyé
+## Shanyue Fern (善月草, Shànyuè Cǎo)
+shan yue cao|Shànyuè Cǎo
+shan yue|Shànyuè
+## Toppled Phoenixes (颠鸾倒凤 Diān Luán Dào Fèng)
+dian luan dao feng|Diān Luán Dào Fèng
+## The Water Master Fan (水师扇, Shuǐ Shī Shàn)
+shui shi shan|Shuǐ Shī Shàn
+## The Wind Master Fan (风师扇, Fēng Shī Shàn)
+feng shi shan|Fēng Shī Shàn
+## Yan Zhen (豔貞, Yàn Zhēn)
+yan zhen|Yàn Zhēn
+## Yulong (雨龙, Yǔlóng)
+yu long|Yǔlóng
+
+# canonical chars on ao3, supplemented with alternate titles from the wiki
+butcher zhu|Butcher Zhū
+## Banyue (半月, Bànyuè) (place)
+banyue|Bànyuè
+## Ban Yue (person)
+ban yue|Bàn Yuè
+bai jin|Bái Jǐn
+bai wu xiang|Bái Wúxiàng
+cuo cuo|Cuòcuò
+cang qiong|Cāng Qióng
+fu yao|Fú Yáo
+
+# 风信 - Fēng Xìn
+feng xin|Fēng Xìn
+## 南阳将军, Nán Yáng jiāngjūn - General Nan Yang (南 nán - southern, 阳 yáng - sun)
+## Nan Yang Zhen Jun ?
+nan yang jiang jun|Nán Yáng jiāngjūn
+nan yang|Nán Yáng
+## 巨阳将军, Jù Yáng jiāngjūn - General Ju Yang
+ju yang jiang jun|Jù Yáng jiāngjūn
+ju yang|Jù Yáng
+## weapon: 风神弓, Fēngshén Gōng (lit. Wind God Bow)
+feng shen gong|Fēngshén Gōng
+
+gu zi|Gǔzi
+
+# 花城 - Huā Chéng
+## 花城主, Huā Chéngzhǔ - City Master
+hua cheng zhu|Huā Chéngzhǔ
+hua cheng|Huā Chéng
+## 红儿, Hónghóng-er - Red
+hong hong er|Hónghóng'ér
+hong hong'er|Hónghóng'ér
+hong er|Hóng'ér
+hong'er|Hóng'ér
+## 血雨探花, Xuè Yǔ Tàn Huā - Crimson Rain Sought Flower
+xue yu tan hua|Xuè Yǔ Tàn Huā
+## 三郎, Sān Láng - Third Son
+san lang|Sān Láng
+## 无名, Wú Míng - Nameless
+wu ming|Wú Míng
+## 小花, Xiǎo Huā - Little Flower (Puqi Villagers)
+xiao hua|xiăo-Huā
+
+# 贺玄 - Hè Xuán
+he xuan|Hè Xuán
+# 黑水沉舟, Hēi Shuǐ Chén Zhōu - Black Water Submerging Boats
+Hei Shui Chen Zhou|Hēi Shuǐ Chén Zhōu
+## The Black Water Demon Lair (黑水鬼域, Hēi Shuǐ Guǐ Yù)
+hei shui gui yu|Hēi Shuǐ Guǐ Yù
+# 黑水, Hēi Shuǐ - Black Water
+hei shui|Hēi Shuǐ
+
+jian lan|Jiàn Lán
+jian yu|Jiàn Yù
+jing wen|Jìng Wén
+
+# 君吾, Jūn Wú - The Lord, I Am
+## 神武大帝, Shénwǔ Dàdì - Heavenly Martial Emperor
+jun wu|Jūn Wú
+shen wu da di|Shénwǔ Dàdì
+
+ke mo|Kè Mó
+ming yi|Míng Yí
+lang qian qiu|Láng Qiānqiū
+lang ying|Láng Yíng
+ling wen|Líng Wén
+moxiang tongxiu|Mòxiāng Tóngxiù
+mei nianqing|Méi Niànqīng
+
+# 慕情 - Mù Qíng
+mu qing|Mù Qíng
+## 玄真将军, Xuán Zhēn Jiāngjūn - General Xuan Zhen
+## 玄真 xuán zhēn - enigmatic truth
+xuan zhen jiang jun|Xuán Zhēn jiāngjūn
+xuan zhen|Xuán Zhēn
+# weapon: 斩马刀, Zhǎn Mǎdāo - lit. Chopping Sabre
+zhan ma dao|Zhǎn Mǎdāo
+
+nan feng|Nán Fēng
+
+# 裴茗 - Péi Míng
+pei ming|Péi Míng
+## 明光将军, Míng Guāng Jiāngjūn - General Ming Guang
+ming guang jiang jun|Míng Guāng jiāngjūn
+## 将军折剑, Jiāngjūn Zhē Jiàn - The General Who Broke His Sword
+jiang jun zhe jian|Jiāngjūn Zhē Jiàn
+## Ming Guang (明光, Míng Guāng) (former sword)
+ming guang|Míng Guāng
+## 裴将军, Péi Jiāngjūn - General Pei
+pei jiang jun|Péi jiāngjūn
+## 裴兄, Péi-xiōng - Brother Pei (to Shi Wudu)
+pei xiong|Péi xiōng
+## 老裴, Lǎo Péi - Old Pei (to Ling Wen)
+lao pei|lǎo Péi
+
+pei su|Péi Sù
+quan yizhen|Quán Yīzhēn
+
+# 戚容, Qī Róng
+## 青灯夜游, Qīng Dēng Yè Yóu - Night-Touring Green Lantern
+## 青鬼戚容, Qīng Guǐ Qī Róng - Green Ghost Qi Rong
+## 小镜, Xiǎo Jìng - Small Mirror (former)
+## Rong-er (to the Queen)
+qi rong|Qī Róng
+qing gui|Qīng Guǐ
+xiao jing|Xiǎo Jìng
+rong er|Róng'ér
+rong'er|Róng'ér
+
+rong guang|Róng Guǎng
+
+# 师青玄 - Shī Qīngxuán
+## 风师青玄, Fēng Shī Qīng Xuán - Lord Wind Master Qingxuan
+feng shi qing xuan|Fēng Shī Qīngxuán
+## 风师娘娘, Fēng Shī Niáng Niang - Lady Wind Master
+feng shi niang niang|Fēng Shī niángniang
+feng shi|Fēng Shī
+shi qing xuan|Shī Qīngxuán
+qing xuan|Qīngxuán
+## 少君倾酒, Shào Jūn Qīng Jiǔ - The Young Lord Who Pours Wine
+shao jun qing jiu|Shàojūn Qīng Jiǔ
+
+# 师无渡 - Shī Wúdù
+## 水师无渡, Shuǐ Shī Wúdù - Water Master Wudu
+shui shi wu du|Shuǐ Shī Wúdù
+shi wu du|Shī Wúdù
+wu du|Wúdù
+## 水横天, Shuǐ Héngtiān - Water Tyrant
+shui heng tian|Shuǐ Héngtiān
+heng tian|Héngtiān
+## 哥, Gē - Older Brother (to Shi Qingxuan)
+## 水师兄, Shuǐ Shī-xiōng - Brother Water Master (to Pei Ming)
+shui shi xiong|Shuǐ Shī xiōng
+
+tian sheng|Tiān Shēng
+
+# 谢怜 - Xiè Lián
+xie lian|Xiè Lián
+## 太子殿下, Tài Zǐ Diànxià - His Royal Highness the Crown Prince
+tai zi dian xia|Tàizǐ Diànxià
+## 花冠武神, Huā Guān Wǔ Shén - Flower Crown Martial God
+hua guan wu shen|Huā Guān Wǔ Shén
+## 太子悦神, Tài Zǐ Yuè Shén - His Highness Who Pleased the Gods
+tai zi yue shen|Tàizǐ Yuè Shén
+## 花将军, Huā Jiāng Jūn - General Huā
+hua jiang jun|Huā jiāngjūn
+## 花谢 - Huā Xiè
+hua xie|Huā Xiè
+## 哥哥, Gēge - Older Brother (Hua Cheng)
+## 太子表哥, Tàizǐ Biǎo Gē - Cousin Crown Prince (to Qi Rong)
+tai zi biao ge|Tàizǐ biǎogē
+
+xiao ying|Xiǎo Yíng
+xuan ji|Xuān Jī
+
+# 引玉 - Yǐn Yù
+## 下弦月使, Xiàxián Yuè Shǐ - Waning Moon Officer
+## 师兄, Shīxiōng - Older disciple brother (to Quan Yizhen)
+yin yu|Yǐn Yù
+xia xian yue shi|Xiàxián Yuè Shǐ
+
+yushi huang|Yǔshī Huáng
+an le|Ān Lè
+
+# Places (from wiki)
+## Banming (半命, Bànmìng; lit. Half-life)
+ban ming|Bànmìng
+## The Cave of Ten Thousand Gods (万神窟, Wàn Shén Kū)
+wan shen ku|Wàn Shén Kū
+## The Gambler's Den (间赌坊, Jiān Dǔ Fāng)
+jian du fang|Jiān Dǔ Fāng
+## The Ghost City (鬼市, Guǐ Shì)
+gui shi|Guǐ Shì
+## The Heavenly Capital (仙京, Xiān Jīng)
+xian jing|Xiān Jīng
+## Paradise Manor (极乐坊, Jílè Fāng)
+ji le fang|Jílè Fāng
+ji le|Jílè
+## Qiandeng Temple (千灯庙, Qiāndēng Miào)
+qian deng miao|Qiāndēng Miào
+qian deng|Qiāndēng
+## Taicang Mountain (太苍山, Tàicāng Shān)
+tai cang shan|Tàicāng Shān
+## Tonglu Mountain (铜炉山, Tónglú Shān)
+tong lu shan|Tónglú Shān
+tong lu|Tónglú
+## Wuyong (乌庸, Wūyōng)
+wu yong|Wūyōng
+## Xianle (仙乐, Xiānlè)
+xian le|Xiānlè
+## Xuli Kingdom (须黎, Xūlí)
+xu li|Xūlí
+## Yong'an (永安, Yǒng'ān)
+yong an|Yǒng'ān
+yong'an|Yǒng'ān
+## Yu Jun Mountain (与君山, Yǔ Jūn Shān)
+yu jun shan|Yǔ Jūn Shān
+yu jun|Yǔ Jūn
+## Yushi (雨师, Yǔshī)
+yu shi|Yǔshī
+
+# Misc
+## Ascension (飞升, Fēishēng)
+fei sheng|Fēishēng
+## Cultivation (修炼 xiūliàn, 修真 xiūzhēn, 修行 xiūxíng or 修仙 xiūxiān)
+xiu lian|xiūliàn
+xiu zhen|xiūzhēn
+xiu xing|xiūxíng
+xiu xian|xiūxiān
+## The Four Famous Tales (四名景, Sì Míng Jǐng)
+si ming jing|Sì Míng Jǐng
+## The Four Great Calamities (四大害, Sì Dà Hài)
+si da hai|Sì Dà Hài
+## Ghosts (鬼, Guǐ)
+gui|Guǐ
+## Gods/Heavenly Officials (神官, Shénguān)
+shen guan|Shénguān
+## The Jade Emperor (yùdì)
+yu di|yùdì
+## The Three Tumors (三毒瘤, Sān Dúliú)
+san du liu|Sān Dúliú
+
+## various titles
+shi xiong|shīxiōng
+ge ge|gēge
+biao ge|biǎogē
+ge|gē
+shao jun|shàojūn
+jiang jun|jiāngjūn
