@@ -9,7 +9,7 @@ On first use (or after an upgrade) you will be notified that a userscript wants 
 
 ## Supported Fandoms
 ##### Tone Marks
-MDZS, TGCF, SVSSS, Guardian, NiF, Word of Honor, King's Avatar.
+MDZS, TGCF, SVSSS, Guardian, NiF, Word of Honor, King's Avatar, JWQS.
 
 More are in progress.
 
@@ -23,6 +23,9 @@ If you would like to help contribute tone marks for fandoms that are not yet sup
 
 ## Issues
 If you spot an issue like missing tone marks, please let me know either by submitting an issue here or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com.
+
+###### Currenlty known
+- The Download, Chapter Index and Bookmark button do not work while the script is running
 
 ## Other
 ###### Underline Replacements
