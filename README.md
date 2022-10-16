@@ -9,7 +9,12 @@ On first use (or after an upgrade) you will be notified that a userscript wants 
 
 ## Supported Fandoms
 ##### Tone Marks
-MDZS, TGCF, SVSSS, Guardian, NiF, Word of Honor, King's Avatar, JWQS.
+- MXTX: MDZS, TGCF, SVSSS
+- Priest: Guardian,  Word of Honor
+- Meatbun: Erha
+- Please don't laugh: JWQS
+- Hu Dielan: King's Avatar
+- Hai Yan: NiF
 
 More are in progress.
 
