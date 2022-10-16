@@ -1,11 +1,12 @@
 # AO3-Tone-Marks
-
 This is based on GodofLaundryBaskets <a href="https://godoflaundrybaskets.dreamwidth.org/3315.html">Google Docs Tone Mark Script.</a> It will display the tone marks over the supported chinese names, and if the audio is available allow you to click on that name and listen to the audio guide for that name recorded by <a href="https://lunatique.dreamwidth.org/221218.html">lunatique</a> directly on the AO3 page.
 
 ## Installation
-You need to have tampermonkey/greasemonkey installed and then you just need to click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks_withAudio.pub.user.js">here</a> to install/update it.
+There are two versions: One that also adds an on-page audio pronunciation guide and one that does just the pinyin replacement.
+For both you need to have tampermonkey/greasemonkey installed.  Then you just need to click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks.pub.user.js">here for the pinyin replacement only</a> to install/update it or click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks_withAudio.pub.user.js"> here for the pinyin replacement with audio guide version</a>.
 
-On first use (or after an upgrade) you will be notified that a userscript wants to use a foreign ressource, you can confirm this for always. The file it wants to load is https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/playaudio.min.js, which is necessary to be able to play the audio guide clips.
+Note for the audio guide version:
+On first use (or after an upgrade) you will be notified that a userscript wants to use a foreign ressource, you can confirm this for always. The file it wants to load is https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/playaudio.min.js, which is necessary to be able to play the audio guide clips. There is currently also an issue with some AO3 buttons (see Issues).
 
 ## Supported Fandoms
 ##### Tone Marks
@@ -24,13 +25,13 @@ MDZS, Guardian, NiF
 Audio guide support is currently in progress. Not every word has audio at this point that can be linked.
 
 ## Contributing
-If you would like to help contribute tone marks for fandoms that are not yet supported, you can do that in the google sheet <a href="https://docs.google.com/spreadsheets/d/1cfmiVdMwXTU4EgG45kow9MKWMOSwmiShX5iO50bmwmU/edit?usp=sharing">here</a>
+If you would like to help contribute tone marks for fandoms that are not yet supported, you can do that in the google sheet <a href="https://docs.google.com/spreadsheets/d/1cfmiVdMwXTU4EgG45kow9MKWMOSwmiShX5iO50bmwmU/edit?usp=sharing">here</a>.
 
 ## Issues
 If you spot an issue like missing tone marks, please let me know either by submitting an issue here or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com.
 
-###### Currenlty known
-- The Download, Chapter Index and Bookmark button do not work while the script is running
+###### Currenlty Known
+- The Download, Chapter Index and Bookmark button do not work while the audio guide version is running
 
 ## Other
 ###### Underline Replacements
