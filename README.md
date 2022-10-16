@@ -6,7 +6,7 @@ There are two versions: One that also adds an on-page audio pronunciation guide 
 For both you need to have tampermonkey/greasemonkey installed.  Then you just need to click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks.pub.user.js">here for the pinyin replacement only</a> to install/update it or click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks_withAudio.pub.user.js"> here for the pinyin replacement with audio guide version</a>.
 
 Note for the audio guide version:
-On first use (or after an upgrade) you will be notified that a userscript wants to use a foreign ressource, you can confirm this for always. The file it wants to load is https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/playaudio.min.js, which is necessary to be able to play the audio guide clips. There is currently also an issue with some AO3 buttons (see Issues).
+On first use (or after an upgrade) you will be notified that a userscript wants to use a foreign ressource, you can confirm this for always. The file it wants to load is https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/playaudio.min.js, which is necessary to be able to play the audio guide clips. There is currently also an issue with some AO3 buttons (see <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks#issues">Issues</a>).
 
 ## Supported Fandoms
 ##### Tone Marks
