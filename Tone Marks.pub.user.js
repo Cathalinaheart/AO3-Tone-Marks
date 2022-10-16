@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      4.0.3
+// @version      4.0.4
 // @description  Add tone marks on Ao3 works, and add quick audio guide clips were available
 // @author       Cathalinaheart, irrationalpie7
 // @match        https://archiveofourown.org/*
@@ -19,6 +19,7 @@
 // @resource     word_of_honor https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/word_of_honor.txt
 // @resource     svsss https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/svsss.txt
 // @resource     jwqs https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/jwqs.txt
+// @resource     erha https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/erha.txt
 // @resource     audioplay https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/playaudio.min.js
 // @resource     IMPORTED_CSS https://fonts.googleapis.com/icon?family=Material+Icons
 // clang-format on
@@ -218,6 +219,10 @@ async function doReplacements(element) {
   if (hasFandom(
            'JWQS|Clear and Muddy Loss of Love|Jing Wei Qing Shang', workFandoms)) {
      replaceAll(await getReplacements('jwqs'), simplifiedElement);
+   }
+  if (hasFandom(
+           '2ha|erha|Husky and His White Cat Shizun', workFandoms)) {
+     replaceAll(await getReplacements('erha'), simplifiedElement);
    }
    replaceAll(await getReplacements('generic'), simplifiedElement);
 
