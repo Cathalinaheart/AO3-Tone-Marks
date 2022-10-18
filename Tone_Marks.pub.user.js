@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Tone Marks with Audio
+// @name         Tone Marks
 // @namespace    http://tampermonkey.net/
 // @version      4.0.6
 // @description  Add tone marks on Ao3 works, and add quick audio guide clips were available
