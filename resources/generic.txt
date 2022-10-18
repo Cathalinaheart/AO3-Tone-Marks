@@ -64,5 +64,5 @@ feng shui|fēngshuǐ
 dao|dào
 qi|Qì
 cun|cùn
-li|lǐ
+#li|lǐ #<- if uncommented it will substitute within the html
 lao|Lǎo
