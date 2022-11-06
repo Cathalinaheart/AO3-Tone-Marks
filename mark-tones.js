@@ -4,9 +4,7 @@
  */
 async function doToneMarksReplacement(includeAudio) {
   // Url of the ao3 page.
-  const url = unsafeWindow.location.href;
-  // Document structure of the ao3 page.
-  const document = unsafeWindow.document;
+  const url = location.href;
 
   // Check whether this page is an ao3 work.
   const works_regex = /https:\/\/archiveofourown\.org(\/.*)?\/works\/[0-9]+.*/;
@@ -37,6 +35,7 @@ async function doToneMarksReplacement(includeAudio) {
     if (includeAudio && span.dataset.url !== 'None') {
       span.innerHTML +=
           '<span class="audio-guide"><i class="material-icons" style="font-size:100%;cursor: pointer;-ms-transform: translateY(-40%);transform: translateY(-40%);">volume_up</i></span>'
+      span.style.cursor = 'pointer';
       span.onclick = () => {
         new Audio(span.dataset.url).play();
       };

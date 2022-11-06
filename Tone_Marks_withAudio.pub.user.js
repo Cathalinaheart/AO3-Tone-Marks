@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks with Audio
 // @namespace    http://tampermonkey.net/
-// @version      4.1.0.4
+// @version      4.1.0.5
 // clang-format off
 // @description  Add tone marks on Ao3 works, and add quick audio guide clips where available
 // @author       Cathalinaheart, irrationalpie7
@@ -23,7 +23,6 @@
 // @resource     svsss https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/resources/svsss.txt
 // @resource     jwqs https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/resources/jwqs.txt
 // @resource     erha https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/resources/erha.txt
-// @resource     audioplay https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/resources/playaudio.min.js
 // @resource     IMPORTED_CSS https://fonts.googleapis.com/icon?family=Material+Icons
 // clang-format on
 // @grant unsafeWindow
