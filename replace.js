@@ -46,17 +46,9 @@ function wordsMatchRegex(words) {
  * @return {string}
  */
 function replacementHtml(replacement, match, audio_url) {
-  if (audio_url === 'None') {
-    return '<span class="replacement" data-orig="' + match + '" data-new="' +
-        escaped(replacement) + '">' + escaped(replacement) + '</span>';
-  } else {
-    return '<span onclick="playAudio(\'' + audio_url +
-        '\');" style="cursor: pointer;" class="replacement" data-orig="' +
-        match + '" data-new="' + escaped(replacement) + '">' +
-        escaped(replacement) +
-        '</span><span class="audio-guide" onclick="playAudio(\'' + audio_url +
-        '\');"><i class="material-icons" style="font-size:100%;cursor: pointer;-ms-transform: translateY(-40%);transform: translateY(-40%);">volume_up</i></span>';
-  }
+  return '<span class="replacement" data-orig="' + match + '" data-new="' +
+      escaped(replacement) + '" data-url="' + audio_url + '">' +
+      escaped(replacement) + '</span>';
 }
 
 /**
