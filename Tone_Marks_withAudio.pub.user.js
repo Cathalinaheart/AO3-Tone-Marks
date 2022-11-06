@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks with Audio
 // @namespace    http://tampermonkey.net/
-// @version      4.1.0.1
+// @version      4.1.0.2
 // clang-format off
 // @description  Add tone marks on Ao3 works, and add quick audio guide clips where available
 // @author       Cathalinaheart, irrationalpie7
@@ -97,6 +97,7 @@ GM_addStyle(my_css);
 async function doReplacements(element) {
   const rules = await getReplacementRules(getFandomTags(element));
 
+  let innerHTMLSnapshot;
   do {
     // Having a simplified element to pass to 'replaceAll' allows us to
     // avoid re-rendering the element every time its inner html gets
@@ -104,7 +105,7 @@ async function doReplacements(element) {
     // Taking a snapshot of the current innerhtml allows us to check whether
     // other scripts have altered the DOM while we were doing our replacing, and
     // try again so as not to erase those effects.
-    let innerHTMLSnapshot = element.innerHTML;
+    innerHTMLSnapshot = element.innerHTML;
     let simplifiedElement = {innerHTML: innerHTMLSnapshot};
 
     replaceAll(rules, simplifiedElement);
