@@ -79,70 +79,15 @@ function replaceTextOnPage(main, from, to, audio_url) {
 }
 
 /**
- * Turns a long replacements string into a list of match objects, where:
- *  - match.words is an array of strings that form the individual words to
- * match
- *  - match.replacement is the text to replace that sequence with
- *
- * @param {string} replacements
- * @returns {{words:string[],replacement:string, audio_url:string}[]}
- */
-function splitReplacements(replacements) {
-  return replacements.split('\n')
-      .map(function(line) {
-        return line.trim();
-      })
-      .filter(function(line) {
-        return line.length > 0 && !line.startsWith('#');
-      })
-      .map(function(line) {
-        const match = line.split('|');
-        if (match.length === 3) {
-          return {
-            words: match[0].split(' ').filter(match => match.length > 0),
-            replacement: match[1].trim(),
-            audio_url: match[2].trim()
-          };
-        } else {
-          return {
-            words: match[0].split(' ').filter(match => match.length > 0),
-            replacement: match[1].trim(),
-            audio_url: 'None'
-          };
-        }
-      });
-}
-
-/**
  * Replaces all matches in element.innerHTML with their replacements, as
  * encoded in the rules string.
  *
- * @param {string} allReplacementsString
+ * @param {{words:string[],replacement:string, audio_url:string}[]} replacements
  * @param {{innerHTML: string}} element
  */
-function replaceAll(allReplacementsString, element) {
+function replaceAll(replacements, element) {
   // Avoid updating element.innerHTML until the very end.
   const simplifiedElement = {innerHTML: element.innerHTML};
-  const replacements = splitReplacements(allReplacementsString);
-  replacements.forEach(function(rule) {
-    replaceTextOnPage(
-        simplifiedElement, wordsMatchRegex(rule.words), rule.replacement,
-        rule.audio_url);
-  });
-  element.innerHTML = simplifiedElement.innerHTML;
-}
-
-/**
- * Replaces all matches in element.innerHTML with their replacements, as
- * encoded in the rules string.
- *
- * @param {string} allReplacementsString
- * @param {{innerHTML: string}} element
- */
-function replaceAll(allReplacementsString, element) {
-  // Avoid updating element.innerHTML until the very end.
-  const simplifiedElement = {innerHTML: element.innerHTML};
-  const replacements = splitReplacements(allReplacementsString);
   replacements.forEach(function(rule) {
     replaceTextOnPage(
         simplifiedElement, wordsMatchRegex(rule.words), rule.replacement,

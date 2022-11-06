@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks with Audio
 // @namespace    http://tampermonkey.net/
-// @version      4.1.0.0
+// @version      4.1.0.1
 // clang-format off
 // @description  Add tone marks on Ao3 works, and add quick audio guide clips where available
 // @author       Cathalinaheart, irrationalpie7
@@ -10,6 +10,7 @@
 // @downloadURL  https://github.com/irrationalpie/AO3-Tone-Marks/raw/refactor/Tone_Marks_withAudio.pub.user.js
 //
 // @require      replace.js
+// @require      check-fandoms.js
 // Generic and per-fandom replacement rules:
 // @resource     generic https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/resources/generic.txt
 // @resource     guardian https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/resources/guardian.txt
@@ -88,92 +89,34 @@ const my_css = GM_getResourceText('IMPORTED_CSS');
 GM_addStyle(my_css);
 
 /**
- * Checks whether 'fandom' (ignoring case) is a substring of any of the
- * fandom tags.
- *
- * @param {string} fandom
- * @param {Element[]} fandomTags
- * @returns {boolean}
- */
-function hasFandom(fandom, fandomTags) {
-  const fandomRegex = new RegExp(fandom, 'i');
-  for (let i = 0; i < fandomTags.length; i++) {
-    if (fandomTags[i].innerHTML.match(fandomRegex) !== null) {
-      return true;
-    }
-  }
-  return false;
-}
-
-/**
  * Replaces pinyin for all text in element, using the fandoms in the
  * element's work tags to decide which rules to use.
  *
  * @param {HTMLElement} element
  */
 async function doReplacements(element) {
-  // Having a simplified element to pass to 'replaceAll' allows us to
-  // avoid re-rendering the element every time its inner html gets
-  // updated.
-  const simplifiedElement = {innerHTML: element.innerHTML};
+  const rules = await getReplacementRules(getFandomTags(element));
 
-  // Anything with a 'tag' class that's a descendant of something with a
-  // 'fandom' or 'fandoms' class.
-  const workFandoms =
-      Array.from(element.querySelectorAll('.fandoms .tag,.fandom .tag'));
-  if (hasFandom('Word of Honor|Faraway Wanderers|Qi Ye', workFandoms)) {
-    replaceAll(await getReplacements('word_of_honor'), simplifiedElement);
-  }
-  if (hasFandom('Untamed|Módào', workFandoms)) {
-    replaceAll(await getReplacements('mdzs'), simplifiedElement);
-  }
-  if (hasFandom('Guardian', workFandoms)) {
-    replaceAll(await getReplacements('guardian'), simplifiedElement);
-  }
-  if (hasFandom('Nirvana in Fire', workFandoms)) {
-    replaceAll(await getReplacements('nirvana_in_fire'), simplifiedElement);
-  }
-  if (hasFandom('King\'s Avatar|Quánzhí Gāoshǒu', workFandoms)) {
-    replaceAll(await getReplacements('kings_avatar'), simplifiedElement);
-  }
-  if (hasFandom(
-          'TGCF|Tiān Guān Cì Fú|Heaven Official\'s Blessing', workFandoms)) {
-    replaceAll(await getReplacements('tgcf'), simplifiedElement);
-  }
-  if (hasFandom('SVSSS|Scum Villain|Scumbag System', workFandoms)) {
-    replaceAll(await getReplacements('svsss'), simplifiedElement);
-  }
-  if (hasFandom(
-          'JWQS|Clear and Muddy Loss of Love|Jing Wei Qing Shang',
-          workFandoms)) {
-    replaceAll(await getReplacements('jwqs'), simplifiedElement);
-  }
-  if (hasFandom('2ha|erha|Husky and His White Cat Shizun', workFandoms)) {
-    replaceAll(await getReplacements('erha'), simplifiedElement);
-  }
-  replaceAll(await getReplacements('generic'), simplifiedElement);
+  do {
+    // Having a simplified element to pass to 'replaceAll' allows us to
+    // avoid re-rendering the element every time its inner html gets
+    // updated.
+    // Taking a snapshot of the current innerhtml allows us to check whether
+    // other scripts have altered the DOM while we were doing our replacing, and
+    // try again so as not to erase those effects.
+    let innerHTMLSnapshot = element.innerHTML;
+    let simplifiedElement = {innerHTML: innerHTMLSnapshot};
 
-  // Return now if it turns out we didn't make any changes.
-  if (simplifiedElement.innerHTML === element.innerHTML) {
-    console.log('No matching fandoms, or no text found that needed replacing.');
-    return;
-  }
+    replaceAll(rules, simplifiedElement);
+    // Return now if it turns out we didn't make any changes.
+    if (simplifiedElement.innerHTML === element.innerHTML) {
+      console.log(
+          'No matching fandoms, or no text found that needed replacing.');
+      return;
+    }
+  } while (innerHTMLSnapshot !== element.innerHTML);
 
   // Actually replace element's innerHTML.
   element.innerHTML = simplifiedElement.innerHTML;
-}
-
-/**
- * Gets the replacement string for this fandom from its <fandom>.txt file.
- * @param {string} fandom
- */
-async function getReplacements(fandom) {
-  return GM.getResourceUrl(fandom)
-      .then(url => fetch(url))
-      .then(resp => resp.text())
-      .catch(function(error) {
-        console.log('Request failed', error);
-        return null;
-      });
 }
 })();
