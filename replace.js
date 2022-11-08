@@ -92,25 +92,18 @@ function replaceTextNode(textNode, newInnerHtml) {
  * @param {HTMLElement} element
  */
 function recursiveReplace(replacements, element) {
-  // Track text nodes that will be replaced with a mix of text nodes and
-  // elements.
-  const textReplacements = [];
-  for (const child of element.childNodes) {
+  // Snapshot the children to iterate over them without having to worry about
+  // whether the list changes as we go along.
+  const currentChildren = Array.from(element.childNodes);
+  for (const child of currentChildren) {
     if (child.nodeType === Node.TEXT_NODE) {
       const newInnerHtml = replaceText(replacements, child.textContent)
       if (newInnerHtml !== child.textContent) {
-        // If we made the replacement here, we'd alter the number of
-        // children and potentially reprocess some of them, so we put
-        // that off until the end.
-        textReplacements.push({child, newInnerHtml});
+        replaceTextNode(child, newInnerHtml);
       }
     } else {
       recursiveReplace(replacements, child);
     }
-  }
-  // Make the replacements.
-  for (const textReplacement of textReplacements) {
-    replaceTextNode(textReplacement.child, textReplacement.newInnerHtml);
   }
 }
 
