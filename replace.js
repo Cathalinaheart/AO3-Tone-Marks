@@ -71,19 +71,68 @@ function replaceTextOnPage(main, from, to, audio_url) {
 }
 
 /**
+ * Alters the parent of textNode to replace textNode with whatever html is in
+ * newInnerHtml. Siblings of textNode remain unchanged.
+ *
+ * @param {Text} textNode
+ * @param {string} newInnerHtml
+ */
+function replaceTextNode(textNode, newInnerHtml) {
+  textNode.parentNode.replaceChild(
+      textNode.ownerDocument.createRange().createContextualFragment(
+          newInnerHtml),
+      textNode);
+}
+
+/**
  * Replaces all matches in element.innerHTML with their replacements, as
  * encoded in the rules string.
  *
  * @param {{words:string[],replacement:string, audio_url:string}[]} replacements
- * @param {{innerHTML: string}} element
+ * @param {HTMLElement} element
  */
-function replaceAll(replacements, element) {
-  // Avoid updating element.innerHTML until the very end.
-  const simplifiedElement = {innerHTML: element.innerHTML};
-  replacements.forEach(function(rule) {
+function recursiveReplace(replacements, element) {
+  // Snapshot the children to iterate over them without having to worry about
+  // whether the list changes as we go along.
+  const currentChildren = Array.from(element.childNodes);
+  for (const child of currentChildren) {
+    if (child.nodeType === Node.TEXT_NODE) {
+      const newInnerHtml = replaceText(replacements, child.textContent)
+      if (newInnerHtml !== child.textContent) {
+        replaceTextNode(child, newInnerHtml);
+      }
+    } else {
+      recursiveReplace(replacements, child);
+    }
+  }
+}
+
+/**
+ * Replace text (which is not html) according to the rules in the replacements
+ * list, resulting in text with html markup.
+ *
+ * @param {{words:string[],replacement:string, audio_url:string}[]} replacements
+ * @param {string} text
+ * @returns {string} replacement text, which may have html formatting
+ */
+function replaceText(replacements, text) {
+  // pretend text is part of an element
+  const simplifiedElement = {innerHTML: text};
+  replacements.forEach(rule => {
     replaceTextOnPage(
         simplifiedElement, wordsMatchRegex(rule.words), rule.replacement,
         rule.audio_url);
   });
-  element.innerHTML = simplifiedElement.innerHTML;
+  return simplifiedElement.innerHTML;
+}
+
+/**
+ * Replaces all matches in element.innerHTML with their replacements, as
+ * encoded in the rules string.
+ *
+ * @param {{words:string[],replacement:string, audio_url:string}[]} replacements
+ * @param {HTMLElement} element
+ */
+function replaceAll(replacements, element) {
+  recursiveReplace(replacements, element);
 }
