@@ -28,10 +28,7 @@ Audio guide support is currently in progress. Not every word has audio at this p
 If you would like to help contribute tone marks for fandoms that are not yet supported, you can do that in the google sheet <a href="https://docs.google.com/spreadsheets/d/1cfmiVdMwXTU4EgG45kow9MKWMOSwmiShX5iO50bmwmU/edit?usp=sharing">here</a>. If you want to make changes to existing replacement rules, you can either change them in the spreadsheet and then mark the row red, or you can change it in the spreadsheet and submit a pull request where it is also changed in the corresponding fandoms file, noting what it is you changed.
 
 ## Issues
-If you spot an issue like missing or wrong tone marks, please let me know either by submitting an issue here or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com.
-
-###### Currently Known
-- The Download, Chapter Index and Bookmark button do not work while the script is running
+If you spot an issue like missing or wrong tone marks, please let me know either by [submitting an issue here](https://github.com/Cathalinaheart/AO3-Tone-Marks/issues) or reaching out to me on twitter/tumblr @cathalinaheart or via email cathalinaheart {at} gmail.com.
 
 ## Other
 ###### Underline Replacements
