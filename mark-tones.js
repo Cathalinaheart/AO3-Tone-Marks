@@ -36,6 +36,31 @@ async function doToneMarksReplacement(includeAudio) {
       addAudioButtonAround(span);
     }
   });
+
+  if (includeAudio) {
+    GM_addStyle(`
+    .tone-audio-button {
+      background: none;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      box-shadow: none;
+      vertical-align: baseline;
+      border-radius: 0;
+    }
+
+    .tone-audio-button:hover {
+      border-bottom: 1px solid;
+    }
+
+    .tone-audio-button:focus {
+      outline: 1px dotted;
+    }
+    `);
+  }
 }
 
 /**
@@ -48,7 +73,6 @@ async function doReplacements(element) {
   const rules = await getReplacementRules(getFandomTags(element));
   replaceAll(rules, element);
 }
-
 
 /**
  * Surround span with a button that plays/pauses the audio.
