@@ -70,8 +70,12 @@ function addAudioButtonAround(span) {
   // it doesn't have controls.
   const button = document.createElement('button');
   button.classList.add('tone-audio-button');
-  button.appendChild(span);
+  // First, replace, so the original parent still knows *where* to replace
   span.parentNode.replaceChild(button, span);
+  // Then, insert the span back into the tree as the button's child.
+  button.appendChild(span);
+
+  // Listen for play/pause.
   button.addEventListener('click', () => {
     const audio = button.querySelector('.tone-audio');
     if (audio.paused) {
