@@ -33,12 +33,7 @@ async function doToneMarksReplacement(includeAudio) {
   replacements.forEach(span => {
     span.innerHTML = span.dataset.new;
     if (includeAudio && span.dataset.url !== 'None') {
-      span.innerHTML +=
-          '<span class="audio-guide"><i class="material-icons" style="font-size:100%;cursor: pointer;-ms-transform: translateY(-40%);transform: translateY(-40%);">volume_up</i></span>'
-      span.style.cursor = 'pointer';
-      span.onclick = () => {
-        new Audio(span.dataset.url).play();
-      };
+      addAudioButtonAround(span);
     }
   });
 }
@@ -52,4 +47,39 @@ async function doToneMarksReplacement(includeAudio) {
 async function doReplacements(element) {
   const rules = await getReplacementRules(getFandomTags(element));
   replaceAll(rules, element);
+}
+
+
+/**
+ * Surround span with a button that plays/pauses the audio.
+ * @param {HTMLElement} span
+ */
+function addAudioButtonAround(span) {
+  // Append an icon and audio element to the span.
+  span.innerHTML += `
+  <span class="audio-guide">
+    <audio src="${span.dataset.url}" preload="none" class="tone-audio">
+    </audio>
+    <span class="material-icons" style="font-size:100%;-ms-transform: translateY(-40%);transform: translateY(-40%);">
+      volume_up
+    </span>
+  </span>`;
+
+  // Wrap it in a button.
+  // Note: it's fine for the <audio> element to be a child of the button since
+  // it doesn't have controls.
+  const button = document.createElement('button');
+  button.classList.add('tone-audio-button');
+  button.appendChild(span);
+  span.parentNode.replaceChild(button, span);
+  button.addEventListener('click', () => {
+    const audio = button.querySelector('.tone-audio');
+    if (audio.paused) {
+      console.log('let\'s play!: ' + span.textContent);
+      audio.play();
+    } else {
+      console.log('let\'s pause!: ' + span.textContent);
+      audio.pause();
+    }
+  });
 }
