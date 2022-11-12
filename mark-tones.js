@@ -40,7 +40,6 @@ async function doToneMarksReplacement(includeAudio) {
   if (includeAudio) {
     GM_addStyle(`
       .tone-audio-button {
-        position: relative;
         background: none;
         color: inherit;
         border: none;
@@ -51,6 +50,7 @@ async function doToneMarksReplacement(includeAudio) {
         box-shadow: none;
         vertical-align: baseline;
         border-radius: 0;
+        display: inline-flex;
       }
 
       .audio-progress-group {
