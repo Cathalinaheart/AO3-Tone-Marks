@@ -130,7 +130,3 @@ function addAudioButtonAround(span) {
     }
   });
 }
-
-audio.addEventListener('timeupdate', () => {
-  seekSlider.value = Math.floor(audio.currentTime);
-});
