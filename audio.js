@@ -51,21 +51,27 @@ function addAudioButtonAround(span) {
   audio.addEventListener('timeupdate', () => {
     progress.value = Math.round(audio.currentTime * 100 / audio.duration);
   });
+  // Hide the progress bar when we finish playing the audio.
+  audio.addEventListener(
+      'ended', () => {progress.classList.add('hidden-progress')});
 
   // Listen for play/pause click.
   button.addEventListener('click', () => {
-    if (progress.classList.contains('hidden-progress')) {
-      // Reveal the progress indicator
-      progress.classList.remove('hidden-progress');
-    }
     if (audio.paused) {
       // Pause all other pronunciation audio.
       Array.from(document.querySelectorAll('.tone-audio')).forEach(audio => {
         audio.pause();
       });
+      // Hide other progress bars.
+      Array.from(document.querySelectorAll('.tone-audio-button progress'))
+          .forEach(progress => {
+            progress.classList.add('hidden-progress');
+          });
+      progress.classList.remove('hidden-progress');
       audio.play();
     } else {
       audio.pause();
+      progress.classList.add('hidden-progress');
     }
   });
 }
