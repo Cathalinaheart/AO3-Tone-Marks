@@ -46,9 +46,12 @@ function wordsMatchRegex(words) {
  * @return {string}
  */
 function replacementHtml(replacement, match, audio_url) {
-  return '<span class="replacement" data-orig="' + match + '" data-new="' +
-      escaped(replacement) + '" data-url="' + audio_url + '">' +
-      escaped(replacement) + '</span>';
+  return `<span class="replacement" lang="zh-Latn-pinyin"
+            data-orig="${match}"
+            data-new="${escaped(replacement)}"
+            data-url="${audio_url}">
+            ${escaped(replacement)}
+          </span>`;
 }
 
 /**
