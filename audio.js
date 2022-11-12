@@ -16,9 +16,8 @@ function addAudioButtonAround(span) {
   const progress = document.createElement('progress');
   progress.value = 0;
   progress.max = 100;
-  progress.classList.add('hidden-progress');
-  progress.classList.add('audio-progress');
-  progress.ariaLabel = 'Audio playback percent'
+  progress.classList.add('inactive-audio-progress-bar');
+  progress.ariaLabel = 'Audio playback percent';
   progressGroup.appendChild(progress);
 
   // Wrap the pinyin span in a button:
@@ -29,14 +28,14 @@ function addAudioButtonAround(span) {
   progressGroup.appendChild(span);
 
   // Add an icon to indicate that audio is present.
-  // (we have to nest the spans in order for the audio-guide display settings to
-  // apply)
   const icon = document.createElement('span');
   icon.classList.add('audio-guide');
-  icon.innerHTML = '<span class="material-icons">volume_up</span>';
   // Hide the icon from screen readers, since it doesn't provide additional
   // info.
-  icon.ariaHidden = 'true'
+  icon.ariaHidden = 'true';
+  // (we have to nest the spans in order for the audio-guide display settings to
+  // apply)
+  icon.innerHTML = '<span class="material-icons">volume_up</span>';
   button.appendChild(icon);
 
   // Add an audio element that we can play/pause.
@@ -51,9 +50,6 @@ function addAudioButtonAround(span) {
   audio.addEventListener('timeupdate', () => {
     progress.value = Math.round(audio.currentTime * 100 / audio.duration);
   });
-  // Hide the progress bar when we finish playing the audio.
-  audio.addEventListener(
-      'ended', () => {progress.classList.add('hidden-progress')});
 
   // Listen for play/pause click.
   button.addEventListener('click', () => {
@@ -65,13 +61,12 @@ function addAudioButtonAround(span) {
       // Hide other progress bars.
       Array.from(document.querySelectorAll('.tone-audio-button progress'))
           .forEach(progress => {
-            progress.classList.add('hidden-progress');
+            progress.classList.add('inactive-audio-progress-bar');
           });
-      progress.classList.remove('hidden-progress');
+      progress.classList.remove('inactive-audio-progress-bar');
       audio.play();
     } else {
       audio.pause();
-      progress.classList.add('hidden-progress');
     }
   });
 }

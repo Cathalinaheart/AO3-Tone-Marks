@@ -18,8 +18,14 @@
     position: relative;
 }
 
-.hidden-progress {
+/* If applied, hides progress bar except when button is focused or hovered over. */
+.inactive-audio-progress-bar {
     visibility: hidden;
+}
+
+.tone-audio-button:hover .inactive-audio-progress-bar,
+.tone-audio-button:focus .inactive-audio-progress-bar {
+    visibility: visible;
 }
 
 .tone-audio-button progress {
