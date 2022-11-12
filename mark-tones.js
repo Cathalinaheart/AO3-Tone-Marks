@@ -76,7 +76,7 @@ async function doToneMarksReplacement(includeAudio) {
         outline: 1px dotted;
       }
       
-      .audio-guide {
+      .audio-guide .material-icons {
         font-size:100%;
         -ms-transform: translateY(-40%);
         transform: translateY(-40%);
@@ -125,10 +125,10 @@ function addAudioButtonAround(span) {
   progressGroup.appendChild(span);
 
   // Add an icon to indicate that audio is present.
+  // (we have to nest the spans in order for the audio-guide to apply)
   const icon = document.createElement('span');
-  icon.classList.add('material-icons');
   icon.classList.add('audio-guide');
-  icon.innerText = 'volume_up';
+  icon.innerHTML = '<span class="material-icons">volume_up</span>';
   button.appendChild(icon);
 
   // Add an audio element that we can play/pause.
