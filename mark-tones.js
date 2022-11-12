@@ -92,7 +92,6 @@ async function doReplacements(element) {
 function addAudioButtonAround(span) {
   // Append an icon and audio element to the span.
   span.innerHTML += `
-  <progress value="0" max="100" class="hidden-progress audio-progress"></progress>
   <span class="audio-guide">
     <audio src="${span.dataset.url}" preload="none" class="tone-audio">
     </audio>
@@ -111,11 +110,19 @@ function addAudioButtonAround(span) {
   // Then, insert the span back into the tree as the button's child.
   button.appendChild(span);
 
+  // Add a progress indicator that starts out hidden.
+  const progress = document.createElement('progress');
+  progress.value = 0;
+  progress.max = 100;
+  progress.classList.add('hidden-progress');
+  progress.classList.add('audio-progress');
+  button.appendChild(progress);
+
   // Listen for play/pause.
   button.addEventListener('click', () => {
     const audio = button.querySelector('.tone-audio');
-    const progress = button.querySelector('progress');
     if (progress.classList.contains('hidden-progress')) {
+      // Reveal the progress indicator, and set up the progress updater
       progress.classList.remove('hidden-progress');
       audio.addEventListener('timeupdate', () => {
         progress.value = audio.currentTime * 100 / audio.duration;
