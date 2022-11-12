@@ -53,6 +53,10 @@ async function doToneMarksReplacement(includeAudio) {
         border-radius: 0;
       }
 
+      .audio-progress-group {
+        position: relative;
+      }
+
       .hidden-progress {
         visibility: hidden;
       }
@@ -64,7 +68,7 @@ async function doToneMarksReplacement(includeAudio) {
         width: 100%;
       }
 
-      .tone-audio-button:hover {
+      .tone-audio-button:hover .replacement {
         border-bottom: 1px solid;
       }
 
@@ -97,20 +101,13 @@ async function doReplacements(element) {
  * @param {HTMLElement} span
  */
 function addAudioButtonAround(span) {
-  // Wrap the span in a button.
   const button = document.createElement('button');
   button.classList.add('tone-audio-button');
-  // First, replace, so the original parent still knows *where* to replace
-  span.parentNode.replaceChild(button, span);
-  // Then, insert the span back into the tree as the button's child.
-  button.appendChild(span);
 
-  // Add an icon to indicate that audio is present.
-  const icon = document.createElement('span');
-  icon.classList.add('material-icons');
-  icon.classList.add('audio-guide');
-  icon.innerText = 'volume_up';
-  button.appendChild(icon);
+  // Group the pinyin and the progress indicator so they're the same length.
+  const progressGroup = document.createElement('div');
+  progressGroup.classList.add('audio-progress-group');
+  button.appendChild(progressGroup);
 
   // Add a progress indicator that starts out hidden.
   const progress = document.createElement('progress');
@@ -118,7 +115,21 @@ function addAudioButtonAround(span) {
   progress.max = 100;
   progress.classList.add('hidden-progress');
   progress.classList.add('audio-progress');
-  button.appendChild(progress);
+  progressGroup.appendChild(progress);
+
+  // Wrap the pinyin span in a button:
+  // First, replace, so the original parent still knows *where* to put the
+  // button.
+  span.parentNode.replaceChild(button, span);
+  // Then, insert the span back into the tree as the progressGroup's child.
+  progressGroup.appendChild(span);
+
+  // Add an icon to indicate that audio is present.
+  const icon = document.createElement('span');
+  icon.classList.add('material-icons');
+  icon.classList.add('audio-guide');
+  icon.innerText = 'volume_up';
+  button.appendChild(icon);
 
   // Add an audio element that we can play/pause.
   // Note: it's fine for the <audio> element to be a child of the button since
