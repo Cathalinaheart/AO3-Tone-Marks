@@ -106,10 +106,11 @@ function addAudioButtonAround(span) {
   button.appendChild(span);
 
   // Add an icon to indicate that audio is present.
-  document.createElement('span');
-  span.classList.add('material-icons');
-  span.classList.add('audio-guide');
-  span.innerText = 'volume_up';
+  const icon = document.createElement('span');
+  icon.classList.add('material-icons');
+  icon.classList.add('audio-guide');
+  icon.innerText = 'volume_up';
+  button.appendChild(icon);
 
   // Add a progress indicator that starts out hidden.
   const progress = document.createElement('progress');
