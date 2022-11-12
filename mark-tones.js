@@ -39,27 +39,38 @@ async function doToneMarksReplacement(includeAudio) {
 
   if (includeAudio) {
     GM_addStyle(`
-    .tone-audio-button {
-      background: none;
-      color: inherit;
-      border: none;
-      padding: 0;
-      font: inherit;
-      cursor: pointer;
-      outline: inherit;
-      box-shadow: none;
-      vertical-align: baseline;
-      border-radius: 0;
-    }
+      .tone-audio-button {
+        position: relative;
+        background: none;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        box-shadow: none;
+        vertical-align: baseline;
+        border-radius: 0;
+      }
 
-    .tone-audio-button:hover {
-      border-bottom: 1px solid;
-    }
+      .hidden-progress {
+        visibility: hidden;
+      }
+      
+      .tone-audio-button progress {
+        position: absolute;
+        height: .3em;
+        top: -.15em;
+        width: 100%;
+      }
 
-    .tone-audio-button:focus {
-      outline: 1px dotted;
-    }
-    `);
+      .tone-audio-button:hover {
+        border-bottom: 1px solid;
+      }
+
+      .tone-audio-button:focus {
+        outline: 1px dotted;
+      }`);
   }
 }
 
@@ -82,6 +93,7 @@ function addAudioButtonAround(span) {
   // Append an icon and audio element to the span.
   span.innerHTML += `
   <span class="audio-guide">
+    <progress value="0" max="100" class="hidden-progress"></progress>
     <audio src="${span.dataset.url}" preload="none" class="tone-audio">
     </audio>
     <span class="material-icons" style="font-size:100%;-ms-transform: translateY(-40%);transform: translateY(-40%);">
@@ -102,12 +114,23 @@ function addAudioButtonAround(span) {
   // Listen for play/pause.
   button.addEventListener('click', () => {
     const audio = button.querySelector('.tone-audio');
+    const progress = button.querySelector('progress');
+    if (progress.classList.contains('hidden-progress')) {
+      progress.classList.remove('hidden-progress');
+      audio.addEventListener('timeupdate', () => {
+        progress.value = audio.currentTime * 100 / audio.duration;
+      });
+    }
     if (audio.paused) {
-      console.log('let\'s play!: ' + span.textContent);
+      console.log('let\'s play!: ' + span.dataset.new);
       audio.play();
     } else {
-      console.log('let\'s pause!: ' + span.textContent);
+      console.log('let\'s pause!: ' + span.dataset.new);
       audio.pause();
     }
   });
 }
+
+audio.addEventListener('timeupdate', () => {
+  seekSlider.value = Math.floor(audio.currentTime);
+});
