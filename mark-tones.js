@@ -92,8 +92,8 @@ async function doReplacements(element) {
 function addAudioButtonAround(span) {
   // Append an icon and audio element to the span.
   span.innerHTML += `
+  <progress value="0" max="100" class="hidden-progress audio-progress"></progress>
   <span class="audio-guide">
-    <progress value="0" max="100" class="hidden-progress"></progress>
     <audio src="${span.dataset.url}" preload="none" class="tone-audio">
     </audio>
     <span class="material-icons" style="font-size:100%;-ms-transform: translateY(-40%);transform: translateY(-40%);">
