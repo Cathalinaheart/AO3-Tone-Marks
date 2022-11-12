@@ -70,7 +70,14 @@ async function doToneMarksReplacement(includeAudio) {
 
       .tone-audio-button:focus {
         outline: 1px dotted;
-      }`);
+      }
+      
+      .audio-guide {
+        font-size:100%;
+        -ms-transform: translateY(-40%);
+        transform: translateY(-40%);
+      }
+      `);
   }
 }
 
@@ -90,25 +97,19 @@ async function doReplacements(element) {
  * @param {HTMLElement} span
  */
 function addAudioButtonAround(span) {
-  // Append an icon and audio element to the span.
-  span.innerHTML += `
-  <span class="audio-guide">
-    <audio src="${span.dataset.url}" preload="none" class="tone-audio">
-    </audio>
-    <span class="material-icons" style="font-size:100%;-ms-transform: translateY(-40%);transform: translateY(-40%);">
-      volume_up
-    </span>
-  </span>`;
-
-  // Wrap it in a button.
-  // Note: it's fine for the <audio> element to be a child of the button since
-  // it doesn't have controls.
+  // Wrap the span in a button.
   const button = document.createElement('button');
   button.classList.add('tone-audio-button');
   // First, replace, so the original parent still knows *where* to replace
   span.parentNode.replaceChild(button, span);
   // Then, insert the span back into the tree as the button's child.
   button.appendChild(span);
+
+  // Add an icon to indicate that audio is present.
+  document.createElement('span');
+  span.classList.add('material-icons');
+  span.classList.add('audio-guide');
+  span.innerText = 'volume_up';
 
   // Add a progress indicator that starts out hidden.
   const progress = document.createElement('progress');
@@ -118,9 +119,17 @@ function addAudioButtonAround(span) {
   progress.classList.add('audio-progress');
   button.appendChild(progress);
 
+  // Add an audio element that we can play/pause.
+  // Note: it's fine for the <audio> element to be a child of the button since
+  // it doesn't have controls and is thus invisible.
+  const audio = document.createElement('audio');
+  audio.src = span.dataset.url;
+  audio.preload = 'none';
+  audio.className = 'tone-audio';
+  button.appendChild(audio);
+
   // Listen for play/pause.
   button.addEventListener('click', () => {
-    const audio = button.querySelector('.tone-audio');
     if (progress.classList.contains('hidden-progress')) {
       // Reveal the progress indicator, and set up the progress updater
       progress.classList.remove('hidden-progress');
