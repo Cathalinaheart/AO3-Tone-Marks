@@ -45,6 +45,12 @@ If you would like to hide the speaker symbol with a work skin, you can add the f
   display: none;
 }
 ```
+If you would like to hide the audio playback progress bars with a workskin, you can add the following to your ao3 site skin:
+```css
+.tone-audio-button progress {
+  display: none;
+}
+```
 You can still play the audio by directly clicking on the name.
 
 ###### The fandom.txt file format
