@@ -1,0 +1,52 @@
+/* Make the button not look like a button */
+.tone-audio-button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    box-shadow: none;
+    vertical-align: baseline;
+    border-radius: 0;
+    display: inline-flex;
+}
+
+/* Group audio progress bar with pinyin text. */
+.audio-progress-group {
+    position: relative;
+}
+
+/* If applied, hides progress bar except when button is focused or hovered over. */
+.inactive-audio-progress-bar {
+    visibility: hidden;
+}
+
+.tone-audio-button:hover .inactive-audio-progress-bar,
+.tone-audio-button:focus .inactive-audio-progress-bar {
+    visibility: visible;
+}
+
+.tone-audio-button progress {
+    position: absolute;
+    height: .3em;
+    top: -.15em;
+    width: 100%;
+}
+
+/* Underline just pinyin when hovering over button */
+.tone-audio-button:hover .replacement {
+    border-bottom: 1px solid;
+}
+
+.tone-audio-button:focus {
+    outline: 1px dotted;
+}
+
+/* Override icon font size/placement */
+.audio-guide .material-icons {
+    font-size: 100%;
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+}

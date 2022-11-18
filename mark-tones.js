@@ -33,12 +33,7 @@ async function doToneMarksReplacement(includeAudio) {
   replacements.forEach(span => {
     span.innerHTML = span.dataset.new;
     if (includeAudio && span.dataset.url !== 'None') {
-      span.innerHTML +=
-          '<span class="audio-guide"><i class="material-icons" style="font-size:100%;cursor: pointer;-ms-transform: translateY(-40%);transform: translateY(-40%);">volume_up</i></span>'
-      span.style.cursor = 'pointer';
-      span.onclick = () => {
-        new Audio(span.dataset.url).play();
-      };
+      addAudioButtonAround(span);
     }
   });
 }

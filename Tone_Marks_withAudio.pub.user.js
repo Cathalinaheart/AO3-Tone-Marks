@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks with Audio
 // @namespace    http://tampermonkey.net/
-// @version      4.2
+// @version      4.3
 // clang-format off
 // @description  Add tone marks on Ao3 works, and add quick audio guide clips where available
 // @author       Cathalinaheart, irrationalpie7
@@ -9,6 +9,7 @@
 // @updateURL    https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks_withAudio.pub.user.js
 // @downloadURL  https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks_withAudio.pub.user.js
 //
+// @require      audio.js
 // @require      replace.js
 // @require      check-fandoms.js
 // @require      mark-tones.js
@@ -24,6 +25,7 @@
 // @resource     jwqs https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/resources/jwqs.txt
 // @resource     erha https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/resources/erha.txt
 // @resource     IMPORTED_CSS https://fonts.googleapis.com/icon?family=Material+Icons
+// @resource     audio_css audio.css
 // clang-format on
 // @grant GM.getResourceUrl
 // @grant GM_getResourceText
@@ -35,6 +37,8 @@
 
   await doToneMarksReplacement(/*includeAudio=*/ true);
 
-  const my_css = GM_getResourceText('IMPORTED_CSS');
-  GM_addStyle(my_css);
+  const icon_css = GM_getResourceText('IMPORTED_CSS');
+  GM_addStyle(icon_css);
+  const audio_button_css = GM_getResourceText('audio_css');
+  GM_addStyle(audio_button_css);
 })();
