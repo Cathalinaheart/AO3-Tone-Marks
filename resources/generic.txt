@@ -74,11 +74,11 @@ cun|cùn
 #li|lǐ #<- if uncommented it will substitute within the html
 lao|Lǎo
 qiankun dai|qiánkūn dài
-bao bei|
+bao bei|bǎobèi
 di zi|dízì
 qin|qín
 da ren|dàren
 gong gong|gōnggong
 gui fei|gùifēi
-zhang men|
+zhang men|zhǎngmén
 #festivals
