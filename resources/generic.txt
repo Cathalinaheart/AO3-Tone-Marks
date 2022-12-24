@@ -1,11 +1,18 @@
 # titles
 da ren|dàren
+-Ge|-gē
 gui fei|gùifēi
+xiong zhang|Xiōngzhǎng
 fu ren|fūren
+Jiejie|jiějie
 ## I *think* guniang is this --> 姑娘?
+-Jie|-jiě
 gu niang|gūniang
-## gongzi (公子, gōngzī)
-gong zi|gōngzī
+qiankun|qiánkūn
+## gongzi (公子, gōngzǐ)
+gong zi|gōngzǐ
+mingshi|Míngshì
+lanshi|lanshi
 
 # sibling relations
 ## Eldest brother: 大哥
@@ -26,7 +33,7 @@ xiong|xiōng
 # misc
 ## Jiāng Hú 江湖
 jiang hu|Jiānghú
-## guqin ( Chinese: 古琴;  pinyin: gǔqín)
+## guqin ( Chinese: 古琴; pinyin: gǔqín)
 gu qin|gǔqín|https://archive.org/download/mdzs-pronunciation-guide/guqin.mp3
 
 shi fu|Shīfù
@@ -66,3 +73,12 @@ qi|Qì
 cun|cùn
 #li|lǐ #<- if uncommented it will substitute within the html
 lao|Lǎo
+qiankun dai|qiánkūn dài
+bao bei|
+di zi|dízì
+qin|qín
+da ren|dàren
+gong gong|gōnggong
+gui fei|gùifēi
+zhang men|
+#festivals
