@@ -116,3 +116,5 @@ jue di|Jué Dì
 qiu jian luo|Qiū Jiǎnluó
 qiu hai tang|Qiū Hǎitáng
 wu yan zi|Wú Yànzǐ
+#Misc Other
+da wang|Dàwáng
