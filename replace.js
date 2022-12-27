@@ -25,14 +25,23 @@ function escaped(unsafe) {
  * @return {RegExp}
  */
 function wordsMatchRegex(words) {
+  // Use negative look-behind and look-ahead to make sure the character(s)
+  // around a match aren't letters, whether or not they have accent marks.
   return new RegExp(
-      '(<[a-z]+ [^>]*)?\\b(' +
+      // optionally match an incomplete html tag
+      '(<[a-z]+ [^>]*)?' +
+          // Check for word boundary to make sure we're not e.g. replacing lan in the word plant
+          // or the second jie in jiějie
+          '(?<![a-zA-ZÀ-öø-ɏ])' +
+          '(' +
           words
               .map(
                   word =>
                       escaped(word).replace(/([.?*+^$[\]\\(){}|])/g, '\\$1'))
-              .join('( |-)?') +
-          ')\\b',
+              .join('( |-|\')?') +
+          ')' +
+          // Check word boundary
+          '(?![a-zA-ZÀ-öø-ɏ])',
       'gi');
 }
 
