@@ -2,7 +2,7 @@
 ## I (irrationalpie) changed some capitalization and spacing?
 ## But I was just guessing
 
-# Láng Yá Băng  琅琊榜
+# Láng Yá Băng 琅琊榜
 lang ya bang|Láng Yá Băng|https://archive.org/download/nif-pronunciation-guide/Lang%20Ya%20Bang.mp3
 
 # Part 1 - Main Cast (MCS, NH, JY, LC)
@@ -12,7 +12,7 @@ chang su|Chángsū
 ## Sū Zhé 苏哲
 su zhe|Sū Zhé|https://archive.org/download/nif-pronunciation-guide/Su%20Zhe.mp3
 ## Lín Shū 林殊
-lin shu|Lín Shū
+lin shu|Lín Shū|https://archive.org/download/nif-pronunciation-guide/Lin%20Shu.mp3
 ## xiăo-Shū 小殊
 xiao shu|xiăo-Shū|https://archive.org/download/nif-pronunciation-guide/xiao-Shu.mp3
 ## Zōng zhŭ 宗主 (Chief)
@@ -22,16 +22,16 @@ su xian sheng|Sū xiānsheng|https://archive.org/download/nif-pronunciation-guid
 sir su|Sir Sū
 su manor|Sū Manor
 ## Sū gēge 苏哥哥 (big brother)
-su gege|Sū gēge
+su gege|Sū gēge|https://archive.org/download/nif-pronunciation-guide/Su%20gege.mp3
 ## Mù Ní Huáng 穆霓凰
-## Ní Huáng jiějie  霓凰姐姐 (big sister)
+## Ní Huáng jiějie 霓凰姐姐 (big sister)
 mu ni huang|Mù Níhuáng|https://archive.org/download/nif-pronunciation-guide/Mu%20Ni%20Huang.mp3
 ni huang|Níhuáng
 mu manor|Mù Manor
-## Ní Huáng Jùn Zhŭ  霓凰郡主 (Princess/Duchess)
+## Ní Huáng Jùn Zhŭ 霓凰郡主 (Princess/Duchess)
 ## idk if this title can go alone, but here's my attempt
 ## at capitalization
-Níhuáng jun zhu|Níhuáng jùnzhŭ
+Níhuáng jun zhu|Níhuáng jùnzhŭ|https://archive.org/download/nif-pronunciation-guide/Ni%20Huang%20Jun%20Zhu.mp3
 jun zhu|Jùnzhŭ
 ## Xiāo Jĭng Yán 萧景琰
 xiao jing yan|Xiāo Jĭngyán|https://archive.org/download/nif-pronunciation-guide/Xiao%20Jing%20Yan.mp3
@@ -71,7 +71,7 @@ wei zheng|Wèi Zhēng|https://archive.org/download/nif-pronunciation-guide/Wei%2
 tong lu|Tóng Lù|https://archive.org/download/nif-pronunciation-guide/Tong%20Lu.mp3
 ## Shísān xiānsheng 十三先生(Mr. Shisan)
 shi san xian sheng|Shísān xiānsheng|https://archive.org/download/nif-pronunciation-guide/Shisan%20xian-sheng.mp3
-## Yàn dàifu  晏大夫(Physician Yan)
+## Yàn dàifu 晏大夫(Physician Yan)
 yan daifu|Yàn dàifu|https://archive.org/download/nif-pronunciation-guide/Yan%20daifu.mp3
 
 # Part 3 - Households (MQ,LX,JinYang,NF,LZY,QM,TS,Foya,etc)
@@ -82,7 +82,7 @@ chiyan|Chìyàn
 changlin jun|Chánglín Jūn|https://archive.org/download/nif-pronunciation-guide/Chang%20Lin%20Jun.mp3
 changlin|Chánglín
 
-# Mù Qīng  穆青 / Qīng-er 青儿
+# Mù Qīng 穆青 / Qīng-er 青儿
 mu qing|Mù Qīng|https://archive.org/download/nif-pronunciation-guide/Mu%20Qing.mp3
 qing er|Qīng-er|https://archive.org/download/nif-pronunciation-guide/Qing-er.mp3
 ## General Lín Xiè 林燮 / fù shuài 父帅 (father-general)
@@ -95,7 +95,7 @@ lin manor|Lín Manor
 lin family|Lín family
 ## Niè Fēng 聂锋 / Niè dage 聂大哥
 nie feng|Niè Fēng|https://archive.org/download/nif-pronunciation-guide/Nie%20Feng.mp3
-nie dage|Niè dàgē
+nie dage|Niè dàgē|https://archive.org/download/nif-pronunciation-guide/nie%20dage.mp3
 ## Niè Duó 聂铎
 nie duo|Niè Duó|https://archive.org/download/nif-pronunciation-guide/Nie%20Duo.mp3
 
@@ -120,14 +120,14 @@ xiao jing yu|Xiāo Jĭngyŭ|https://archive.org/download/nif-pronunciation-guide
 jing yu|Jĭngyŭ
 qi wang|Qí wáng|https://archive.org/download/nif-pronunciation-guide/Qi%20Wang.mp3
 prince qi|Prince Qí
-## Xiāo Jĭng Huán萧景桓 / Prince Yù  誉王
+## Xiāo Jĭng Huán萧景桓 / Prince Yù 誉王
 xiao jing huan|Xiāo Jĭnghuán|https://archive.org/download/nif-pronunciation-guide/Xiao%20Jing%20Huan.mp3
 jing huan|Jĭnghuán
 yu wang|Yù wáng|https://archive.org/download/nif-pronunciation-guide/Yu%20Wang.mp3
 prince yu|Prince Yù
 yu manor|Yù Manor
 ## Xiāo Jĭng Xuān 萧景宣 / Prince Xiàn / 太子 Tài Zĭ (crown prince)
-xiao jing xuan|Xiāo Jĭngxuān
+xiao jing xuan|Xiāo Jĭngxuān|https://archive.org/download/nif-pronunciation-guide/Xiao%20Jing%20Xuan.mp3
 jing xuan|Jĭngxuān
 xian wang|Xiàn wáng|https://archive.org/download/nif-pronunciation-guide/Xian%20Wang.mp3
 prince xian|Prince Xiàn
@@ -139,7 +139,7 @@ prince ji|Prince Jì
 jing ning|Jĭngníng|https://archive.org/download/nif-pronunciation-guide/Jing%20Ning.mp3
 
 # Tàinăinai 太奶奶 (Great-grandmother)
-tai nai nai|Tàinăinai|
+tai nai nai|Tàinăinai|https://archive.org/download/nif-pronunciation-guide/Tainainai.mp3
 ## Jìng fēi 静妃 (Consort Jing)
 jing fei|Jìng fēi|https://archive.org/download/nif-pronunciation-guide/Jing%20Fei.mp3
 consort jing|Consort Jìng
@@ -169,7 +169,7 @@ niang niang|niángniang|https://archive.org/download/nif-pronunciation-guide/Nia
 # Part 5 - Palace adjacent & Nobles (MZ,GZ,SZ,CQ,JR,YJ,YQ,XY,XB,XQ,Zhuo fam)
 ## Méng Zhì 蒙挚/ Méng dàgē 蒙大哥
 meng zhi|Méng Zhì|https://archive.org/download/nif-pronunciation-guide/Meng%20Zhi.mp3
-meng da ge|Méng dàgē
+meng da ge|Méng dàgē|https://archive.org/download/nif-pronunciation-guide/Meng%20da-ge.mp3
 ## 大统领 dàtǒnglǐng
 ## --> I *think* these are the chars/pinyin for Méng Zhì's title as commander?
 meng da tong ling|Méng dàtǒnglǐng
@@ -195,7 +195,7 @@ hou ye|hóuyé
 ## Xiāo Jǐng Ruì 萧景睿
 xiao jing rui|Xiāo Jǐngruì|https://archive.org/download/nif-pronunciation-guide/Xiao%20Jing%20Rui.mp3
 jing rui|Jǐngruì
-## Marquis Xiè Yù 谢玉  / Níng Guó Hóu 宁国侯 (Marquis of Ning)
+## Marquis Xiè Yù 谢玉 / Níng Guó Hóu 宁国侯 (Marquis of Ning)
 xie yu|Xiè Yù|https://archive.org/download/nif-pronunciation-guide/Xie%20Yu.mp3
 ning guo hou|Níng guóhóu|https://archive.org/download/nif-pronunciation-guide/Ning%20Guo%20hou.mp3
 marquis of ning|Marquis of Níng
@@ -216,21 +216,22 @@ tian quan shan zhuang|Tiān Quán Shānzhuāng|https://archive.org/download/nif-
 tian quan|Tiān Quán|https://archive.org/download/nif-pronunciation-guide/Tian%20Quan%20Manor.mp3
 ## Zhuó Dĭngfēng 卓鼎风
 zhuo ding feng|Zhuó Dĭngfēng|https://archive.org/download/nif-pronunciation-guide/Zhuo%20Dingfeng.mp3
-## Zhuó fū ren Madam Zhuó  卓夫人
+## Zhuó fū ren Madam Zhuó 卓夫人
 zhuo fu ren|Zhuó fūren
-madam zhuo|Madam Zhuó
+madam zhuo|Madam Zhuó|https://archive.org/download/nif-pronunciation-guide/Madam%20Zhuo.mp3
 ## Zhuó Qīng Yáo 卓青遥
 zhuo qing yao|Zhuó Qīngyáo|https://archive.org/download/nif-pronunciation-guide/Zhuo%20Qing%20Yao.mp3
 
 # Part 6 - Others (XJ,XD,XC,XQ,Banruo,Hua ladies, Locations)
 # Xuán Jìng Sī 悬镜司 (Xuan Jing Bureau)
 xuan jing si|Xuánjìng Sī|https://archive.org/download/nif-pronunciation-guide/Xuan%20Jing%20Si.mp3
+xuan jing bureau|Xuánjìng Bureau|https://archive.org/download/nif-pronunciation-guide/Xuan%20Jing%20Bureau.mp3
 xuan jing|Xuánjìng
 ## Xià Jiāng 夏江
 xia jiang|Xià Jiāng|https://archive.org/download/nif-pronunciation-guide/Xia%20Jiang.mp3
 ## Xià Dōng 夏冬/Dōng jiě 冬姐
 xia dong|Xià Dōng|https://archive.org/download/nif-pronunciation-guide/Xia%20Dong.mp3
-dong jie|Dōng jiě
+dong jie|Dōng jiě|https://archive.org/download/nif-pronunciation-guide/Dong-jie.mp3
 ## Xià Chūn 夏春
 xia chun|Xià Chūn|https://archive.org/download/nif-pronunciation-guide/Xia%20Chun.mp3
 ## Xià Qiū 夏秋
@@ -245,7 +246,7 @@ hua|Huá
 ## Qín Bān Ruò 秦般若
 qin ban ruo|Qín Bānruò|https://archive.org/download/nif-pronunciation-guide/Qin%20Ban%20Ruo.mp3
 ban ruo|Bānruò
-## Sì Jiĕ 四姐 (4th sister) /  Jùn Niáng 隽娘
+## Sì Jiĕ 四姐 (4th sister) / Jùn Niáng 隽娘
 si jie|Sì Jiĕ|https://archive.org/download/nif-pronunciation-guide/Si%20Jie.mp3
 jun niang|Jùn Niáng|https://archive.org/download/nif-pronunciation-guide/Jun%20Niang.mp3
 ## Princess Xuán Jī 璇玑公主 (Xuánjī gōngzhǔ)
@@ -276,7 +277,7 @@ xue lu|Xuĕ Lú|https://archive.org/download/nif-pronunciation-guide/Xue%20Lu.mp
 ## Miào Yīn Fáng 妙音坊 (Miao Yin Court)
 miao yin fang|Miàoyīn Fáng|https://archive.org/download/nif-pronunciation-guide/Miao%20Yin%20Fang.mp3
 miao yin|Miàoyīn
-## Hóng Xiù Zhāo  红袖招
+## Hóng Xiù Zhāo 红袖招
 hong xiu zhao|Hóng Xiù Zhāo|https://archive.org/download/nif-pronunciation-guide/Hong%20Xiu%20Zhao.mp3
 ## Luó Shì Jiē 螺市街 (Luóshì street)
 luo shi jie|Luóshì Jiē|https://archive.org/download/nif-pronunciation-guide/Luo%20Shi%20Jie.mp3
@@ -313,25 +314,8 @@ shu|Shū
 chen|Chén
 ## Méi Cháng Sū 梅长苏
 mei|Méi
-## Cài Quán 蔡荃 / Cài dà ren 蔡大人 (minister Cai)
-da ren|dàren
-## Gāo Zhàn 高湛 / Gāo gōng-gong 高公公
-gong gong|gōnggong
-## Yuè gùi fēi 越贵妃 (Noble Consort Yue)
-gui fei|gùifēi
 ## Fēi Liú 飞流 and consort (妃) are both "fēi" so we cheat a little here
 fei|Fēi
-## Zhuó fū ren Madam Zhuó  卓夫人
-fu ren|fūren
-## I *think* guniang is this --> 姑娘?
-gu niang|gūniang
-## sibling relations
-da ge|dàgē
-ge ge|gēge
-ge|gē
-jie jie|jiějie
-jie|jiě
-
 # Conflicts:
 ## Yán hòu 言后 (Empress Yan)
 ## (conflicts with Marquis Yán (Yán hóuyé 言侯爷), so move to the end)
