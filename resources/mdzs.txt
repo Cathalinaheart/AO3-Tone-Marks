@@ -42,7 +42,7 @@ jyl|Jiāng Yànlí|https://archive.org/download/mdzs-pronunciation-guide/Jiang%2
 yanli|Yànlí
 ## hmmmmmm technically this could also be the unit "a li" (~.5 km), so maybe remove
 a li|Ā-Lí
-## Zidian (紫电, Zǐdiàn), Chenqing  陈情 Chén qíng, Suibian 随便 Suíbiàn
+## Zidian (紫电, Zǐdiàn), Chenqing 陈情 Chén qíng, Suibian 随便 Suíbiàn
 zidian|Zǐdiàn|https://archive.org/download/mdzs-pronunciation-guide/Zidian.mp3
 chenqing|Chénqíng|https://archive.org/download/mdzs-pronunciation-guide/Chenqing.mp3
 suibian|Suíbiàn|https://archive.org/download/mdzs-pronunciation-guide/Suibian.mp3
@@ -52,7 +52,6 @@ yunmeng jiang shi|Yúnmèng Jiāng Shì|https://archive.org/download/mdzs-pronun
 yunmeng jiang|Yúnmèng Jiāng|https://archive.org/download/mdzs-pronunciation-guide/Yunmeng%20Jiang.mp3
 yunmeng|Yúnmèng
 jiang|Jiāng
-
 # Lanling Jin Sect
 ## Jin Zixuan (金子轩, Jīn Zixuān)
 jin zixuan|Jīn Zixuān|https://archive.org/download/mdzs-pronunciation-guide/Jin%20Zixuan.mp3
@@ -100,7 +99,6 @@ langling jin shi|Lánlíng Jīn Shì|https://archive.org/download/mdzs-pronuncia
 langling jin|Lánlíng Jīn|https://archive.org/download/mdzs-pronunciation-guide/Lanling%20Jin.mp3
 lanling|Lánlíng
 jin|Jīn
-
 # Gusu Lan Sect
 ## Lan Zhan (蓝湛 Lán Zhàn), courtesy name Lan Wangji (蓝忘机, Lán Wàngjī) , and title Hanguang-Jun (含光君, Hánguāng-jūn),
 lan zhan|Lán Zhàn|https://archive.org/download/mdzs-pronunciation-guide/Lan%20Zhan.mp3
@@ -138,6 +136,7 @@ jingyi|Jǐngyí
 ## Caiyi Town (彩衣城, Cǎiyī Chéng)
 caiyi town|Cǎiyī Town|https://archive.org/download/mdzs-pronunciation-guide/Caiyi%20Town.mp3
 caiyi cheng|Cǎiyī Chéng
+
 ## Jìngshì (静室, jìng shì)
 jingshi|Jìngshì
 ## Bichen (避尘, Bìchén)
@@ -147,7 +146,6 @@ gusu lan shi|Gūsū Lán Shì|https://archive.org/download/mdzs-pronunciation-gu
 gusu lan|Gūsū Lán|https://archive.org/download/mdzs-pronunciation-guide/Gusu%20Lan.mp3
 # don't match lan|Lán because we might miss Song Lan
 gusu|Gūsū
-
 # Qinghe Nie Sect
 ## Nie Huaisang (聂怀桑, Niè Huáisāng)
 nie huaisang|Niè Huáisāng|https://archive.org/download/mdzs-pronunciation-guide/Nie%20Huaisang.mp3
@@ -158,7 +156,6 @@ nie mingjue|Niè Míngjué|https://archive.org/download/mdzs-pronunciation-guide
 nmj|Niè Míngjué|https://archive.org/download/mdzs-pronunciation-guide/Nie%20Mingjue.mp3
 mingjue|Míngjué
 chi feng zun|Chìfēng-zūn|https://archive.org/download/mdzs-pronunciation-guide/Chi%20Feng%20Zun%20%28Red%20Blade%20Master%29.mp3
-## Other
 nie zonghui|Niè Zōnghuī
 nzh|Niè Zōnghuī
 zonghui|Zōnghuī
@@ -167,9 +164,8 @@ qinghe nie shi|Qīnghé Niè Shì|https://archive.org/download/mdzs-pronunciatio
 qinghe nie|Qīnghé Niè|https://archive.org/download/mdzs-pronunciation-guide/Qinghe%20Nie.mp3
 qinghe|Qīnghé
 nie|Niè
-
 # Qishan Wen Sect
-## Wen Ning (温宁, Wēn Níng), courtesy name Qionglin (温琼林, Qiónglín)  Known as the Ghost General (鬼将军, Guǐ jiāngjūn)
+## Wen Ning (温宁, Wēn Níng), courtesy name Qionglin (温琼林, Qiónglín) Known as the Ghost General (鬼将军, Guǐ jiāngjūn)
 Wen Ning|Wēn Níng|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Ning.mp3
 wn|Wēn Níng|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Ning.mp3
 Wen Qionglin|Wēn Qiónglín|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Qionglin.mp3
@@ -182,6 +178,7 @@ wq|Wēn Qíng|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Qing.m
 ## Wen Ruohan (温若寒, Wēn Ruòhán)
 Wen Ruohan|Wēn Ruòhán|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Ruohan.mp3
 wrh|Wēn Ruòhán|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Ruohan.mp3
+Wen Rouhan|Wēn Ruòhán|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Ruohan.mp3
 ## Wen Chao (温晁, Wēn Cháo)
 Wen Chao|Wēn Cháo|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Chao.mp3
 wc|Wēn Cháo|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Chao.mp3
@@ -198,7 +195,6 @@ Qishan Wen|Qíshān Wēn|https://archive.org/download/mdzs-pronunciation-guide/Q
 Qishan|Qíshān
 Da Fan Wen|Dàfàn Wēn
 Wen|Wēn
-
 # misc people
 ## Sū Shè 苏涉 / Mǐnshàn 悯善
 su she|Sū Shè
@@ -228,42 +224,18 @@ Bssr|Bàoshān Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Ba
 ## Cangse Sanren (藏色散人, Cángsè Sànrén)
 Cangse Sanren|Cángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
 cssr|Cángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
-Zangse Sanren|Zángsè Sànrén
-zssr|Zángsè Sànrén
+Zangse Sanren|Zángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
+zssr|Zángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
 ## Ouyang Zizhen (欧阳子真 Ōuyáng Zizhēn)
 Ouyang Zizhen|Ōuyáng Zizhēn|https://archive.org/download/mdzs-pronunciation-guide/Ouyang%20Zizhen.mp3
 oyzz|Ōuyáng Zizhēn|https://archive.org/download/mdzs-pronunciation-guide/Ouyang%20Zizhen.mp3
-
 # misc other
-## gongzi (公子, gōngzī)
-Gongzi|gōngzī
-## guqin ( Chinese: 古琴;  pinyin: gǔqín)
-Guqin|gǔqín|https://archive.org/download/mdzs-pronunciation-guide/guqin.mp3
 ## Yi City (Chinese: 义城; pinyin: Yì chéng)
 Yi City|Yì City
 Yi Cheng|Yì Chéng|https://archive.org/download/mdzs-pronunciation-guide/Yi%20cheng%20%28Yi%20City%29.mp3
 ## Dafan Mountain (大梵山, Dà fàn shān)
 Da Fan Mountain|Dàfàn Mountain
 Da Fan Shan|Dàfàn shān
-## 大哥 dà gē
-da ge|dàgē
-## ge (Chinese: 哥; pinyin: gē)
--Ge|-gē
-## Gege (Chinese: 哥哥; pinyin: Gégé)
-Gege|gēge
-## xiōngzhǎng 兄长
-xiong zhang|Xiōngzhǎng
-## xiong (兄 Xiōng)
--Xiong|-xiōng
-## Jiejie (Chinese: 姐姐, Jiějiě)
-Jiejie|jiějiě
-## shī jiě 师姐
-Shijie|shījiě
-## Jie (Chinese: 姐, Jiě)
--Jie|-jiě
-## qiánkūn dài 乾坤袋 (Qiankun bag)
-qiankun dai|qiánkūn dài
-qiankun|qiánkūn
 ## Hánshì 寒室 - LXC’s room
 hanshi|Hánshì
 ## Míngshì 冥室 - Building where they do summonings
@@ -272,12 +244,7 @@ mingshi|Míngshì
 yashi|Yǎshì
 ## Lánshì 兰室 - Classroom
 lanshi|Lánshì
-## qín 琴
-qin|qín
-## dízì 笛子 - bamboo flute
-dizi|dízì
 ## xiāo 箫 - LXC’s flute -- omitted due to # of conflicts:
 ## xiao|xiāo [flute]/xiăo [small]/Xiǎo [xxc]
-
 # attempt to match lan|Lán at the end, after conflict with Song Lan doesn't matter
 lan|Lán

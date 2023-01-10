@@ -3,6 +3,7 @@
 mo ran|Mò Rán
 mo wei yu|Mò Wēiyǔ
 ta xian jun|Tàxiān-jūn
+ran'er|Rán'ér
 ## Chu Wanning
 chu wan ning|Chǔ Wǎnníng
 chu fei|Chǔ Fēi
@@ -32,6 +33,16 @@ xue duan rong|Xuē Duānróng
 xuan ji|Xuánjī
 ## Jielu Elder
 jie lu|Jièlǜ
+## Tanlang Elder
+tan lang|Tānláng
+## Lucun Elder
+lu cun|Lùcún
+## Pojun Elder
+po jun|Pòjūn
+## Qisha Elder
+qi sha|Qīshā
+## Liu-gong
+liu gong|Liù-gōng
 # Rufeng Sect Members
 ## Ye Wangxi
 ye wang xi|Yè Wàngxī
@@ -74,6 +85,7 @@ hua bi nan|Huá Bìnán
 ## Li Xuehe
 li xue he|Lǐ Xuěhé
 # Wubei Temple
+## Xuan Jing
 xuan jing|Xuán Jìng
 ## Tian Chan
 tian chan|Tiān Chán
@@ -128,19 +140,23 @@ rong jiu|Róng Jiǔ
 ## Wangyue
 wang yue|Wàngyuè
 ## Xun Fengruo
-xun feng ruo|
 ## Zhaixin Liu
 zhai xin liu|Zhāixīn Liǔ
 # Sects
 ## Sisheng Peak
 si sheng|Sǐshēng
+meng po|Mèngpó
 hong lian shui xie|Hóng Lián Shuǐxiè
+yan luo|Yánluó
+nai he|Nàihé
 ## Rufeng Sect
 ru feng|Rúfēng
 ## Taxue Palace
 ta xue|Tàxuě
+kun lun|Kūnlún
 ## Guyueye Sect
 gu yue ye|Gūyuèyè
+gu yue'ye|Gūyuèyè
 ## Bitan Sect
 bi tan|Bìtán
 ## Wubei Temple
@@ -166,12 +182,15 @@ lin ling|Línlíng
 xuan yuan|Xuānyuán
 ## Jincheng Lake
 jin cheng|Jīnchéng
+dai city|Dài City
 ## Wuchang town
 wu chang|Wǔchāng
+## Yuliang village
 ## Mount Jiao
 mount jiao|Mount Jiāo
 ## Mount Huang
 mount huang|Mount Huáng
+
 feng du|Fēngdū
 # Weapons
 ## Tianwen
