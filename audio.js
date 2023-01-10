@@ -2,12 +2,10 @@
 /**
  * Surround span with a button that plays/pauses the audio.
  * @param {HTMLElement} span
- * @param {string} outerClass
  */
-function addAudioButtonAround(span, outerClass) {
+function addAudioButtonAround(span) {
   const button = document.createElement('button');
   button.classList.add('tone-audio-button');
-  button.classList.add(outerClass);
 
   // Group the pinyin and the progress indicator so they're the same length.
   const progressGroup = document.createElement('div');
