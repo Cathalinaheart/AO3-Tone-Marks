@@ -19,7 +19,8 @@ async function doToneMarksReplacement(includeAudio) {
       await doReplacements(document.getElementById('main'));
 
       // Generate glossary. Note that this will add new '.replacement' elements.
-      generateGlossary(Array.from(document.querySelectorAll('.replacement')));
+      generateGlossary(
+          Array.from(document.querySelectorAll('.replacement')), document);
     }
   } else {
     console.log(

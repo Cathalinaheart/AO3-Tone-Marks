@@ -3,7 +3,7 @@
  * @param {HTMLElement} replacements
  * @param {HTMLElement} parent
  */
-function generateGlossary(replacements) {
+function generateGlossary(replacements, parent) {
   // Document positioning. Note: this selector only works on a work page.
   const metaDescriptionList = parent.querySelector('dl.work.meta.group');
   if (metaDescriptionList === null) {
