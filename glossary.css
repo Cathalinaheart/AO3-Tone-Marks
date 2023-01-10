@@ -1,0 +1,14 @@
+.glossary {
+    border-style: double;
+    width: 100%;
+}
+
+.glossary-list {
+    columns: auto 6em;
+    /* todo: fancy border or some such?*/
+}
+
+/* https://stackoverflow.com/questions/6605979/how-do-i-get-css-columns-to-play-properly-with-margins */
+.glossary-list>* {
+    margin-top: 0px;
+}

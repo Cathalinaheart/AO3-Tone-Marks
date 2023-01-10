@@ -33,7 +33,9 @@ async function doToneMarksReplacement(includeAudio) {
   replacements.forEach(span => {
     span.innerHTML = span.dataset.new;
     if (includeAudio && span.dataset.url !== 'None') {
-      addAudioButtonAround(span);
+      addAudioButtonAround(span, 'tone-mark');
+    } else {
+      span.classList.add('tone-mark');
     }
   });
 }
