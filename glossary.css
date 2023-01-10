@@ -1,5 +1,6 @@
+/* Display the glossary in columns, as it's likely to be a long thing list. */
 .glossary-list {
-    columns: auto 8em;
+    columns: auto 10em;
     border-style: solid;
     border-width: thin;
     padding: 10px;
@@ -7,7 +8,28 @@
 
 .glossary-list .glossary-list-item {
     display: list-item;
-    margin-top: 0px;
+    padding-left: 0px;
+    margin-left: 1em;
+    margin-bottom: 3px;
+    list-style: disc outside;
+}
+
+/* Wrap text within an audio button if it's too long for the column. */
+.glossary-list .tone-audio-button {
+    white-space: normal;
+    overflow-wrap: normal;
+    height: 100%;
+    text-align: left;
+}
+
+/* Don't underline glossary terms that don't have audio. */
+.glossary-list .replacement {
+    text-decoration: none;
+}
+
+/* DO underline glossary terms that DO have audio. */
+.glossary-list .tone-audio-button .replacement {
+    text-decoration: underline;
 }
 
 .hide-glossary {
