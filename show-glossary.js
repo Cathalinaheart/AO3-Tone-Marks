@@ -1,24 +1,65 @@
-function generateGlossary(element) {}
+/**
+ * Generate an expandable/collapsable glossary for a work page.
+ * @param {HTMLElement} replacements
+ * @param {HTMLElement} parent
+ */
+function generateGlossary(replacements) {
+  // Document positioning. Note: this selector only works on a work page.
+  const metaDescriptionList = parent.querySelector('dl.work.meta.group');
+  if (metaDescriptionList === null) {
+    console.log(
+        'Unable to determine where to insert glossary--aborting glossary generation.');
+    return;
+  }
+
+  const glossaryTitle = document.createElement('dt');
+  glossaryTitle.textContent = 'Glossary';
+  glossaryTitle.classList.add('tone-glossary');
+  metaDescriptionList.appendChild(glossaryTitle);
+  const glossaryContents = document.createElement('dd');
+  glossaryContents.classList.add('tone-glossary');
+  metaDescriptionList.appendChild(glossaryContents);
+
+  // Glossary setup.
+  const glossaryList = generateGlossaryList(replacements)
+  const showHideButton = document.createElement('button');
+  showHideButton.textContent = 'Show tone glossary';
+  showHideButton.addEventListener('click', () => {
+    if (glossaryList.classList.contains('hide-glossary')) {
+      glossaryList.classList.remove('hide-glossary');
+      showHideButton.textContent = 'Hide tone glossary';
+    } else {
+      glossaryList.classList.add('hide-glossary');
+      showHideButton.textContent = 'Show tone glossary';
+    }
+  });
+  glossaryContents.appendChild(showHideButton);
+  glossaryContents.appendChild(glossaryList);
+}
 
 /**
- * Generate a glossary for all replacements present in element.
- * @param {HTMLElement} element
+ * Generate a glossary list for a list of replacements, sorting and removing
+ * duplicates.
+ * @param {HTMLElement[]} replacements
+ * @returns {HTMLElement}
  */
-function generateGlossaryList(element) {
+function generateGlossaryList(replacements) {
   // Sort replacements and filter by the new (replaced) version of a word, e.g.
   // jiějie
   const map = new Map(
-      Array.from(element.querySelectorAll('.tone-mark'))
+      replacements
           .sort(
               (a, b) =>
                   getReplacementText(a).localeCompare(getReplacementText(b)))
           .map(
               (replacement) => [getReplacementText(replacement), replacement]));
-  const glossaryList = element.ownerDocument.createElement('ul');
+  const glossaryList = document.createElement('ul');
   glossaryList.classList.add('glossary-list');
+  glossaryList.classList.add('hide-glossary')
   map.forEach(
-      (_key, replacement) =>
-          glossaryList.appendChild(generateGlossaryElement(replacement)))
+      (replacement, _key) =>
+          glossaryList.appendChild(generateGlossaryElement(replacement)));
+  return glossaryList;
 }
 
 /**
@@ -27,11 +68,7 @@ function generateGlossaryList(element) {
  * @returns {string}
  */
 function getReplacementText(element) {
-  if ('new' in element.dataset) {
-    return element.dataset.new;
-  } else {
-    return element.querySelector('.replacement').dataset.new;
-  }
+  return element.dataset.new;
 }
 
 /**
@@ -41,6 +78,7 @@ function getReplacementText(element) {
  */
 function generateGlossaryElement(origElement) {
   const listItem = origElement.ownerDocument.createElement('li');
-  listItem.appendChild(origElement.cloneNode())
+  listItem.classList.add('glossary-list-item');
+  listItem.appendChild(origElement.cloneNode(true));
   return listItem;
 }

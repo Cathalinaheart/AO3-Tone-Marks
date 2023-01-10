@@ -13,10 +13,13 @@ async function doToneMarksReplacement(includeAudio) {
 
   if (url.match(works_regex) !== null) {
     if (url.match(edit_page_regex) === null && !url.includes('works/new')) {
-      console.log('On a works page, potentially making pinyin replacements...')
-          // Don't make replacements on the new work/edit work (tag) page,
-          // that sounds confusing.
-          await doReplacements(document.getElementById('main'));
+      console.log('On a works page, potentially making pinyin replacements...');
+      // Don't make replacements on the new work/edit work (tag) page,
+      // that sounds confusing.
+      await doReplacements(document.getElementById('main'));
+
+      // Generate glossary. Note that this will add new '.replacement' elements.
+      generateGlossary(Array.from(document.querySelectorAll('.replacement')));
     }
   } else {
     console.log(
@@ -33,9 +36,7 @@ async function doToneMarksReplacement(includeAudio) {
   replacements.forEach(span => {
     span.innerHTML = span.dataset.new;
     if (includeAudio && span.dataset.url !== 'None') {
-      addAudioButtonAround(span, 'tone-mark');
-    } else {
-      span.classList.add('tone-mark');
+      addAudioButtonAround(span);
     }
   });
 }

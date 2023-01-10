@@ -1,14 +1,15 @@
-.glossary {
-    border-style: double;
-    width: 100%;
-}
-
 .glossary-list {
-    columns: auto 6em;
-    /* todo: fancy border or some such?*/
+    columns: auto 8em;
+    border-style: solid;
+    border-width: thin;
+    padding: 10px;
 }
 
-/* https://stackoverflow.com/questions/6605979/how-do-i-get-css-columns-to-play-properly-with-margins */
-.glossary-list>* {
+.glossary-list .glossary-list-item {
+    display: list-item;
     margin-top: 0px;
+}
+
+.hide-glossary {
+    display: none;
 }
