@@ -13,7 +13,7 @@ function generateGlossary(replacements, parent) {
   }
 
   const glossaryTitle = document.createElement('dt');
-  glossaryTitle.textContent = 'Glossary';
+  glossaryTitle.textContent = 'Glossary:';
   glossaryTitle.classList.add('tone-glossary');
   metaDescriptionList.appendChild(glossaryTitle);
   const glossaryContents = document.createElement('dd');
