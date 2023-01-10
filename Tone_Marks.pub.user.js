@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      4.3.4
+// @version      4.3.5
 // clang-format off
 // @description  Add tone marks on Ao3 works
 // @author       Cathalinaheart, irrationalpie7
