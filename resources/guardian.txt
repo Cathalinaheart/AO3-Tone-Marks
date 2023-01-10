@@ -5,12 +5,12 @@ Zhao Yun Lan|Zhào Yúnlán|https://archive.org/download/guardian-pronunciation-
 Yunlan|Yúnlán
 ## in the past: Kunlan Kūnlún | 昆仑
 Kunlun|Kūnlún|https://archive.org/download/guardian-pronunciation-guide/Kunlun.mp3
-## Shen Wei (沈巍	Shěn Wēi) or Xiao Wei Xiǎo Wēi 小巍
+## Shen Wei (沈巍 Shěn Wēi) or Xiao Wei Xiǎo Wēi 小巍
 Shen Wei|Shěn Wēi|https://archive.org/download/guardian-pronunciation-guide/Shen%20Wei.mp3
 Professor Shen|Professor Shěn
 Hei Pao Shi|Hēi Páo Shǐ|https://archive.org/download/guardian-pronunciation-guide/Hei%20pao%20shi.mp3
 Xiao Wei|Xiǎo Wēi|https://archive.org/download/guardian-pronunciation-guide/Xiao%20Wei.mp3
-## Zhao Xinci (赵心慈	Zhào Xīncí)
+## Zhao Xinci (赵心慈 Zhào Xīncí)
 Zhao Xin Ci|Zhào Xīncí|https://archive.org/download/guardian-pronunciation-guide/Zhao%20Xinci.mp3
 ## Guo Ying 郭英 Guō Yīng
 Guo Ying|Guō Yīng
@@ -81,12 +81,10 @@ Chu Nian Zhi|Chǔ Niànzhī
 Guo Chang Jiang|Guō Chángjiāng
 ## Guo Xiong 郭雄 Guō Xióng
 Guo Xiong|Guō Xióng
-
 # PLACES
 ## Dragon City (龙城 Lóng chéng)
 Long Cheng|Lóng Chéng
 Long City|Lóng City
-
 # TERMS
 ## Haixing 海星 Hǎixīng
 Hai Xing|Hǎixīng|https://archive.org/download/guardian-pronunciation-guide/Hai%20Xing.mp3
@@ -96,5 +94,5 @@ Di Xing|Dixīng|https://archive.org/download/guardian-pronunciation-guide/Di%20X
 Ya Shou|Yàshòu
 ## Rebel Chieftain 贼酋 zéiqiú
 Zei Qiu|Zéiqiú
-## Regent  摄政官 shèzhènggūan
+## Regent 摄政官 shèzhènggūan
 She Zheng Guan|Shèzhènggūan
