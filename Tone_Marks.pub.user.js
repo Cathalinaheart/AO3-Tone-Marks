@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      4.3.2
+// @version      4.4
 // clang-format off
 // @description  Add tone marks on Ao3 works
 // @author       Cathalinaheart, irrationalpie7
@@ -11,7 +11,9 @@
 //
 // @require      replace.js
 // @require      check-fandoms.js
+// @require      show-glossary.js
 // @require      mark-tones.js
+// @resource     glossary_css glossary.css
 // Generic and per-fandom replacement rules:
 // @resource     generic resources/generic.txt
 // @resource     guardian resources/guardian.txt
@@ -25,6 +27,7 @@
 // @resource     erha resources/erha.txt
 // clang-format on
 // @grant GM.getResourceUrl
+// @grant GM_getResourceText
 // @grant GM_addStyle
 // ==/UserScript==
 
@@ -32,4 +35,7 @@
   'use strict';
 
   await doToneMarksReplacement(/*includeAudio=*/ false);
+
+  const glossary_css = GM_getResourceText('glossary_css');
+  GM_addStyle(glossary_css);
 })();
