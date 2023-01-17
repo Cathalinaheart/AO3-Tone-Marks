@@ -94,37 +94,28 @@ async function getReplacements(fandom) {
  * @returns {{words:string[],replacement:string, audio_url:string}[]}
  */
 function splitReplacements(replacements) {
-  return replacements.split('\n')
-      .map(line => line.trim())
-      .filter(line => line.length > 0 && !line.startsWith('#'))
-      .map(line => {
+  return replacements
+      .split('\n')
+      // Trim comments (anything after #) and whitespace.
+      .map(line => line.split('#')[0].trim())
+      // Remove empty lines.
+      .filter(line => line.length > 0)
+      // Parse rules
+      .reduce((rules, line) => {
         const match = line.split('|');
-        if (match.length === 3) {
-          return {
-            words: match[0].split(' ').filter(match => match.length > 0),
-            replacement: match[1].trim(),
-            audio_url: match[2].trim()
-          };
-        }
-        if (match.length === 2 && match[1].trim() !== '') {
-          return {
-            words: match[0].split(' ').filter(match => match.length > 0),
-            replacement: match[1].trim(),
-            audio_url: 'None'
-          };
-        }
-        // Hacky error case.
-        return {
-          words: [], replacement: null, audio_url: line
-        }
-      })
-      .filter(replacement => {
-        // Log the hacky error case.
-        if (replacement.replacement === null) {
+
+        // Check replacement validity.
+        if (match.length < 2 || match[1].trim() === '') {
           console.log(
-              'Skipping invalid replacement rule: \'' + replacement.audio_url +
-              '\'');
+              `Invalid replacement rule--no replacement specified:\n${line}`);
+          return;
         }
-        return replacement.replacement !== null;
-      });
+
+        rules.push({
+          words: match[0].split(' ').filter(match => match.length > 0),
+          replacement: match[1].trim(),
+          // Set audio_url if it exists, otherwise set to 'None'.
+          audio_url: match.length >= 3 ? match[2].trim() : 'None'
+        });
+      }, []);
 }
