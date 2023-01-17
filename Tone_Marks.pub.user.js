@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      4.4
+// @version      4.5
 // clang-format off
 // @description  Add tone marks on Ao3 works
 // @author       Cathalinaheart, irrationalpie7
@@ -9,6 +9,7 @@
 // @updateURL    https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks.pub.user.js
 // @downloadURL  https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks.pub.user.js
 //
+// @require      monkey-compatibility.js
 // @require      replace.js
 // @require      check-fandoms.js
 // @require      show-glossary.js
@@ -36,6 +37,5 @@
 
   await doToneMarksReplacement(/*includeAudio=*/ false);
 
-  const glossary_css = GM_getResourceText('glossary_css');
-  GM_addStyle(glossary_css);
+  injectCssResource('glossary_css');
 })();
