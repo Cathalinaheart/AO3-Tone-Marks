@@ -6,7 +6,8 @@
 function generateGlossary(replacements, parent) {
   if (replacements.length === 0) {
     console.log(
-        'No replacements to make a glossary for--aborting glossary generation.')
+        'No replacements to make a glossary for--aborting glossary generation.');
+    return;
   }
 
   // Document positioning. Note: this selector only works on a work page.
