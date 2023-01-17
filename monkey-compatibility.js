@@ -7,7 +7,7 @@ async function getResourceText(resourceName) {
     GM_getResourceText(resourceName);
   } catch (e) {
     if (e instanceof ReferenceError) {
-      return GM.getResourceUrl(fandom)
+      return GM.getResourceUrl(resourceName)
           .then(url => fetch(url))
           .then(resp => resp.text())
           .catch(function(error) {
