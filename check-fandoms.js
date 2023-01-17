@@ -79,7 +79,7 @@ async function getReplacementRules(workFandoms) {
  * @param {string} fandom
  */
 async function getReplacements(fandom) {
-  return getResourceText(fandom)
+  return getResourceText(fandom);
 }
 
 /**
@@ -95,13 +95,9 @@ async function getReplacements(fandom) {
  */
 function splitReplacements(replacements) {
   return replacements.split('\n')
-      .map(function(line) {
-        return line.trim();
-      })
-      .filter(function(line) {
-        return line.length > 0 && !line.startsWith('#');
-      })
-      .map(function(line) {
+      .map(line => line.trim())
+      .filter(line => line.length > 0 && !line.startsWith('#'))
+      .map(line => {
         const match = line.split('|');
         if (match.length === 3) {
           return {

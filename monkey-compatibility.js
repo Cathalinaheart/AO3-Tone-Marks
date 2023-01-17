@@ -4,7 +4,7 @@
  */
 async function getResourceText(resourceName) {
   try {
-    GM_getResourceText(resourceName);
+    return GM_getResourceText(resourceName);
   } catch (e) {
     if (e instanceof ReferenceError) {
       return GM.getResourceUrl(resourceName)
