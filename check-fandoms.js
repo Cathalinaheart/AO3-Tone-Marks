@@ -79,7 +79,7 @@ async function getReplacementRules(workFandoms) {
  * @param {string} fandom
  */
 async function getReplacements(fandom) {
-  return GM_getResourceText(fandom);
+  return getResourceText(fandom)
 }
 
 /**
