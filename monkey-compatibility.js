@@ -23,5 +23,14 @@ async function getResourceText(resourceName) {
  * @param {string} cssResourceName
  */
 async function injectCssResource(cssResourceName) {
-  getResourceText('glossary_css').then(css => GM_addStyle(css));
+  const cssText = await getResourceText(cssResourceName);
+  try {
+    GM_addStyle(cssText);
+  } catch (e) {
+    if (e instanceof ReferenceError) {
+      var style = document.createElement('style');
+      style.innerHTML = cssText;
+      document.head.appendChild(style);
+    }
+  }
 }
