@@ -79,13 +79,7 @@ async function getReplacementRules(workFandoms) {
  * @param {string} fandom
  */
 async function getReplacements(fandom) {
-  return GM.getResourceUrl(fandom)
-      .then(url => fetch(url))
-      .then(resp => resp.text())
-      .catch(function(error) {
-        console.log('Request failed', error);
-        return null;
-      });
+  return GM_getResourceText(fandom);
 }
 
 /**
