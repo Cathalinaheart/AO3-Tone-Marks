@@ -115,12 +115,26 @@ function splitReplacements(replacements) {
             replacement: match[1].trim(),
             audio_url: match[2].trim()
           };
-        } else {
+        }
+        if (match.length === 2 && match[1].trim() !== '') {
           return {
             words: match[0].split(' ').filter(match => match.length > 0),
             replacement: match[1].trim(),
             audio_url: 'None'
           };
         }
+        // Hacky error case.
+        return {
+          words: [], replacement: null, audio_url: line
+        }
+      })
+      .filter(replacement => {
+        // Log the hacky error case.
+        if (replacement.replacement === null) {
+          console.log(
+              'Skipping invalid replacement rule: \'' + replacement.audio_url +
+              '\'');
+        }
+        return replacement.replacement !== null;
       });
 }
