@@ -117,5 +117,6 @@ function splitReplacements(replacements) {
           // Set audio_url if it exists, otherwise set to 'None'.
           audio_url: match.length >= 3 ? match[2].trim() : 'None'
         });
+        return rules;
       }, []);
 }
