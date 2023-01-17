@@ -77,4 +77,8 @@ da ren|dàren
 gong gong|gōnggong
 gui fei|gùifēi
 zhang men|zhǎngmén
+dian xia|Diànxià|https://archive.org/download/nif-pronunciation-guide/Dian%20xia.mp3
+bi xia|Bìxià|https://archive.org/download/nif-pronunciation-guide/Bi%20Xia.mp3
+zhi ji|zhījǐ
+
 #festivals
