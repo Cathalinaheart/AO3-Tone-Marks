@@ -79,13 +79,7 @@ async function getReplacementRules(workFandoms) {
  * @param {string} fandom
  */
 async function getReplacements(fandom) {
-  return GM.getResourceUrl(fandom)
-      .then(url => fetch(url))
-      .then(resp => resp.text())
-      .catch(function(error) {
-        console.log('Request failed', error);
-        return null;
-      });
+  return getResourceText(fandom);
 }
 
 /**
@@ -100,27 +94,29 @@ async function getReplacements(fandom) {
  * @returns {{words:string[],replacement:string, audio_url:string}[]}
  */
 function splitReplacements(replacements) {
-  return replacements.split('\n')
-      .map(function(line) {
-        return line.trim();
-      })
-      .filter(function(line) {
-        return line.length > 0 && !line.startsWith('#');
-      })
-      .map(function(line) {
+  return replacements
+      .split('\n')
+      // Trim comments (anything after #) and whitespace.
+      .map(line => line.split('#')[0].trim())
+      // Remove empty lines.
+      .filter(line => line.length > 0)
+      // Parse rules
+      .reduce((rules, line) => {
         const match = line.split('|');
-        if (match.length === 3) {
-          return {
-            words: match[0].split(' ').filter(match => match.length > 0),
-            replacement: match[1].trim(),
-            audio_url: match[2].trim()
-          };
-        } else {
-          return {
-            words: match[0].split(' ').filter(match => match.length > 0),
-            replacement: match[1].trim(),
-            audio_url: 'None'
-          };
+
+        // Check replacement validity.
+        if (match.length < 2 || match[1].trim() === '') {
+          console.log(
+              `Invalid replacement rule--no replacement specified:\n${line}`);
+          return;
         }
-      });
+
+        rules.push({
+          words: match[0].split(' ').filter(match => match.length > 0),
+          replacement: match[1].trim(),
+          // Set audio_url if it exists, otherwise set to 'None'.
+          audio_url: match.length >= 3 ? match[2].trim() : 'None'
+        });
+        return rules;
+      }, []);
 }
