@@ -1,9 +1,15 @@
 /**
  * Generate an expandable/collapsable glossary for a work page.
- * @param {HTMLElement} replacements
+ * @param {HTMLElement[]} replacements
  * @param {HTMLElement} parent
  */
 function generateGlossary(replacements, parent) {
+  if (replacements.length === 0) {
+    console.log(
+        'No replacements to make a glossary for--aborting glossary generation.');
+    return;
+  }
+
   // Document positioning. Note: this selector only works on a work page.
   const metaDescriptionList = parent.querySelector('dl.work.meta.group');
   if (metaDescriptionList === null) {
