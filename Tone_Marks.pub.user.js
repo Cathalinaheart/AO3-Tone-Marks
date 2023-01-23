@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      4.5
+// @version      4.5.1
 // clang-format off
 // @description  Add tone marks on Ao3 works
 // @author       Cathalinaheart, irrationalpie7
@@ -10,6 +10,7 @@
 // @downloadURL  https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks.pub.user.js
 //
 // @require      monkey-compatibility.js
+// @require      rules.js
 // @require      replace.js
 // @require      check-fandoms.js
 // @require      show-glossary.js
