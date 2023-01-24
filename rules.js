@@ -9,71 +9,24 @@ class Rule {
     this.words = words;
     this.regex = wordsMatchRegex(words);
     this.replacement = replacement;
-    this.audio_url = audio_url;
+    this.audio_url = audio_url ? audio_url : 'None';
     this.source = source;
   }
 
-  get audio_url() {
+  /**
+   * Returns the url, or 'None' if there is none.
+   * @returns {string}
+   */
+  prettyAudioUrl() {
     return this.audio_url ? this.audio_url : 'None';
-  }
-
-  get regex() {
-    return this.regex;
+    ;
   }
 
   /**
    * @returns {boolean}
    */
-  has_audio_url() {
+  hasAudioUrl() {
     return this.audio_url && this.audio_url !== 'None';
-  }
-
-  /**
-   * Replaces special html characters.
-   * @param {string} unsafe
-   * @returns {string}
-   */
-  #escaped(unsafe) {
-    return (unsafe + '')
-        .replaceAll('&', '&amp;')
-        .replaceAll('<', '&lt;')
-        .replaceAll('>', '&gt;')
-        .replaceAll('"', '&quot;')
-        .replaceAll('\'', '&#039;');
-  }
-
-
-  /**
-   * Returns a regex to match a sequence of words, allowing an optional
-   * dash (-) or space ( ) between each word. The beginning and end of the
-   * matching sequence must be at a word boundary.
-   *
-   * The regex will also match an incomplete html tag preceding the match,
-   * which you can check for to avoid replacing within an html tag's
-   * attributes.
-   *
-   * @param {string[]} words
-   * @return {RegExp}
-   */
-  #wordsMatchRegex(words) {
-    // Use negative look-behind and look-ahead to make sure the character(s)
-    // around a match aren't letters, whether or not they have accent marks.
-    return new RegExp(
-        // optionally match an incomplete html tag
-        '(<[a-z]+ [^>]*)?' +
-            // Check for word boundary to make sure we're not e.g. replacing lan
-            // in the word plant or the second jie in jiějie
-            '(?<![a-zA-ZÀ-öø-ɏ])' +
-            '(' +
-            words
-                .map(
-                    word =>
-                        escaped(word).replace(/([.?*+^$[\]\\(){}|])/g, '\\$1'))
-                .join('( |-|\')?') +
-            ')' +
-            // Check word boundary
-            '(?![a-zA-ZÀ-öø-ɏ])',
-        'gi');
   }
 
   /**
@@ -89,16 +42,14 @@ class Rule {
     return `<span class="replacement" lang="zh-Latn-pinyin"
               data-orig="${match}"
               data-new="${escaped(this.replacement)}"
-              data-url="${this.audio_url}"
-              data-fandom="${source}">
+              data-url="${this.prettyAudioUrl()}"
+              data-fandom="${this.source}">
               ${escaped(this.replacement)}
             </span>`;
   }
 
   toString() {
-    return `Match: '${this.words.join(' ')}'; Replacement: '${
-        this.replacement}'; Source: '${this.source}'; Audio url: ${
-        this.has_audio_url() ? this.audio_url : 'None'}`;
+    return `[${this.words.join(' ')}|${this.replacement} (${this.source})]`;
   }
 
   /**
@@ -113,9 +64,14 @@ class Rule {
    * @param {Rule} otherRule
    */
   conflictsWith(otherRule) {
+    // It turns out RegExp preserves state when it's a global regex, so let's
+    // remove that state before and after using the regex.
+    this.regex.lastIndex = 0;
     // To extend the jiang/jianghu metaphor, test whether the regex for "jiang"
     // would find something to replace in "jiang hu"
-    return this.regex.test(otherRule.words.join(' '));
+    let result = this.regex.test(otherRule.words.join(' '));
+    this.regex.lastIndex = 0;
+    return result;
   }
 }
 
@@ -141,7 +97,7 @@ function parseRules(replacements, source) {
         if (match.length < 2 || match[1].trim() === '') {
           console.log(
               `Invalid replacement rule--no replacement specified:\n${line}`);
-          return;
+          return rules;
         }
 
         rules.push(new Rule(
@@ -165,11 +121,13 @@ function parseRules(replacements, source) {
  * @returns {Rule[]}
  */
 function sortedRules(rules, recheck = true) {
-  const newRules = {goodRules: [], conflictingRules: []};
+  const goodRules = [];
+  let conflictingRules = [];
   let numDiscarded = 0;
+  const debug = false;
 
-  // Move conflicting rules to the end
-  rules.reduce((newRules, currentRule, currentIndex) => {
+  for (let i = 0; i < rules.length; i++) {
+    const currentRule = rules[i];
     // Check for duplicates between currentRule and the set of conflicting
     // rules. Discarding duplicate rules needs to take precedence over marking a
     // rule as conflicting, so we perform this check before anything else.
@@ -177,70 +135,127 @@ function sortedRules(rules, recheck = true) {
     // The rule that's already been placed in the set of conflictingRules must
     // have come from a previous index since it's already been processed, so we
     // discard currentRule.
-    const duplicateRule = newRules.conflictingRules.find(
-        testRule => currentRule.conflictsWith(testRule) &&
-            testRule.conflictsWith(currentRule));
+    const duplicateRule = conflictingRules.find(
+        testRule =>
+            (currentRule.conflictsWith(testRule) &&
+             testRule.conflictsWith(currentRule)));
     if (duplicateRule !== undefined) {
       numDiscarded++;
-      // Place the currentRule second in this log line so they're numbered in
-      // accordance with their position in the original list. Hopefully that
-      // makes debugging less confusing.
-      console.log(`Rule 1 (${duplicateRule}) and Rule 2 (${
-          currentRule}) both conflict with each other (duplicates?);
-          discarding rule 2 since it came later in the original list
-          (but possibly keeping its audio url)`);
+      if (debug) {
+        // Place the currentRule second in this log line so they're numbered in
+        // accordance with their position in the original list. Hopefully that
+        // makes debugging less confusing.
+        console.log(`Found duplicates: ${duplicateRule} and ${i}: ${
+            currentRule}, discarding ${i}.`);
+      }
       if (currentRule.replacement === duplicateRule.replacement &&
-          !duplicateRule.has_audio_url()) {
+          !duplicateRule.hasAudioUrl()) {
         duplicateRule.audio_url = currentRule.audio_url;
       }
-      // Discard currentRule
-      return;
+      // Discard currentRule without adding it to any list
+      continue;
     }
 
-    // Check for conflicts with rules that come after this one in the initial
-    // set.
-    for (let i = currentIndex + 1; i < rules.length; i++) {
-      if (currentRule.conflictsWith(rules[i])) {
-        console.log(`Rule 1 (${currentRule}) conflicts with Rule 2 (${
-            rules[i]}); moving first rule to end`)
-        newRules.conflictingRules.push(currentRule);
-        return;
+    // Check for conflicts later in the unprocessed list
+    let foundConflict = false;
+    for (let j = i + 1; j < rules.length; j++) {
+      if (currentRule.conflictsWith(rules[j])) {
+        foundConflict = true;
+        if (debug) {
+          console.log(`Conflict between ${i}: ${currentRule} and ${j}: ${
+              rules[j]}; moving ${i} to end`);
+        }
+        conflictingRules.push(currentRule);
+        break;
       }
+    }
+    if (foundConflict) {
+      continue;
+    }
 
-      // Check for conflicts with rules that have already been marked
-      // conflicting.
-      const conflictingRule = newRules.conflictingRules.find(
-          testRule => currentRule.conflictsWith(testRule));
-      if (conflictingRule !== undefined) {
-        console.log(`Rule 1 (${currentRule}) conflicts with Rule 2 (${
-            conflictingRule}); moving first rule to end`)
-        newRules.conflictingRules.push(currentRule);
-        return;
+    // Check for conflicts with other rules that have already been marked
+    // conflicting.
+    const conflictingRule =
+        conflictingRules.find(testRule => currentRule.conflictsWith(testRule));
+    if (conflictingRule !== undefined) {
+      if (debug) {
+        console.log(`Conflict between ${i}: ${currentRule} and other: ${
+            conflictingRule}; moving ${i} to end`);
       }
+      conflictingRules.push(currentRule);
+      continue;
     }
 
     // No conflict or duplicate discovered!
-    newRules.goodRules.push(currentRule);
-  }, newRules);
+    goodRules.push(currentRule);
+  }
 
-  console.log(
-      `On this pass, found ${newRules.conflictingRules.length} conflicting rules
-      and discarded ${numDiscarded} possibly duplicate rules.`);
-
-  if (newRules.conflictingRules.length > 0) {
-    if (newRules.conflictingRules.length < rules.length) {
+  if (conflictingRules.length > 0) {
+    console.log(`While sorting tone replacement rules, found ${
+        conflictingRules
+            .length} conflicting rules (moved to end) and discarded ${
+        numDiscarded} possibly duplicate rules:`);
+    console.log(conflictingRules.map(rule => rule.toString()));
+    if (conflictingRules.length < rules.length) {
       // If we made progress, don't worry about infinite recursion.
-      newRules.conflictingRules = sortedRules(newRules.conflictingRules, true);
+      conflictingRules = sortedRules(conflictingRules, true);
     } else if (recheck) {
       // If we didn't make progress, try one last time.
-      newRules.conflictingRules = sortedRules(newRules.conflictingRules, false);
+      conflictingRules = sortedRules(conflictingRules, false);
     } else {
-      console.log(
-          `Aborting with ${newRules.conflictingRules.length} conflicts left;
+      console.log(`Aborting with ${conflictingRules.length} conflicts left;
               unable to reduce further`);
-      console.log(newRules.conflictingRules.map(rule => ruleToString(rule)));
+      console.log(conflictingRules.map(rule => rule.toString()));
     }
   }
 
-  return [...newRules.goodRules, ...newRules.conflictingRules];
+  return [...goodRules, ...conflictingRules];
+}
+
+
+/**
+ * Replaces special html characters.
+ * @param {string} unsafe
+ * @returns {string}
+ */
+function escaped(unsafe) {
+  return (unsafe + '')
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll('\'', '&#039;');
+}
+
+/**
+ * Returns a regex to match a sequence of words, allowing an
+ * optional dash (-) or space ( ) between each word. The beginning
+ * and end of the matching sequence must be at a word boundary.
+ *
+ * The regex will also match an incomplete html tag preceding the
+ * match, which you can check for to avoid replacing within an html
+ * tag's attributes.
+ *
+ * @param {string[]} words
+ * @return {RegExp}
+ */
+function wordsMatchRegex(words) {
+  // Use negative look-behind and look-ahead to make sure the character(s)
+  // around a match aren't letters, whether or not they have accent marks.
+  return new RegExp(
+      // optionally match an incomplete html tag
+      '(<[a-z]+ [^>]*)?' +
+          // Check for word boundary to make sure we're not e.g. replacing lan
+          // in the word plant or the second jie in jiějie
+          '(?<![a-zA-ZÀ-öø-ɏ])' +
+          '(' +
+          words
+              .map(
+                  word =>
+                      escaped(word).replace(/([.?*+^$[\]\\(){}|])/g, '\\$1'))
+              .join('( |-|\')?') +
+          ')' +
+          // Check word boundary
+          '(?![a-zA-ZÀ-öø-ɏ])',
+      'gi');
 }
