@@ -16,7 +16,7 @@
 /* Group audio progress bar with pinyin text. */
 .audio-progress-group {
     position: relative;
-    display: inline;
+    display: inline-block;
 }
 
 /* If applied, hides progress bar except when button is focused or hovered over. */
@@ -30,10 +30,11 @@
 }
 
 .tone-audio-button progress {
-    position: absolute;
-    height: .3em;
-    top: -.15em;
+    height: 0.3em;
+    vertical-align: top;
+    transform: translateY(-.15em);
     width: 100%;
+    margin-right: -100%;
 }
 
 /* Underline just pinyin when hovering over button */
