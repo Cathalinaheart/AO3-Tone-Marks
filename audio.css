@@ -10,12 +10,13 @@
     box-shadow: none;
     vertical-align: baseline;
     border-radius: 0;
-    display: inline-flex;
+    display: inline;
 }
 
 /* Group audio progress bar with pinyin text. */
 .audio-progress-group {
     position: relative;
+    display: inline;
 }
 
 /* If applied, hides progress bar except when button is focused or hovered over. */
