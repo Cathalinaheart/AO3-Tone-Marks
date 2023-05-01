@@ -19,6 +19,7 @@ function addAudioButtonAround(span) {
   progress.classList.add('inactive-audio-progress-bar');
   progress.ariaLabel = 'Audio playback percent';
   progressGroup.appendChild(progress);
+  progress.setAttribute('style', 'width:' + span.offsetWidth + 'px');
 
   // Wrap the pinyin span in a button:
   // First, replace, so the original parent still knows *where* to put the
@@ -69,4 +70,6 @@ function addAudioButtonAround(span) {
       audio.pause();
     }
   });
+
+  // Set progress bar width:
 }
