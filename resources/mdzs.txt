@@ -227,7 +227,8 @@ cssr|Cángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Can
 Zangse Sanren|Zángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
 zssr|Zángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
 ## Ouyang Zizhen (欧阳子真 Ōuyáng Zizhēn)
-Ouyang Zizhen|Ōuyáng Zizhēn|https://archive.org/download/mdzs-pronunciation-guide/Ouyang%20Zizhen.mp3
+Ou yang Zi zhen|Ōuyáng Zizhēn|https://archive.org/download/mdzs-pronunciation-guide/Ouyang%20Zizhen.mp3
+Zi zhen|Zizhēn|https://archive.org/download/mdzs-pronunciation-guide/Ouyang%20Zizhen.mp3
 oyzz|Ōuyáng Zizhēn|https://archive.org/download/mdzs-pronunciation-guide/Ouyang%20Zizhen.mp3
 # misc other
 ## Yi City (Chinese: 义城; pinyin: Yì chéng)
