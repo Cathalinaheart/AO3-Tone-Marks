@@ -26,13 +26,13 @@ su gege|Sū gēge|https://archive.org/download/nif-pronunciation-guide/Su%20gege
 ## Mù Ní Huáng 穆霓凰
 ## Ní Huáng jiějie 霓凰姐姐 (big sister)
 mu ni huang|Mù Níhuáng|https://archive.org/download/nif-pronunciation-guide/Mu%20Ni%20Huang.mp3
-ni huang|Níhuáng
 mu manor|Mù Manor
 ## Ní Huáng Jùn Zhŭ 霓凰郡主 (Princess/Duchess)
 ## idk if this title can go alone, but here's my attempt
 ## at capitalization
 Níhuáng jun zhu|Níhuáng jùnzhŭ|https://archive.org/download/nif-pronunciation-guide/Ni%20Huang%20Jun%20Zhu.mp3
 jun zhu|Jùnzhŭ
+ni huang|Níhuáng
 ## Xiāo Jĭng Yán 萧景琰
 xiao jing yan|Xiāo Jĭngyán|https://archive.org/download/nif-pronunciation-guide/Xiao%20Jing%20Yan.mp3
 jing yan|Jĭngyán
@@ -71,6 +71,10 @@ wei zheng|Wèi Zhēng|https://archive.org/download/nif-pronunciation-guide/Wei%2
 tong lu|Tóng Lù|https://archive.org/download/nif-pronunciation-guide/Tong%20Lu.mp3
 ## Shísān xiānsheng 十三先生(Mr. Shisan)
 shi san xian sheng|Shísān xiānsheng|https://archive.org/download/nif-pronunciation-guide/Shisan%20xian-sheng.mp3
+## Jí shěn (Aunt Ji) 吉婶
+ji shen|Jí shěn
+aunt ji|Aunt Jí
+auntie ji|Auntie Jí
 ## Yàn dàifu 晏大夫(Physician Yan)
 yan daifu|Yàn dàifu|https://archive.org/download/nif-pronunciation-guide/Yan%20daifu.mp3
 
@@ -88,6 +92,10 @@ qing er|Qīng-er|https://archive.org/download/nif-pronunciation-guide/Qing-er.mp
 ## General Lín Xiè 林燮 / fù shuài 父帅 (father-general)
 lin zie|Lín Xiè|https://archive.org/download/nif-pronunciation-guide/Lin%20Xie.mp3
 fu shuai|fùshuài
+mei shi nan|Méi Shínán
+shi nan|Shínán
+lin shuai|Lín shuài
+yuan shuai|yuánshuài
 ## Jìn Yáng 晋阳 (Grand Princess Jin Yang) (lin shu's mother)
 jin yang|Jìnyáng|https://archive.org/download/nif-pronunciation-guide/Jin%20Yang.mp3
 ## lin manor, lin family
