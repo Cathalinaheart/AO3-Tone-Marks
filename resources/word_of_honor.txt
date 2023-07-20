@@ -5,199 +5,202 @@
 # Shan He Ling Pronunciation Guide
 # MAIN CAST
 ## 周子舒 Zhōu Zǐshū
-zzs|Zhōu Zǐshū
-zhou zi shu|Zhōu Zǐshū
-zi shu|Zǐshū
+zzs|Zhōu Zǐshū|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhou%20zishu.mp3
+zhou zi shu|Zhōu Zǐshū|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhou%20zishu.mp3
+zi shu|Zǐshū|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zishu.mp3
 ## 周絮 Zhōu Xù
-zhou xu|Zhōu Xù
-zx|Zhōu Xù
+zhou xu|Zhōu Xù|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhou%20xu.mp3
+zx|Zhōu Xù|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhou%20xu.mp3
 ## 阿絮 āh-Xù
-ah xu|āh-Xù
-a xu|āh-Xù
-## 天窗首领  Tiān Chuāng shŏu lĭng | Leader of Window of Heaven
-tian chuang|Tiān Chuāng
-shou ling|shŏulĭng
+ah xu|āh-Xù|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ah-xu.mp3
+a xu|āh-Xù|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ah-xu.mp3
+## 天窗首领 Tiān Chuāng shŏu lĭng | Leader of Window of Heaven
+tian chuang|Tiān Chuāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/tian%20chuang-2.mp3
+shou ling|shŏulĭng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/tian%20chuang%20shou%20ling.mp3
 ## 庄主 Zhuāng zhŭ (manor host/owner/master)
-zhuang zhu|Zhuāngzhŭ
+zhuang zhu|Zhuāngzhŭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhuang%20zhu.mp3
+zhou zhuang zhu|Zhōu Zhuāngzhŭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhou%20zhuang%20zhu.mp3
 ## 痨病鬼 láo bìng gŭi (by Ah Xiang)
-lao bing gui|láo bìng gŭi
+lao bing gui|láo bìng gŭi|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/lao%20bing%20gui.mp3
 
 # 温客行 Wēn Kèxíng (1:10)
-wen ke xing|Wēn Kèxíng
-wkx|Wēn Kèxíng
+wen ke xing|Wēn Kèxíng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/wen%20kexing.mp3
+wkx|Wēn Kèxíng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/wen%20kexing.mp3
 ke xing|Kèxíng
 ## 老温 lǎo Wēn (by ZZS)
-lao wen|lǎo Wēn
+lao wen|lǎo Wēn|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/lao%20wen.mp3
 ## 主人 zhǔrén | Master (by ah-Xiang)
-zhu ren|zhǔrén
+zhu ren|zhǔrén|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhu%20ren.mp3
 ## 谷主 gǔzhǔ | valley master (by all Ghosts)
-gu zhu|gǔzhǔ
+gu zhu|gǔzhǔ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/gu%20zhu.mp3
 ## 甄衍 Zhēn Yăn (WKX’s childhood name)
-zhen yan|Zhēn Yăn
+zhen yan|Zhēn Yăn|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhen%20yan.mp3
 ## 温叔 Wēn shū | Uncle Wen (by Chengling)
-wen shu|Wēn shū
+wen shu|Wēn shū|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/wen%20shu.mp3
 ## 阿行 āh-xíng （by Auntie Luo)
-ah xing|āh-xíng
-a xing|āh-xíng
+ah xing|āh-xíng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ah-xing.mp3
+a xing|āh-xíng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ah-xing.mp3
 
 # 顾湘 Gù Xiāng (2:22)
-gu xiang|Gù Xiāng
-gx|Gù Xiāng
+gu xiang|Gù Xiāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/gu%20xiang.mp3
+gx|Gù Xiāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/gu%20xiang.mp3
 ## 阿絮 āh-Xiāng
-ah xiang|āh-Xiāng
-a xiang|āh-Xiāng
+ah xiang|āh-Xiāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ah-xiang.mp3
+a xiang|āh-Xiāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ah-xiang.mp3
 ## 丫头 yā tou (by WZX)
-ya tou|yātou
+ya tou|yātou|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ya%20tou.mp3
 ## 无心紫煞 Wú Xīn Zǐ Shà (Heartless Purple Fiend)
-wu xin zi sha|Wú Xīn Zǐ Shà
+wu xin zi sha|Wú Xīn Zǐ Shà|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/wu%20xin%20zi%20sha.mp3
 ## 顾姑娘 Gù gūniàng (miss Gu)
-gu guniang|Gù gūniàng
+gu guniang|Gù gūniàng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/gu%20gu-niang.mp3
 
 # 张成岭 Zhāng Chénglǐng (3:10)
-zhang cheng ling|Zhāng Chénglǐng
+zhang cheng ling|Zhāng Chénglǐng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhang%20chengling.mp3
 cheng ling|Chénglǐng
-zcl|Zhāng Chénglǐng
+zcl|Zhāng Chénglǐng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhang%20chengling.mp3
 ## 金豆侠 jīn dòu xiá (by Ah Xiang)
-jin dou xia|jīn dòu xiá
+jin dou xia|jīn dòu xiá|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/jin%20dou%20xia.mp3
 
 # 曹蔚宁 Cáo Wèiníng (3:30)
-cao wei ning|Cáo Wèiníng
-cwn|Cáo Wèiníng
-wn|Wèiníng
+cao wei ning|Cáo Wèiníng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/cao%20weining.mp3
+cwn|Cáo Wèiníng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/cao%20weining.mp3
 ## 曹大哥 Cáo dà gē (by Ah Xiang)
-cao da ge|Cáo dàgē
+cao da ge|Cáo dàgē|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/cao%20da-ge.mp3
 ## 傻瓜 shă guā (by Ah Xiang)
-sha gua|shăguā
+sha gua|shăguā|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/sha%20gua.mp3
 ## 清风山 Qīngfēng Shān (Qing Feng Sword Sect
 # 清风剑 Qīng Fēng Jiàn Sect
 qing feng shan|Qīngfēng Shān
-qing feng jian|Qīngfēng Jiàn
+qing feng jian|Qīngfēng Jiàn|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/qing%20feng%20jian.mp3
 qing feng|Qīngfēng
 ## 莫怀阳 Mò Huáiyáng
-mo huai yang|Mò Huáiyáng
+mo huai yang|Mò Huáiyáng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/mo%20huaiyang.mp3
 
 # 叶白衣 Yè Báiyī (3:57)
-ye bai yi|Yè Báiyī
+ye bai yi|Yè Báiyī|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ye%20baiyi.mp3
 bai yi|Báiyī
-yby|Yè Báiyī
+yby|Yè Báiyī|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ye%20baiyi.mp3
 ## 长明剑仙 Cháng Míng Jiàn Xiān (~changming sword immortal)
-chang ming jian xian|Chángmíng Jiàn Xiān
+chang ming jian xian|Chángmíng Jiàn Xiān|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/chang%20ming%20jian%20xian.mp3
 chang ming|Chángmíng
 ## 叶前辈 Yè qiánbèi
-ye qian bei|Yè qiánbèi
+ye qian bei|Yè qiánbèi|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ye%20qianbei.mp3
 
 # WINDOW OF HEAVEN (4:35)
 ## 天窗 Tiān Chuāng
-tian chuang|Tiān Chuāng
+tian chuang|Tiān Chuāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/tian%20chuang-2.mp3
 ## 晋王 Jìn wáng (Prince Jin)
-jin wang|Jìn wáng
+jin wang|Jìn wáng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/jin%20wang.mp3
 prince jin|Prince Jìn
 ## Helian Yi (赫连翊, Hèlián Yì)
 he lian yi|Hèlián Yì
 ## 韩英 Hán Yīng
-han ying|Hán Yīng
-hy|Hán Yīng
+han ying|Hán Yīng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/han%20ying.mp3
+hy|Hán Yīng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/han%20ying.mp3
 ## Duàn Pengju (段鵬舉 Duàn Péngjǔ)
 duan peng ju|Duàn Péngjǔ
 
 # FOUR SEASONS MANOR (5:00)
 ## 四季山庄 Sì jì shān zhuāng (~four seasons + mountain villa)
-si ji shan zhuang|Sìjì Shānzhuāng
+si ji shan zhuang|Sìjì Shānzhuāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/si%20ji%20shan%20zhuang.mp3
 si ji|Sìjì
 shan zhuang|Shānzhuāng
 ## 秦怀章 Qín Huáizhāng (ZZS’s master)
-qin huai zhang|Qín Huáizhāng
+qin huai zhang|Qín Huáizhāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/qin%20huaizhang.mp3
 ## 秦九霄 Qin Jiuxiao (ZZS’s shidi) (九霄 jiǔxiāo?)
 ## aka 梁九霄 - Liáng Jiǔxiāo in the novel
-qin jiuxiao|Qín Jiǔxiāo
+qin jiuxiao|Qín Jiǔxiāo|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/qin%20jiuxiao.mp3
 liang jiuxiao|Liáng Jiǔxiāo
 jiuxiao|Jiǔxiāo
 
 # 温如玉 Wēn Rúyù (WKX’s father)
-wen ru yu|Wēn Rúyù
+wen ru yu|Wēn Rúyù|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/wen%20ruyu.mp3
 ## 谷妙妙 Gu Miaomiao (WKX’s mother) Gǔ Miàomiào
-gu miao miao|Gǔ Miàomiào
+gu miao miao|Gǔ Miàomiào|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/gu%20miaomiao.mp3
 
 # GHOST VALLEY (6:10)
 ## 鬼谷 Gŭi gŭ
-gui gu|Gŭigŭ
+gui gu|Gŭigŭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/gui%20gu.mp3
 ## 青崖山 Qīngyá shān (mount qingya)
-qing ya shan|Qīngyá shān
+qing ya shan|Qīngyá shān|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/qing%20ya%20shan.mp3
+mount qing ya|Mount Qīngyá
 qing ya|Qīngyá
 
 # 罗浮梦 Luó Fúmèng
-luo fu meng|Luó Fúmèng
+luo fu meng|Luó Fúmèng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/luo%20fumeng.mp3
 ## 喜丧鬼 Xǐ Sāng Guǐ (Tragicomic Ghost)
-xi sang gui|Xǐsāng Guǐ
+xi sang gui|Xǐsāng Guǐ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/xi%20sang%20gui.mp3
 ## 薄情簿主 Bó Qíng Bù Zhŭ
-bo qing bu zhu|Bóqíng Bù Zhŭ
+bo qing bu zhu|Bóqíng Bù Zhŭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/bo%20qing%20bu%20zhu.mp3
 ## 罗姨 Luó yí (Aunt Luó)
-luo yi|Luó yí
+luo yi|Luó yí|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/luo%20yi.mp3
+aunt luo|Aunt Luó
 
 # 柳千巧 Liǔ Qiānqiǎo
-liu qian qiao|Liǔ Qiānqiǎo
+liu qian qiao|Liǔ Qiānqiǎo|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/liu%20qianqiao.mp3
 ## 千巧姐 Qiānqiăo-jiĕ (by Ah Xiang)
 qian qiao jie|Qiānqiǎo jiĕ
 ## 艳鬼 Yàn Guǐ (Beauty Ghost)
-yan gui|Yàn Guǐ
+yan gui|Yàn Guǐ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/yan%20gui.mp3
 
 # SCORPIONS (7:43)
 ## 毒蝎 Dú Xiē
-du xie|Dú Xiē
+du xie|Dú Xiē|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/du%20xie.mp3
 ## 蝎王 Xiē Wáng (Scorpion King)
-xie wang|Xiē Wáng
+xie wang|Xiē Wáng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/xie%20wang.mp3
 ## 蝎儿 Xiē'ér
-xie er|Xiē'ér
-xie'er|Xiē'ér
+xie er|Xiē'ér|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/xie%27er.mp3
+xie'er|Xiē'ér|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/xie%27er.mp3
 
 # 毒菩萨 Dú Pú Sà (Evil Bodhisattva)
-du pu sa|Dú Púsà
+du pu sa|Dú Púsà|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/du%20pu%20sa.mp3
 ## 俏罗汉 Qiào luóhàn (Pretty Arhat)
-qiao luo han|Qiào luóhàn
+qiao luo han|Qiào luóhàn|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/qiao%20luohan.mp3
 ## 秦松 Qín Sōng 魅曲 Mèiqǔ (phantom musician)
-qin song|Qín Sōng
+qin song|Qín Sōng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/qin%20song.mp3
 mei qu|Mèiqǔ
 ## 金毛蒋怪 Jīnmáo Jiăngguài (Blond Monster Jiang)
-jin mao jiang guai|Jīnmáo Jiăngguài
+jin mao jiang guai|Jīnmáo Jiăngguài|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/jinmao%20jiangguai.mp3
+blond monster jiang|Blond Monster Jiăng
 
 # FIVE LAKE ALLIANCE (8:55)
 ## 五湖盟 Wǔhú Méng
-wu hu meng|Wǔhú Méng
+wu hu meng|Wǔhú Méng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/wuhu%20meng.mp3
 
 # 容炫 Róng Xuàn
-rong xuan|Róng Xuàn
+rong xuan|Róng Xuàn|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/rong%20xuan.mp3
 ## 岳风儿 Yuè Fēng'ĕr
-yue feng er|Yuè Fēng'ĕr
-yue feng'er|Yuè Fēng'ĕr
+yue feng er|Yuè Fēng'ĕr|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/yue%20feng%27er.mp3
+yue feng'er|Yuè Fēng'ĕr|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/yue%20feng%27er.mp3
 yue feng|Yuè Fēng
 
 # Yuè Yáng Sect
 ## 高崇Gāo Chóng
-gao chong|Gāo Chóng
+gao chong|Gāo Chóng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/gao%20chong.mp3
 ## 岳阳派 Yuè Yáng Sect
-yue yang|Yuèyáng
+yue yang|Yuèyáng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/yue%20yang.mp3
 ## 高盟主 Gāo méng zhŭ
-gao meng zhu|Gāo méngzhŭ
+gao meng zhu|Gāo méngzhŭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/gao%20meng%20zhu.mp3
 ## 大哥 Da ge
 gao da ge|Gāo dàgē
 ## 高小怜 Gāo Xiǎolián (Daughter of Gao Chong)
-gao xiao lian|Gāo Xiǎolián
+gao xiao lian|Gāo Xiǎolián|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/gao%20xiaolian.mp3
 ## 小怜姐 xiǎo lián jie
-xiao lian jie|Xiǎolián jiĕ
+xiao lian jie|Xiǎolián jiĕ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/xiao%20lian%20jie.mp3
 xiaolian|Xiǎolián
 ## 邓宽 Dèng Kuān (Head Disciple Yue Yang Sect)
-deng kuan|Dèng Kuān
+deng kuan|Dèng Kuān|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/deng%20kuan.mp3
 
 # 赵敬 Zhào Jìng
-zhao jing|Zhào Jìng
-## 太湖派  Tài Hú Sect
-tai hu|Tài Hú
+zhao jing|Zhào Jìng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhao%20jing.mp3
+## 太湖派 Tài Hú Sect
+tai hu|Tài Hú|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/tai%20hu.mp3
 ## 赵盟主 Zhào méng zhŭ (Sect Leader Zhao)
-zhao meng zhu|Zhào méngzhŭ
+zhao meng zhu|Zhào méngzhŭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhao%20meng%20zhu.mp3
 ## 赵玄德 Zhào Xuándé
-zhao xuan de|Zhào Xuándé
+zhao xuan de|Zhào Xuándé|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhao%20xuande.mp3
 ## 义夫 Yì fù (by Xie’er)
-yi fu|Yì fù
+yi fu|Yì fù|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/yifu.mp3
 
 # 沈慎 Shen Shen
 shen shen|Shěn Shèn
@@ -209,83 +212,59 @@ shen zhang men|Shěn zhǎngmén
 wu di|wǔdì
 
 # 张玉森 Zhāng Yùsēn (Cheng Ling’s father)
-zhang yu sen|Zhāng Yùsēn
+zhang yu sen|Zhāng Yùsēn|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhang%20yusen.mp3
 ## 镜湖派 Jìng Hú Mountain Pavilion
-jing hu|Jìng Hú
+jing hu|Jìng Hú|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/jing%20hu.mp3
 
 # 陆太冲 Lù Tàichōng (Sect Leader of Dan Yang Sect)
-lu tai chong|Lù Tàichōng
+lu tai chong|Lù Tàichōng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/lu%20taichong.mp3
 
 
 # OTHER SECTS/ JIANG HU PPL (11:47)
 ## 华山 Huáshān Sect
-hua shan|Huáshān
+hua shan|Huáshān|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/huashan.mp3
 ## 于丘烽 Yú Qiūfēng
-yu qiu feng|Yú Qiūfēng
+yu qiu feng|Yú Qiūfēng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/yu%20qiufeng.mp3
 ## 烽郎 Fēng-láng (by Liu Qianqao)
-feng lang|Fēng láng
+feng lang|Fēng láng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/feng-lan.mp3
 
 # 安吉四贤 Ānjí sì xián (sages of anji??)
 ## names?
-an ji si xian|Ānjí sì xián
+an ji si xian|Ānjí sì xián|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/anji%20si%20xian.mp3
 
 # 隆源阁 Lóngyuán gé
-long yuan ge|Lóngyuán gé
-long yuan|Lóngyuán
+long yuan ge|Lóngyuán gé|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/longyuan%20ge.mp3
+long yuan|Lóngyuán|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/longyuan.mp3
 ## 龙雀 Lóng Què
-long que|Lóng Què
+long que|Lóng Què|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/long%20que.mp3
 ## 龙孝 Lóng Xiào
-long xiao|Lóng Xiào
+long xiao|Lóng Xiào|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/long%20xiao.mp3
 
 # 泰山派 Tàishān Sect
-tai shan|Tàishān
+tai shan|Tàishān|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/taishan.mp3
 ## 傲峡子 Aò Lái Zĭ
-ao lai zi|Aò Lái Zĭ
+ao lai zi|Aò Lái Zĭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/ao%20lai%20zi.mp3
 
 # 桃红 Táo Hóng
-tao hong|Táo Hóng
+tao hong|Táo Hóng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/tao%20hong.mp3
 ## 绿柳 Lü4 Liŭ (Lǜ)
-lü liu|Lǜ Liŭ
-lu liu|Lǜ Liŭ
-lv liu|Lǜ Liŭ
+lü liu|Lǜ Liŭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/l%C3%BC%20liu.mp3
+lu liu|Lǜ Liŭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/l%C3%BC%20liu.mp3
+lv liu|Lǜ Liŭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/l%C3%BC%20liu.mp3
 
 # OTHER TERMS (14:05)
 ## 山河岭 Shān Hé Lìng
-shan he ling|Shān Hé Lìng
+shan he ling|Shān Hé Lìng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/shan%20he%20ling.mp3
 ## 知己 zhī jĭ (Soulmate)
-zhi ji|zhījĭ
+zhi ji|zhījĭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhiji.mp3
 ## 琉璃甲 Liú Lí Jiă
-liu li jia|Liúlí Jiă
+liu li jia|Liúlí Jiă|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/liu%20li%20jia.mp3
 liu li|Liúlí
-## 孟婆汤 Mèng Pó Tāng (Waters of Lethe)
-meng po tang|Mèng Pó Tāng
-meng po|Mèng Pó
 ## 醉生梦死 Zùi Shēng Mèng Sĭ (Drunk Like a Dream)
-zui sheng meng si|Zùi Shēng Mèng Sĭ
-
-# SECT TERMS (15:03)
-## 师父 shī fù (master)
-shi fu|shīfù
-## 师叔 shī shū (uncle)
-shi shu|shīshū
-## 师娘 shī niáng (“mother”, wife of shifu)
-shi niang|shīniáng
-## 师兄 shī xiōng (older brother)
-shi xiong|shīxiōng
-## 师弟 shī dì (younger brother)
-shi di|shīdì
-## 师姐 shī jiĕ (older sister)
-shi jie|shījiĕ
-## 师妹 shī mèi (younger sister)
-shi mei|shīmèi
-## 师侄 shī zhí (nephew)
-shi zhi|shīzhí
-
-# 徒弟 tú dì (disciple)
-tu di|túdì
+zui sheng meng si|Zùi Shēng Mèng Sĭ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zui%20sheng%20meng%20si.mp3
 
 # Extra
-##  天涯客 | Faraway Wanderers - priest, 七爷 | Qi Ye - priest
+## 天涯客 | Faraway Wanderers - priest, 七爷 | Qi Ye - priest
 tian ya ke|Tiān Yá Kè
 qi ye|Qī Yé
 ## 景北渊, Jǐng Běiyuān
