@@ -10,6 +10,7 @@
 // @downloadURL  https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks.pub.user.js
 //
 // @require      monkey-compatibility.js
+// @require      rules.js
 // @require      replace.js
 // @require      check-fandoms.js
 // @require      show-glossary.js

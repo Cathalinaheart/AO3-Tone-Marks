@@ -11,6 +11,7 @@
 //
 // @require      monkey-compatibility.js
 // @require      audio.js
+// @require      rules.js
 // @require      replace.js
 // @require      check-fandoms.js
 // @require      show-glossary.js
