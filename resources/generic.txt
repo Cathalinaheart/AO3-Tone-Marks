@@ -25,6 +25,7 @@ jie|jiě
 xiong zhang|Xiōngzhǎng
 ## (name-)xiong (兄 Xiōng)
 xiong|xiōng
+po po|pópo
 
 # misc
 ## Jiāng Hú 江湖
@@ -67,7 +68,7 @@ feng shui|fēngshuǐ
 dao|dào
 qi|Qì
 cun|cùn
-#li|lǐ #<- if uncommented it will substitute within the html
+li|lǐ
 lao|Lǎo
 qiankun dai|qiánkūn dài
 bao bei|bǎobèi
@@ -79,6 +80,8 @@ gui fei|gùifēi
 zhang men|zhǎngmén
 dian xia|Diànxià|https://archive.org/download/nif-pronunciation-guide/Dian%20xia.mp3
 bi xia|Bìxià|https://archive.org/download/nif-pronunciation-guide/Bi%20Xia.mp3
-zhi ji|zhījǐ
-
-#festivals
+zhi ji|zhījǐ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zhiji.mp3
+yi fu|Yì fù|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/yifu.mp3
+meng po tang|Mèng Pó Tāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/meng%20po%20tang.mp3
+meng po|Mèngpó|https://archive.org/download/general-pronunciation-gudie/meng%20po.mp3
+tu di|túdì
