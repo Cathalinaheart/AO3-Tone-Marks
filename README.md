@@ -20,6 +20,7 @@ More are in progress.
 - MDZS/The Untamed
 - Guardian
 - Nirvana in Fire
+- Word of Honor
 
 Audio guide support is currently in progress. Not every word has audio at this point that can be linked.
 
