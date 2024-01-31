@@ -1,3 +1,4 @@
+# MDZS replacements for script
 # Yunmeng Jiang Sect and related stuff
 ## Wei Ying (魏婴 Wèi Yīng), courtesy name Wei Wuxian (魏无羡, Wèi Wúxiàn) and his title Yiling Patriarch (夷陵老祖, Yílíng Lǎozǔ)
 wei ying|Wèi Yīng|https://archive.org/download/mdzs-pronunciation-guide/Wei%20Ying.mp3
@@ -30,6 +31,7 @@ yu ziyuan|Yú Zǐyuān|https://archive.org/download/mdzs-pronunciation-guide/Yu%
 yzy|Yú Zǐyuān|https://archive.org/download/mdzs-pronunciation-guide/Yu%20Ziyuan.mp3
 yu furen|Yú fūrén|https://archive.org/download/mdzs-pronunciation-guide/Yu%20furen%20%28Madam%20Yu%29.mp3
 madame yu|Madame Yú
+madam yu|Madam Yú
 zi zhizhu|Zǐ Zhīzhū|https://archive.org/download/mdzs-pronunciation-guide/Zi%20Zhizhu%20%28Purple%20Spider%29.mp3
 ziyuan|Zǐyuān
 ## Jiang Fengmian (江枫眠, Jiāng Fēngmián)
@@ -136,7 +138,7 @@ jingyi|Jǐngyí
 ## Caiyi Town (彩衣城, Cǎiyī Chéng)
 caiyi town|Cǎiyī Town|https://archive.org/download/mdzs-pronunciation-guide/Caiyi%20Town.mp3
 caiyi cheng|Cǎiyī Chéng
-
+cai yi|Cǎiyī
 ## Jìngshì (静室, jìng shì)
 jingshi|Jìngshì
 ## Bichen (避尘, Bìchén)
@@ -171,7 +173,7 @@ wn|Wēn Níng|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Ning.m
 Wen Qionglin|Wēn Qiónglín|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Qionglin.mp3
 wql|Wēn Qiónglín|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Qionglin.mp3
 Qionglin|Qiónglín
-Gui Jiangjun|Guǐ jiāngjūn|https://archive.org/download/mdzs-pronunciation-guide/Gui%20jiangjun%20%28Ghost%20General%29.mp3
+Gui Jiang jun|Guǐ jiāngjūn|https://archive.org/download/mdzs-pronunciation-guide/Gui%20jiangjun%20%28Ghost%20General%29.mp3
 ## Wen Qing (温情, Wēn Qíng)
 Wen Qing|Wēn Qíng|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Qing.mp3
 wq|Wēn Qíng|https://archive.org/download/mdzs-pronunciation-guide/Wen%20Qing.mp3
@@ -218,14 +220,14 @@ Xue Yang|Xuē Yáng|https://archive.org/download/mdzs-pronunciation-guide/Xue%20
 xy|Xuē Yáng|https://archive.org/download/mdzs-pronunciation-guide/Xue%20Yang.mp3
 xue chengmei|Xuē Chéngměi|https://archive.org/download/mdzs-pronunciation-guide/Xue%20Chengmei.mp3
 xcm|Xuē Chéngměi|https://archive.org/download/mdzs-pronunciation-guide/Xue%20Chengmei.mp3
-## Baoshan Sanren (抱山散人, Bàoshān sànrén)
-Baoshan Sanren|Bàoshān Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Baoshan%20Sanren.mp3
-Bssr|Bàoshān Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Baoshan%20Sanren.mp3
-## Cangse Sanren (藏色散人, Cángsè Sànrén)
-Cangse Sanren|Cángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
-cssr|Cángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
-Zangse Sanren|Zángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
-zssr|Zángsè Sànrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
+## Baoshan Sanren (抱山散人, Bàoshān Sănrén)
+Baoshan Sanren|Bàoshān Sănrén|https://archive.org/download/mdzs-pronunciation-guide/Baoshan%20Sanren.mp3
+Bssr|Bàoshān Sănrén|https://archive.org/download/mdzs-pronunciation-guide/Baoshan%20Sanren.mp3
+## Cangse Sanren (藏色散人, Cángsè Sănrén)
+Cangse Sanren|Cángsè Sănrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
+cssr|Cángsè Sănrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
+Zangse Sanren|Zángsè Sănrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
+zssr|Zángsè Sănrén|https://archive.org/download/mdzs-pronunciation-guide/Cangse%20Sanren.mp3
 ## Ouyang Zizhen (欧阳子真 Ōuyáng Zizhēn)
 Ou yang Zi zhen|Ōuyáng Zizhēn|https://archive.org/download/mdzs-pronunciation-guide/Ouyang%20Zizhen.mp3
 Zi zhen|Zizhēn|https://archive.org/download/mdzs-pronunciation-guide/Ouyang%20Zizhen.mp3
@@ -249,3 +251,8 @@ lanshi|Lánshì
 ## xiao|xiāo [flute]/xiăo [small]/Xiǎo [xxc]
 # attempt to match lan|Lán at the end, after conflict with Song Lan doesn't matter
 lan|Lán
+#"jiang" by itself conflicts with jianghu and jiangjun
+## Jiāng Hú 江湖
+jiang hu|Jiānghú
+jiang jun|jiāngjūn
+jiang|Jiāng
