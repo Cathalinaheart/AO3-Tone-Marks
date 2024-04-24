@@ -34,8 +34,8 @@ jiang hu|Jiānghú
 gu qin|gǔqín|https://archive.org/download/mdzs-pronunciation-guide/guqin.mp3
 
 shi fu|Shīfù|https://archive.org/download/general-pronunciation-gudie/shifu.mp3
-shi zun|Shīzūn|https://archive.org/details/svsss-pronunciation-guide/Shizun.mp33
-lao shi|Lăoshī|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Shizun.mp33
+shi zun|Shīzūn
+lao shi|Lăoshī
 shi shu|Shīshū|https://archive.org/download/general-pronunciation-gudie/shishu.mp3
 shi bo|Shībó
 shi gu|Shīgū
