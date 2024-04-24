@@ -3,7 +3,7 @@ da ren|dàren
 gui fei|gùifēi
 fu ren|fūren
 ## I *think* guniang is this --> 姑娘?
-gu niang|gūniang
+gu niang|gūniang|https://archive.org/download/general-pronunciation-gudie/guniang.mp3
 qiankun|qiánkūn
 ## gongzi (公子, gōngzǐ)
 gong zi|gōngzǐ
@@ -12,19 +12,19 @@ lanshi|lanshi
 
 # sibling relations
 ## Eldest brother: 大哥
-da ge|dàgē
+da ge|dàgē|https://ia802607.us.archive.org/3/items/general-pronunciation-gudie/da-ge.mp3
 ## Elder brother: 哥哥
 ge ge|gēge
 ge|gē
 ## Elder sister 姐姐
-jie jie|jiějie
+jie jie|jiějie|https://ia802607.us.archive.org/3/items/general-pronunciation-gudie/jie.mp3
 ## sect sister (elder) 师姐
 shi jie|shījiě|https://archive.org/download/mdzs-pronunciation-guide/shijie.mp3
-jie|jiě
+jie|jiě|https://ia802607.us.archive.org/3/items/general-pronunciation-gudie/jie.mp3
 ## Elder brother (more formal) 兄长
 xiong zhang|Xiōngzhǎng
 ## (name-)xiong (兄 Xiōng)
-xiong|xiōng
+xiong|xiōng|https://archive.org/download/general-pronunciation-gudie/xiong.mp3
 po po|pópo
 
 # misc
@@ -33,10 +33,10 @@ jiang hu|Jiānghú
 ## guqin ( Chinese: 古琴; pinyin: gǔqín)
 gu qin|gǔqín|https://archive.org/download/mdzs-pronunciation-guide/guqin.mp3
 
-shi fu|Shīfù
-shi zun|Shīzūn
-lao shi|Lăoshī
-shi shu|Shīshū
+shi fu|Shīfù|https://archive.org/download/general-pronunciation-gudie/shifu.mp3
+shi zun|Shīzūn|https://archive.org/details/svsss-pronunciation-guide/Shizun.mp33
+lao shi|Lăoshī|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Shizun.mp33
+shi shu|Shīshū|https://archive.org/download/general-pronunciation-gudie/shishu.mp3
 shi bo|Shībó
 shi gu|Shīgū
 shu shu|Shūshu
@@ -47,21 +47,21 @@ mei mei|Mèimei
 zhang men shi xiong|Zhǎngmén Shīxiōng
 jun shang|Jūnshàng
 da wang|Dàwáng
-shi xiong|Shīxiōng
+shi xiong|Shīxiōng|https://archive.org/download/general-pronunciation-gudie/shixiong.mp3
 shi gong|Shīgōng
 shi ye|Shīyé
-shi zhi|Shīzhí
+shi zhi|Shīzhí|https://archive.org/download/general-pronunciation-gudie/shizhi.mp3
 shi ge|Shīgē
-shi di|Shīdì
-shi mei|Shīmèi
+shi di|Shīdì|https://archive.org/download/general-pronunciation-gudie/shidi.mp3
+shi mei|Shīmèi|https://archive.org/download/general-pronunciation-gudie/shimei.mp3
 dan tian|Dāntián
 wei qi|wéiqí
-shi niang|Shīniáng
+shi niang|Shīniáng|https://archive.org/download/general-pronunciation-gudie/shiniang.mp3
 zong zhu|Zōngzhŭ
 jiu jiu|Jiùjiu
 shi chen|Shíchén
 zong shi|zōngshī
-qian bei|qiánbèi
+qian bei|qiánbèi|https://archive.org/download/general-pronunciation-gudie/qianbei.mp3
 wan bei|wǎnbèi
 qing gong|qīnggōng
 feng shui|fēngshuǐ
@@ -84,4 +84,4 @@ zhi ji|zhījǐ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zh
 yi fu|Yì fù|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/yifu.mp3
 meng po tang|Mèng Pó Tāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/meng%20po%20tang.mp3
 meng po|Mèngpó|https://archive.org/download/general-pronunciation-gudie/meng%20po.mp3
-tu di|túdì
+tu di|túdì|https://dn720308.ca.archive.org/0/items/general-pronunciation-gudie/tu%20di.mp3
