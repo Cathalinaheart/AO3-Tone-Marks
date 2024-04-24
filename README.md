@@ -21,6 +21,7 @@ More are in progress.
 - Guardian
 - Nirvana in Fire
 - Word of Honor
+- SVSSS
 
 Audio guide support is currently in progress. Not every word has audio at this point that can be linked.
 
