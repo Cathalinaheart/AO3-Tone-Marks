@@ -12,15 +12,15 @@ lanshi|lanshi
 
 # sibling relations
 ## Eldest brother: 大哥
-da ge|dàgē|https://ia802607.us.archive.org/3/items/general-pronunciation-gudie/da-ge.mp3
+da ge|dàgē|https://archive.org/download/general-pronunciation-gudie/da-ge.mp3
 ## Elder brother: 哥哥
 ge ge|gēge
 ge|gē
 ## Elder sister 姐姐
-jie jie|jiějie|https://ia802607.us.archive.org/3/items/general-pronunciation-gudie/jie.mp3
+jie jie|jiějie
 ## sect sister (elder) 师姐
 shi jie|shījiě|https://archive.org/download/mdzs-pronunciation-guide/shijie.mp3
-jie|jiě|https://ia802607.us.archive.org/3/items/general-pronunciation-gudie/jie.mp3
+jie|jiě|https://archive.org/download/general-pronunciation-gudie/jie.mp3
 ## Elder brother (more formal) 兄长
 xiong zhang|Xiōngzhǎng
 ## (name-)xiong (兄 Xiōng)
@@ -84,4 +84,7 @@ zhi ji|zhījǐ|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/zh
 yi fu|Yì fù|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/yifu.mp3
 meng po tang|Mèng Pó Tāng|https://archive.org/download/Word-of-Honor-Pronunciation-Guide/meng%20po%20tang.mp3
 meng po|Mèngpó|https://archive.org/download/general-pronunciation-gudie/meng%20po.mp3
-tu di|túdì|https://dn720308.ca.archive.org/0/items/general-pronunciation-gudie/tu%20di.mp3
+
+
+tu di|túdì
+danmei|dānměi

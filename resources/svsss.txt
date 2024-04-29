@@ -1,55 +1,60 @@
 #Qing Jing Peak Characters (+ Swords)
 ##Shen Qingiu (both versions)
-shen qing qiu|Shěn Qīngqiū|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Shen%20Qingqiu.mp3
-sqq|Shěn Qīngqiū|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Shen%20Qingqiu.mp3
+shen qing qiu|Shěn Qīngqiū|https://archive.org/download/svsss-pronunciation-guide/Shen%20Qingqiu.mp3
+sqq|Shěn Qīngqiū|https://archive.org/download/svsss-pronunciation-guide/Shen%20Qingqiu.mp3
 qing qiu|Qīngqiū
-shen yuan|Shěn Yuán|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Shen%20Yuan.mp3
-shen jiu|Shěn Jiǔ|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Shen%20Jiu.mp3
+shen yuan|Shěn Yuán|https://archive.org/download/svsss-pronunciation-guide/Shen%20Yuan.mp3
+shen jiu|Shěn Jiǔ|https://archive.org/download/svsss-pronunciation-guide/Shen%20Jiu.mp3
 shen|Shěn
 xiao jiu|Xiǎo-Jiǔ
-xiu ya|Xiū Yǎ|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Xiu%20Ya.mp3
+xiu ya|Xiū Yǎ|https://archive.org/download/svsss-pronunciation-guide/Xiu%20Ya.mp3
 ## Luo Binghe
-luo bing he|Luò Bīnghé|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Luo%20Binghe.mp3
-lbh|Luò Bīnghé
+luo bing he|Luò Bīnghé|https://archive.org/download/svsss-pronunciation-guide/Luo%20Binghe.mp3
+lbh|Luò Bīnghé|https://archive.org/download/svsss-pronunciation-guide/Luo%20Binghe.mp3
 luo bing ge|Luò Bīnggē
 luo bing mei|Luò Bīngmèi
+a luo|Ā-Luò
+ah luo|Ā-Luò 
 bing he|Bīnghé
 bing ge|Bīnggē
 bing mei|Bīngmèi
 xin mo|Xīn Mó
 zheng yang|Zhèng Yáng
 ##Ning Yingying
-ning ying ying|Níng Yīngyīng|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Ning%20Yingying.mp3
-nyy|Níng Yīngyīng
+ning ying ying|Níng Yīngyīng|https://archive.org/download/svsss-pronunciation-guide/Ning%20Yingying.mp3
+nyy|Níng Yīngyīng|https://archive.org/download/svsss-pronunciation-guide/Ning%20Yingying.mp3
 ##Ming Fan
-ming fan|Míng Fān|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Ming%20Fan.mp3
-mf|Míng Fān
+ming fan|Míng Fān|https://archive.org/download/svsss-pronunciation-guide/Ming%20Fan.mp3
+mf|Míng Fān|https://archive.org/download/svsss-pronunciation-guide/Ming%20Fan.mp3
 # The rest of Cang Qiong Mountain Sect
 ##Liu Qingge
-liu qing ge|Liǔ Qīnggē|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Liu%20Qingge.mp3
-lqg|Liǔ Qīnggē
+liu qing ge|Liǔ Qīnggē|https://archive.org/download/svsss-pronunciation-guide/Liu%20Qingge.mp3
+lqg|Liǔ Qīnggē|https://archive.org/download/svsss-pronunciation-guide/Liu%20Qingge.mp3
+qing ge|Qīnggē
 cheng luan|Chéng Luán
 ##Yue Qingyuan
-yue qing yuan|Yuè Qīngyuán|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Yue%20Qingyuan.mp3
-yqy|Yuè Qīngyuán
+yue qing yuan|Yuè Qīngyuán|https://archive.org/download/svsss-pronunciation-guide/Yue%20Qingyuan.mp3
+yqy|Yuè Qīngyuán|https://archive.org/download/svsss-pronunciation-guide/Yue%20Qingyuan.mp3
 yue qi|Yuè Qī
 qi ge|Qī-gē
 xuan su|Xuán Sù
 ##Shang Qinghua
-shang qinghua|Shàng Qīnghuá|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Shang%20Qinghua.mp3
-sqh|Shàng Qīnghuá
+shang qinghua|Shàng Qīnghuá|https://archive.org/download/svsss-pronunciation-guide/Shang%20Qinghua.mp3
+qing hua|Qīnghuá
+sqh|Shàng Qīnghuá|https://archive.org/download/svsss-pronunciation-guide/Shang%20Qinghua.mp3
 ##Qi Qingqi
 qi qing qi|Qí Qīngqī
 qqq|Qí Qīngqī
 ##Liu Mingyan
-liu ming yan|Liǔ Míngyān|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Liu%20Mingyan.mp3
-lmy|Liǔ Míngyān
+liu ming yan|Liǔ Míngyān|https://archive.org/download/svsss-pronunciation-guide/Liu%20Mingyan.mp3
+lmy|Liǔ Míngyān|https://archive.org/download/svsss-pronunciation-guide/Liu%20Mingyan.mp3
 liu su mian hua|Liǔ Sù Mián Huā
 liu|Liǔ
 ming yan|Míngyān
 ##Mu Qingfang
-mu qing fang|Mù Qīngfāng|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Mu%20Qingfang.mp3
-mqf|Mù Qīngfāng
+mu qing fang|Mù Qīngfāng|https://archive.org/download/svsss-pronunciation-guide/Mu%20Qingfang.mp3
+mqf|Mù Qīngfāng|https://archive.org/download/svsss-pronunciation-guide/Mu%20Qingfang.mp3
+qing fang|Qīngfāng
 ##Yang Yixuan
 yang yi xuan|Yáng Yīxuán
 yyx|Yáng Yīxuán
@@ -61,31 +66,31 @@ lao gong zhu|Lǎo Gōngzhǔ
 ##Little Palace Mistress
 xiao gong zhu|Xiǎo Gōngzhǔ
 ##Su Xiyan
-su xi yan|Sū Xīyán
-sxy|Sū Xīyán
+su xi yan|Sū Xīyán|https://archive.org/download/svsss-pronunciation-guide/Su%20Xiyan.mp3
+sxy|Sū Xīyán|https://archive.org/download/svsss-pronunciation-guide/Su%20Xiyan.mp3
 ##Gongyi Xiao
-gong yi xiao|Gōngyí Xiāo|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Gongyi%20Xiao.mp3
-gyx|Gōngyí Xiāo
+gong yi xiao|Gōngyí Xiāo|https://archive.org/download/svsss-pronunciation-guide/Gongyi%20Xiao.mp3
+gyx|Gōngyí Xiāo|https://archive.org/download/svsss-pronunciation-guide/Gongyi%20Xiao.mp3
 ##Qin Wanyue
 qin wan yue|Qín Wǎnyuē
 ##Qing Wanrong
 qin wan rong|Qín Wǎnróng
 #Demons
 ##Mobei-jun
-mo bei jun|Mòběi-jūn|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Mobei%20Jun.mp3
-mbj|Mòběi-jūn
+mo bei jun|Mòběi-jūn|https://archive.org/download/svsss-pronunciation-guide/Mobei%20Jun.mp3
+mbj|Mòběi-jūn|https://archive.org/download/svsss-pronunciation-guide/Mobei%20Jun.mp3
 ##Zhuzhi-lang
-zhu zhi lang|Zhúzhī-láng|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Zhuzhi%20Lang.mp3
-zzl|Zhúzhī-láng
+zhu zhi lang|Zhúzhī-láng|https://archive.org/download/svsss-pronunciation-guide/Zhuzhi%20Lang.mp3
+zzl|Zhúzhī-láng|https://archive.org/download/svsss-pronunciation-guide/Zhuzhi%20Lang.mp3
 ##Tianlang-jun
-tian lang jun|Tiānláng-jūn
-tlj|Tiānláng-jūn|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Tianlang%20Jun.mp3
+tian lang jun|Tiānláng-jūn|https://archive.org/download/svsss-pronunciation-guide/Tianlang%20Jun.mp3
+tlj|Tiānláng-jūn|https://archive.org/download/svsss-pronunciation-guide/Tianlang%20Jun.mp3
 ##Linguang-jun
 lin guang jun|Lǐnguāng-jūn
 lgj|Lǐnguāng-jūn
 ##Sha Hualing
-sha hua ling|Shā Huālíng|https://ia800308.us.archive.org/22/items/svsss-pronunciation-guide/Sha%20Hualing.mp3
-shl|Shā Huālíng
+sha hua ling|Shā Huālíng|https://archive.org/download/svsss-pronunciation-guide/Sha%20Hualing.mp3
+shl|Shā Huālíng|https://archive.org/download/svsss-pronunciation-guide/Sha%20Hualing.mp3
 #Meng Mo
 Meng Mo|Mèng Mó
 ##Madam Meiyin
@@ -102,6 +107,7 @@ bai zhan|Bǎi Zhàn
 zui xian|Zuì Xiān
 wan jian|Wàn Jiàn
 ku xing|Kǔ Xíng
+
 ##Huan Hua
 huan hua|Huàn Huā
 bai lu|Bái Lù
@@ -117,4 +123,6 @@ qiu jian luo|Qiū Jiǎnluó
 qiu hai tang|Qiū Hǎitáng
 wu yan zi|Wú Yànzǐ
 #Misc Other
+chun shan|Chūnshān
 da wang|Dàwáng
+mai gu|Mái Gǔ
