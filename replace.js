@@ -23,9 +23,9 @@ function capitalize(match, replacement) {
   if ((match == match.toUpperCase()) && (replacement.length < 2 * match.length)){
     console.log('all caps');
     return replacement.toUpperCase();
-  } else if (match.charAt[0] == match.charAt[0].toUpperCase()) {
+  } else if (match.charAt(0) == match.charAt(0).toUpperCase()) {
     console.log('first letter capital');
-    return replacement.charAt[0].toUpperCase() + replacement.substring(1);
+    return replacement.charAt(0).toUpperCase() + replacement.substring(1);
   } else {
     return replacement;
 }
