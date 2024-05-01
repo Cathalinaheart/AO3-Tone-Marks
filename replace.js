@@ -73,8 +73,8 @@ function wordsMatchRegex(words) {
  * @return {string}
  */
 function replacementHtml(replacement, match, audio_url) {
-  const capitalizedReplacement = capitalize(match, replacement);
-  console.log(capizalizedReplacement);
+  //const capitalizedReplacement = capitalize(match, replacement);
+  //console.log(capizalizedReplacement);
   return `<span class="replacement" lang="zh-Latn-pinyin"
             data-orig="${match}"
             data-new="${escaped(replacement)}"
