@@ -18,7 +18,7 @@ function escaped(unsafe) {
 * @param {string} replacement
 * @returns {string}
 */
-function capitalize(match, replacement) {
+/*function capitalize(match, replacement) {
   //if the match is in allcaps and it's not an abbreviation
   if ((match == match.toUpperCase()) && (replacement.length < 2 * match.length)){
     console.log('all caps');
@@ -28,7 +28,7 @@ function capitalize(match, replacement) {
     return replacement.charAt(0).toUpperCase() + replacement.substring(1);
   } else {
     return replacement;
-}
+}*/
 
 /**
  * Returns a regex to match a sequence of words, allowing an optional
