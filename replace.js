@@ -56,11 +56,11 @@ function wordsMatchRegex(words) {
  */
 function replacementHtml(replacement, match, audio_url) {
   //if the match is in allcaps and it's not an abbreviation
-  if ((match == match.toUpperCase) && (replacement.length < 2 * match.length)){
-    capitalizedReplacement = replacement.toUpperCase;
-  } else if (match.charAt[0] == match.charAt[0].toUpperCase) {
-    capitalizedReplacement = replacement.charAt[0].toUpperCase + replacement.substring(1);
-  }
+  //if ((match == match.toUpperCase) && (replacement.length < 2 * match.length)){
+  //  capitalizedReplacement = replacement.toUpperCase;
+  //} else if (match.charAt[0] == match.charAt[0].toUpperCase) {
+  //  capitalizedReplacement = replacement.charAt[0].toUpperCase + replacement.substring(1);
+  //}
   return `<span class="replacement" lang="zh-Latn-pinyin"
             data-orig="${match}"
             data-new="${escaped(replacement)}"
