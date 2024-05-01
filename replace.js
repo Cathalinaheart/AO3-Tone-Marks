@@ -13,6 +13,24 @@ function escaped(unsafe) {
 }
 
 /**
+* Try and match capital letters for original match in text
+* @param {string} match
+* @param {string} replacement
+* @returns {string}
+*/
+function capitalize(match, replacement) {
+  //if the match is in allcaps and it's not an abbreviation
+  if ((match == match.toUpperCase) && (replacement.length < 2 * match.length)){
+    console.log('all caps');
+    return replacement.toUpperCase;
+  } else if (match.charAt[0] == match.charAt[0].toUpperCase) {
+    console.log('first letter capital');
+    return replacement.charAt[0].toUpperCase + replacement.substring(1);
+  } else {
+    return replacement;
+}
+
+/**
  * Returns a regex to match a sequence of words, allowing an optional
  * dash (-) or space ( ) between each word. The beginning and end of the
  * matching sequence must be at a word boundary.
@@ -55,12 +73,8 @@ function wordsMatchRegex(words) {
  * @return {string}
  */
 function replacementHtml(replacement, match, audio_url) {
-  //if the match is in allcaps and it's not an abbreviation
-  //if ((match == match.toUpperCase) && (replacement.length < 2 * match.length)){
-  //  capitalizedReplacement = replacement.toUpperCase;
-  //} else if (match.charAt[0] == match.charAt[0].toUpperCase) {
-  //  capitalizedReplacement = replacement.charAt[0].toUpperCase + replacement.substring(1);
-  //}
+  const capitalizedReplacement = capitalize(match, replacement);
+  console.log(capizalizedReplacement);
   return `<span class="replacement" lang="zh-Latn-pinyin"
             data-orig="${match}"
             data-new="${escaped(replacement)}"
