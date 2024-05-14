@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks
 // @namespace    http://tampermonkey.net/
-// @version      4.5.5
+// @version      4.5.7
 // clang-format off
 // @description  Add tone marks on Ao3 works
 // @author       Cathalinaheart, irrationalpie7
@@ -26,6 +26,7 @@
 // @resource     svsss resources/svsss.txt
 // @resource     jwqs resources/jwqs.txt
 // @resource     erha resources/erha.txt
+// @resource     parallelworld resources/parallelworld.txt
 // clang-format on
 // @grant GM.getResourceUrl
 // @grant GM_getResourceText
