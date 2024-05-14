@@ -13,6 +13,7 @@ For both you need to have tampermonkey/greasemonkey installed.  Then you just ne
 - Please don't laugh: JWQS
 - Hu Dielan: King's Avatar
 - Hai Yan: Nirvana in Fire
+- Parallel World
 
 More are in progress.
 
@@ -20,6 +21,7 @@ More are in progress.
 - MXTX:MDZS/The Untamed, TGCF, SVSSS
 - Priest: Guardian, Word of Honor
 - Hai Yan: Nirvana in Fire
+- Parallel World
 
 Audio guide support is currently in progress. Not every word has audio at this point that can be linked.
 
