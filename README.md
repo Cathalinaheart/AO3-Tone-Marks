@@ -1,5 +1,5 @@
 # AO3-Tone-Marks
-This is based on GodofLaundryBaskets <a href="https://godoflaundrybaskets.dreamwidth.org/3315.html">Google Docs Tone Mark Script.</a> It will display the tone marks over the supported chinese names, and if the audio is available allow you to click on that name and listen to the audio guide for that name recorded by <a href="https://lunatique.dreamwidth.org/221218.html">lunatique</a> directly on the AO3 page.
+This is based on GodofLaundryBaskets <a href="https://godoflaundrybaskets.dreamwidth.org/3315.html">Google Docs Tone Mark Script.</a> It will display the tone marks over the supported chinese names, and if the audio is available allow you to click on that name and listen to the audio guide for that name recorded by <a href="https://lunatique.dreamwidth.org/221218.html">lunatique</a> or <a href="https://archiveofourown.org/users/nonplussed/profile">nonplussed</a> directly on the AO3 page.
 
 ## Installation
 There are two versions: One that also adds an on-page audio pronunciation guide and one that does just the pinyin replacement.
@@ -17,11 +17,9 @@ For both you need to have tampermonkey/greasemonkey installed.  Then you just ne
 More are in progress.
 
 ### Pronunciation Guide on Page
-- MDZS/The Untamed
-- Guardian
-- Nirvana in Fire
-- Word of Honor
-- SVSSS
+- MXTX:MDZS/The Untamed, TGCF, SVSSS
+- Priest: Guardian, Word of Honor
+- Hai Yan: Nirvana in Fire
 
 Audio guide support is currently in progress. Not every word has audio at this point that can be linked.
 
