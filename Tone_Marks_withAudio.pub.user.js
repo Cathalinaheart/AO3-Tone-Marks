@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tone Marks with Audio
 // @namespace    http://tampermonkey.net/
-// @version      4.5.6
+// @version      4.5.7
 // clang-format off
 // @description  Add tone marks on Ao3 works, and add quick audio guide clips where available
 // @author       Cathalinaheart, irrationalpie7
@@ -26,6 +26,7 @@
 // @resource     svsss resources/svsss.txt
 // @resource     jwqs resources/jwqs.txt
 // @resource     erha resources/erha.txt
+// @resource     parallelworld resources/parallelworld.txt
 // @resource     IMPORTED_CSS https://fonts.googleapis.com/icon?family=Material+Icons
 // @resource     audio_css audio.css
 // @resource     glossary_css glossary.css
