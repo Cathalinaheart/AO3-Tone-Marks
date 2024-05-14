@@ -10,18 +10,6 @@ function escaped(unsafe) {
       .replaceAll('>', '&gt;')
       .replaceAll('"', '&quot;')
       .replaceAll('\'', '&#039;');
-/*      .replaceAll(/[ĀÁǍÀ]/g,'A')
-      .replaceAll(/[āáǎà]/g,'a')
-      .replaceAll(/[ĒÉĚÈ]/g,'E')
-      .replaceAll(/[ēéěè]/g,'e')
-      .replaceAll(/[ĪÍǏÌ]/g,'I')
-      .replaceAll(/[īíǐì]/g,'i')
-      .replaceAll(/[ŌÓǑÒ]/g,'O')
-      .replaceAll(/[ōóǒò]/g,'o')
-      .replaceAll(/[ŪÚǓÙ]/g,'U')
-      .replaceAll(/[ūúǔù]/g,'u')
-      .replaceAll(/[ǕǗǙǛ]/g,'Ü')
-      .replaceAll(/[ǖǘǚǜ]/g,'ü');*/
 }
 
 /**
