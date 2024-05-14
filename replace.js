@@ -9,8 +9,8 @@ function escaped(unsafe) {
       .replaceAll('<', '&lt;')
       .replaceAll('>', '&gt;')
       .replaceAll('"', '&quot;')
-      .replaceAll('\'', '&#039;')
-      .replaceAll(/[ĀÁǍÀ]/g,'A')
+      .replaceAll('\'', '&#039;');
+/*      .replaceAll(/[ĀÁǍÀ]/g,'A')
       .replaceAll(/[āáǎà]/g,'a')
       .replaceAll(/[ĒÉĚÈ]/g,'E')
       .replaceAll(/[ēéěè]/g,'e')
@@ -21,7 +21,7 @@ function escaped(unsafe) {
       .replaceAll(/[ŪÚǓÙ]/g,'U')
       .replaceAll(/[ūúǔù]/g,'u')
       .replaceAll(/[ǕǗǙǛ]/g,'Ü')
-      .replaceAll(/[ǖǘǚǜ]/g,'ü');
+      .replaceAll(/[ǖǘǚǜ]/g,'ü');*/
 }
 
 /**
