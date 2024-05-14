@@ -13,6 +13,27 @@ function escaped(unsafe) {
 }
 
 /**
+ * Replaces diacritics with their plain version
+ * @param {string} str
+ * @returns {string}
+*/
+function escapeDiacritics(str) {
+    return (str + '')
+        .replaceAll(/[ĀÁǍÀ]/g,'A')
+        .replaceAll(/[āáǎà]/g,'a')
+        .replaceAll(/[ĒÉĚÈ]/g,'E')
+        .replaceAll(/[ēéěè]/g,'e')
+        .replaceAll(/[ĪÍǏÌ]/g,'I')
+        .replaceAll(/[īíǐì]/g,'i')
+        .replaceAll(/[ŌÓǑÒ]/g,'O')
+        .replaceAll(/[ōóǒò]/g,'o')
+        .replaceAll(/[ŪÚǓÙ]/g,'U')
+        .replaceAll(/[ūúǔù]/g,'u')
+        .replaceAll(/[ǕǗǙǛ]/g,'Ü')
+        .replaceAll(/[ǖǘǚǜ]/g,'ü');
+}
+
+/**
 * Try and match capital letters for original match in text
 * @param {string} match
 * @param {string} replacement
@@ -55,7 +76,7 @@ function wordsMatchRegex(words) {
           words
               .map(
                   word =>
-                      escaped(word).replace(/([.?*+^$[\]\\(){}|])/g, '\\$1'))
+                      escapeDiacritics(escaped(word)).replace(/([.?*+^$[\]\\(){}|])/g, '\\$1'))
               .join('( |-|\')?') +
           ')' +
           // Check word boundary
