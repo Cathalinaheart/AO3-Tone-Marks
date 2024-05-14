@@ -67,6 +67,8 @@ async function getReplacementRules(workFandoms) {
       workFandoms, rules);
   await updateRulesForFandom(
       '2ha|erha|Husky and His White Cat Shizun', 'erha', workFandoms, rules);
+  await updateRulesForFandom(
+    'Parallel World|West Out Of Yumen','parallelworld', workFandoms, rules);
 
   // Add non-fandom-specific rules at the end.
   await updateRulesForFandom('', 'generic', workFandoms, rules);
