@@ -1,13 +1,12 @@
 # Tiān Guān Cì Fú
-tian guan ci fu|Tiān Guān Cì Fú
-
+tian guan ci fu|Tiān Guān Cì Fú|https://archive.org/download/tgcf-pronunciation-guide/tianguancifu.m4a
 # Items
 ## Cursed Shackles (咒枷, Zhòu Jiā)
 zhou jia|Zhòu Jiā
 ## Deathly Spirit Butterflies (死灵蝶, Sǐ Líng Dié)
 si ling die|Sǐ Líng Dié
 ## E-Ming (厄命, È-Mìng)
-e ming|È-Mìng
+e ming|È-Mìng|https://archive.org/download/tgcf-pronunciation-guide/eming.m4a
 ## Fang Xin (芳心剑, Fāngxīn Jiàn)
 fang xin jian|Fāngxīn Jiàn
 fang xin|Fāngxīn
@@ -19,7 +18,7 @@ gui wei tang|Guǐ Wèi Táng
 ## The Golden Longevity Lockets (长命金锁, Chángmìng Jīn Suǒ)
 chang ming jin suo|Chángmìng Jīn Suǒ
 ## Hong Jing (红镜, Hóngjìng)
-hong jing|Hóngjìng
+hong jing|Hóngjìng|https://archive.org/download/tgcf-pronunciation-guide/hongjing.m4a
 ## Incorruptible Chastity Meatballs (玉洁冰清丸, Yù Jié Bīng Qīng Wán)
 yu jie bing qing wan|Yù Jié Bīng Qīng Wán
 ## Love for All Seasons (百年好合羹, Bǎinián Hǎo Hé Gēng)
@@ -29,7 +28,7 @@ yu shi li|Yǔ Shī Lì
 ## The red string (红线, hóngxiàn)
 hong xian|hóngxiàn
 ## Ruoye (若邪, Ruòyé)
-ruo ye|Ruòyé
+ruo ye|Ruòyé|https://archive.org/download/tgcf-pronunciation-guide/ruoye.m4a
 ## Shanyue Fern (善月草, Shànyuè Cǎo)
 shan yue cao|Shànyuè Cǎo
 shan yue|Shànyuè
@@ -43,134 +42,120 @@ feng shi shan|Fēng Shī Shàn
 yan zhen|Yàn Zhēn
 ## Yulong (雨龙, Yǔlóng)
 yu long|Yǔlóng
-
 # canonical chars on ao3, supplemented with alternate titles from the wiki
 butcher zhu|Butcher Zhū
 ## Banyue (半月, Bànyuè) (place)
 banyue|Bànyuè
 ## Ban Yue (person)
-ban yue|Bàn Yuè
+ban yue|Bàn Yuè|https://archive.org/download/tgcf-pronunciation-guide/banyue.m4a
 bai jin|Bái Jǐn
-bai wu xiang|Bái Wúxiàng
-cuo cuo|Cuòcuò
+bai wu xiang|Bái Wúxiàng|https://archive.org/download/tgcf-pronunciation-guide/baiwuxiang%5B1%5D.m4a
+cuo cuo|Cuòcuò|https://archive.org/download/tgcf-pronunciation-guide/cuocuo.m4a
 cang qiong|Cāng Qióng
-fu yao|Fú Yáo
-
+fu yao|Fú Yáo|https://archive.org/download/tgcf-pronunciation-guide/fuyao.m4a
 # 风信 - Fēng Xìn
-feng xin|Fēng Xìn
+feng xin|Fēng Xìn|https://archive.org/download/tgcf-pronunciation-guide/fengxin.m4a
 ## 南阳将军, Nán Yáng jiāngjūn - General Nan Yang (南 nán - southern, 阳 yáng - sun)
-## Nan Yang Zhen Jun ?
+## Nan Yang Zhen Jun 南阳真君
+nan yang zhen jun|Nán Yáng Zhēnjūn
 nan yang jiang jun|Nán Yáng jiāngjūn
-nan yang|Nán Yáng
+nan yang|Nán Yáng|https://archive.org/download/tgcf-pronunciation-guide/nanyang.m4a
 ## 巨阳将军, Jù Yáng jiāngjūn - General Ju Yang
 ju yang jiang jun|Jù Yáng jiāngjūn
-ju yang|Jù Yáng
+ju yang|Jù Yáng|https://archive.org/download/tgcf-pronunciation-guide/juyang.m4a
 ## weapon: 风神弓, Fēngshén Gōng (lit. Wind God Bow)
 feng shen gong|Fēngshén Gōng
-
 gu zi|Gǔzi
-
 # 花城 - Huā Chéng
 ## 花城主, Huā Chéngzhǔ - City Master
-hua cheng zhu|Huā Chéngzhǔ
-hua cheng|Huā Chéng
+hua cheng zhu|Huā Chéngzhǔ|https://archive.org/download/tgcf-pronunciation-guide/huachengzhu.m4a
+hua cheng|Huā Chéng|https://archive.org/download/tgcf-pronunciation-guide/huacheng.m4a
 ## 红儿, Hónghóng-er - Red
-hong hong er|Hónghóng'ér
+hong hong er|Hónghóng'ér|https://archive.org/download/tgcf-pronunciation-guide/honghonger.m4a
 hong hong'er|Hónghóng'ér
-hong er|Hóng'ér
+hong er|Hóng'ér|https://archive.org/download/tgcf-pronunciation-guide/honger.m4a
 hong'er|Hóng'ér
 ## 血雨探花, Xuè Yǔ Tàn Huā - Crimson Rain Sought Flower
 xue yu tan hua|Xuè Yǔ Tàn Huā
 ## 三郎, Sān Láng - Third Son
-san lang|Sān Láng
+san lang|Sān Láng|https://archive.org/download/tgcf-pronunciation-guide/sanlang.m4a
 ## 无名, Wú Míng - Nameless
-wu ming|Wú Míng
+wu ming|Wú Míng|https://archive.org/download/tgcf-pronunciation-guide/wuming.m4a
 ## 小花, Xiǎo Huā - Little Flower (Puqi Villagers)
 xiao hua|xiăo-Huā
-
 # 贺玄 - Hè Xuán
-he xuan|Hè Xuán
+he xuan|Hè Xuán|https://archive.org/download/tgcf-pronunciation-guide/hexuan.m4a
 # 黑水沉舟, Hēi Shuǐ Chén Zhōu - Black Water Submerging Boats
 Hei Shui Chen Zhou|Hēi Shuǐ Chén Zhōu
 ## The Black Water Demon Lair (黑水鬼域, Hēi Shuǐ Guǐ Yù)
 hei shui gui yu|Hēi Shuǐ Guǐ Yù
 # 黑水, Hēi Shuǐ - Black Water
 hei shui|Hēi Shuǐ
-
-jian lan|Jiàn Lán
+jian lan|Jiàn Lán|https://archive.org/download/tgcf-pronunciation-guide/jianlan.m4a
 jian yu|Jiàn Yù
 jing wen|Jìng Wén
-
 # 君吾, Jūn Wú - The Lord, I Am
 ## 神武大帝, Shénwǔ Dàdì - Heavenly Martial Emperor
-jun wu|Jūn Wú
+jun wu|Jūn Wú|https://archive.org/download/tgcf-pronunciation-guide/junwu.m4a
 shen wu da di|Shénwǔ Dàdì
-
-ke mo|Kè Mó
-ming yi|Míng Yí
-lang qian qiu|Láng Qiānqiū
-lang ying|Láng Yíng
-ling wen|Líng Wén
+ke mo|Kè Mó|https://archive.org/download/tgcf-pronunciation-guide/kemo.m4a
+ming yi|Míng Yí|https://archive.org/download/tgcf-pronunciation-guide/mingyi.m4a
+lang qian qiu|Láng Qiānqiū|https://archive.org/download/tgcf-pronunciation-guide/langqianqiu.m4a
+lang ying|Láng Yíng|https://archive.org/download/tgcf-pronunciation-guide/langying.m4a
+ling wen|Líng Wén|https://archive.org/download/tgcf-pronunciation-guide/lingwen.m4a
 moxiang tongxiu|Mòxiāng Tóngxiù
-mei nianqing|Méi Niànqīng
-
+mei nianqing|Méi Niànqīng|https://archive.org/download/tgcf-pronunciation-guide/meinianqing.m4a
 # 慕情 - Mù Qíng
-mu qing|Mù Qíng
+mu qing|Mù Qíng|https://archive.org/download/tgcf-pronunciation-guide/muqing.m4a
 ## 玄真将军, Xuán Zhēn Jiāngjūn - General Xuan Zhen
 ## 玄真 xuán zhēn - enigmatic truth
-xuan zhen jiang jun|Xuán Zhēn jiāngjūn
-xuan zhen|Xuán Zhēn
+xuan zhen zehn jun|Xuán Zhēn Zhēnjūn
+xuan zhen jiang jun|Xuán Zhēn jiāngjūn|https://archive.org/download/tgcf-pronunciation-guide/xuanzhenjiangjun.m4a
+xuan zhen|Xuán Zhēn|https://archive.org/download/tgcf-pronunciation-guide/xuanzhen.m4a
 # weapon: 斩马刀, Zhǎn Mǎdāo - lit. Chopping Sabre
 zhan ma dao|Zhǎn Mǎdāo
-
 nan feng|Nán Fēng
-
 # 裴茗 - Péi Míng
-pei ming|Péi Míng
+pei ming|Péi Míng|https://archive.org/download/tgcf-pronunciation-guide/peiming.m4a
 ## 明光将军, Míng Guāng Jiāngjūn - General Ming Guang
 ming guang jiang jun|Míng Guāng jiāngjūn
 ## 将军折剑, Jiāngjūn Zhē Jiàn - The General Who Broke His Sword
 jiang jun zhe jian|Jiāngjūn Zhē Jiàn
 ## Ming Guang (明光, Míng Guāng) (former sword)
-ming guang|Míng Guāng
+ming guang|Míng Guāng|https://archive.org/download/tgcf-pronunciation-guide/mingguang.m4a
 ## 裴将军, Péi Jiāngjūn - General Pei
 pei jiang jun|Péi jiāngjūn
 ## 裴兄, Péi-xiōng - Brother Pei (to Shi Wudu)
-pei xiong|Péi xiōng
+pei xiong|Péi xiōng|https://archive.org/download/tgcf-pronunciation-guide/peixiong.m4a
 ## 老裴, Lǎo Péi - Old Pei (to Ling Wen)
 lao pei|lǎo Péi
-
 pei su|Péi Sù
-quan yizhen|Quán Yīzhēn
-
+quan yizhen|Quán Yīzhēn|https://archive.org/download/tgcf-pronunciation-guide/quanyizhen.m4a
 # 戚容, Qī Róng
 ## 青灯夜游, Qīng Dēng Yè Yóu - Night-Touring Green Lantern
 ## 青鬼戚容, Qīng Guǐ Qī Róng - Green Ghost Qi Rong
 ## 小镜, Xiǎo Jìng - Small Mirror (former)
 ## Rong-er (to the Queen)
-qi rong|Qī Róng
+qi rong|Qī Róng|https://archive.org/download/tgcf-pronunciation-guide/qirong.m4a
 qing gui|Qīng Guǐ
 xiao jing|Xiǎo Jìng
 rong er|Róng'ér
 rong'er|Róng'ér
-
 rong guang|Róng Guǎng
-
 # 师青玄 - Shī Qīngxuán
 ## 风师青玄, Fēng Shī Qīng Xuán - Lord Wind Master Qingxuan
 feng shi qing xuan|Fēng Shī Qīngxuán
 ## 风师娘娘, Fēng Shī Niáng Niang - Lady Wind Master
 feng shi niang niang|Fēng Shī niángniang
 feng shi|Fēng Shī
-shi qing xuan|Shī Qīngxuán
+shi qing xuan|Shī Qīngxuán|https://archive.org/download/tgcf-pronunciation-guide/shiqingxuan.m4a
 qing xuan|Qīngxuán
 ## 少君倾酒, Shào Jūn Qīng Jiǔ - The Young Lord Who Pours Wine
 shao jun qing jiu|Shàojūn Qīng Jiǔ
-
 # 师无渡 - Shī Wúdù
 ## 水师无渡, Shuǐ Shī Wúdù - Water Master Wudu
 shui shi wu du|Shuǐ Shī Wúdù
-shi wu du|Shī Wúdù
+shi wu du|Shī Wúdù|https://archive.org/download/tgcf-pronunciation-guide/shiwudu.m4a
 wu du|Wúdù
 ## 水横天, Shuǐ Héngtiān - Water Tyrant
 shui heng tian|Shuǐ Héngtiān
@@ -178,13 +163,12 @@ heng tian|Héngtiān
 ## 哥, Gē - Older Brother (to Shi Qingxuan)
 ## 水师兄, Shuǐ Shī-xiōng - Brother Water Master (to Pei Ming)
 shui shi xiong|Shuǐ Shī xiōng
-
 tian sheng|Tiān Shēng
-
 # 谢怜 - Xiè Lián
-xie lian|Xiè Lián
+xie lian|Xiè Lián|https://archive.org/download/tgcf-pronunciation-guide/xielian.m4a
 ## 太子殿下, Tài Zǐ Diànxià - His Royal Highness the Crown Prince
-tai zi dian xia|Tàizǐ Diànxià
+tai zi dian xia|Tàizǐ Diànxià|https://archive.org/download/tgcf-pronunciation-guide/taizidianxia.m4a
+dian xia|Diànxià|https://archive.org/download/nif-pronunciation-guide/Dian%20xia.mp3
 ## 花冠武神, Huā Guān Wǔ Shén - Flower Crown Martial God
 hua guan wu shen|Huā Guān Wǔ Shén
 ## 太子悦神, Tài Zǐ Yuè Shén - His Highness Who Pleased the Gods
@@ -196,19 +180,15 @@ hua xie|Huā Xiè
 ## 哥哥, Gēge - Older Brother (Hua Cheng)
 ## 太子表哥, Tàizǐ Biǎo Gē - Cousin Crown Prince (to Qi Rong)
 tai zi biao ge|Tàizǐ biǎogē
-
 xiao ying|Xiǎo Yíng
 xuan ji|Xuān Jī
-
 # 引玉 - Yǐn Yù
 ## 下弦月使, Xiàxián Yuè Shǐ - Waning Moon Officer
 ## 师兄, Shīxiōng - Older disciple brother (to Quan Yizhen)
-yin yu|Yǐn Yù
+yin yu|Yǐn Yù|https://archive.org/download/tgcf-pronunciation-guide/yinyu.m4a
 xia xian yue shi|Xiàxián Yuè Shǐ
-
-yushi huang|Yǔshī Huáng
-an le|Ān Lè
-
+yu shi huang|Yǔshī Huáng|https://archive.org/download/tgcf-pronunciation-guide/yushihuang.m4a
+an le|Ān Lè|https://archive.org/download/tgcf-pronunciation-guide/anle.m4a
 # Places (from wiki)
 ## Banming (半命, Bànmìng; lit. Half-life)
 ban ming|Bànmìng
@@ -228,24 +208,24 @@ qian deng miao|Qiāndēng Miào
 qian deng|Qiāndēng
 ## Taicang Mountain (太苍山, Tàicāng Shān)
 tai cang shan|Tàicāng Shān
+tai cang|Tàicāng|https://archive.org/download/tgcf-pronunciation-guide/taicang.m4a
 ## Tonglu Mountain (铜炉山, Tónglú Shān)
 tong lu shan|Tónglú Shān
-tong lu|Tónglú
+tong lu|Tónglú|https://archive.org/download/tgcf-pronunciation-guide/tonglu.m4a
 ## Wuyong (乌庸, Wūyōng)
-wu yong|Wūyōng
+wu yong|Wūyōng|https://archive.org/download/tgcf-pronunciation-guide/wuyong.m4a
 ## Xianle (仙乐, Xiānlè)
-xian le|Xiānlè
+xian le|Xiānlè|https://archive.org/download/tgcf-pronunciation-guide/xianle.m4a
 ## Xuli Kingdom (须黎, Xūlí)
-xu li|Xūlí
+xu li|Xūlí|https://archive.org/download/tgcf-pronunciation-guide/xuli.m4a
 ## Yong'an (永安, Yǒng'ān)
-yong an|Yǒng'ān
+yong an|Yǒng'ān|https://archive.org/download/tgcf-pronunciation-guide/yongan.m4a
 yong'an|Yǒng'ān
 ## Yu Jun Mountain (与君山, Yǔ Jūn Shān)
 yu jun shan|Yǔ Jūn Shān
 yu jun|Yǔ Jūn
 ## Yushi (雨师, Yǔshī)
-yu shi|Yǔshī
-
+yu shi|Yǔshī|https://archive.org/download/tgcf-pronunciation-guide/yushi.m4a
 # Misc
 ## Ascension (飞升, Fēishēng)
 fei sheng|Fēishēng
@@ -266,11 +246,6 @@ shen guan|Shénguān
 yu di|yùdì
 ## The Three Tumors (三毒瘤, Sān Dúliú)
 san du liu|Sān Dúliú
-
-## various titles
-shi xiong|shīxiōng
-ge ge|gēge
 biao ge|biǎogē
-ge|gē
 shao jun|shàojūn
 jiang jun|jiāngjūn
