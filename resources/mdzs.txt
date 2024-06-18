@@ -69,12 +69,13 @@ rulan|Rúlán
 ## Jin Guangshan (金光善, Jīn Guāngshàn)
 jin guangshan|Jīn Guāngshàn|https://archive.org/download/mdzs-pronunciation-guide/Jin%20Guangshan.mp3
 jgs|Jīn Guāngshàn|https://archive.org/download/mdzs-pronunciation-guide/Jin%20Guangshan.mp3
-## Jin Guangyao (金光瑶, Jīn Guāngyáo), birth name Meng Yao (孟瑶, Mèng Yáo)
+## Jin Guangyao (金光瑶, Jīn Guāngyáo), birth name Meng Yao (孟瑶, Mèng Yáo), title Lianfang Zun (敛芳尊, Liǎnfāng-zūn)
 jin guangyao|Jīn Guāngyáo|https://archive.org/download/mdzs-pronunciation-guide/Jin%20Guangyao.mp3
 jgy|Jīn Guāngyáo|https://archive.org/download/mdzs-pronunciation-guide/Jin%20Guangyao.mp3
 guangyao|Guāngyáo
 meng yao|Mèng Yáo|https://archive.org/download/mdzs-pronunciation-guide/Meng%20Yao.mp3
 a yao|Ā-Yáo
+lianfang zun|Liǎnfāng zūn|https://archive.org/download/mdzs-pronunciation-guide/Jin%20Guangshan.mp3
 heng sheng|Hènshēng|https://archive.org/download/mdzs-pronunciation-guide/Hensheng%20%28Jin%20Guangyao%27s%20sword%29.mp3
 ## Mo Xuanyu (莫玄羽, Mò Xuányǔ)
 mo xuanyu|Mò Xuányǔ|https://archive.org/download/mdzs-pronunciation-guide/Mo%20Xuanyu.mp3
