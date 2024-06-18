@@ -54,6 +54,7 @@ yunmeng jiang shi|Yúnmèng Jiāng Shì|https://archive.org/download/mdzs-pronun
 yunmeng jiang|Yúnmèng Jiāng|https://archive.org/download/mdzs-pronunciation-guide/Yunmeng%20Jiang.mp3
 yunmeng|Yúnmèng
 jiang|Jiāng
+yunping|Yúnpíng
 # Lanling Jin Sect
 ## Jin Zixuan (金子轩, Jīn Zixuān)
 jin zixuan|Jīn Zixuān|https://archive.org/download/mdzs-pronunciation-guide/Jin%20Zixuan.mp3
