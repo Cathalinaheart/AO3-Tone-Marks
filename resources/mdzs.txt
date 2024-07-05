@@ -76,7 +76,7 @@ jgy|Jīn Guāngyáo|https://archive.org/download/mdzs-pronunciation-guide/Jin%20
 guangyao|Guāngyáo
 meng yao|Mèng Yáo|https://archive.org/download/mdzs-pronunciation-guide/Meng%20Yao.mp3
 a yao|Ā-Yáo
-lianfang zun|Liǎnfāng zūn|https://archive.org/download/mdzs-pronunciation-guide/Jin%20Guangshan.mp3
+lianfang zun|Liǎnfāng zūn|https://archive.org/download/mdzs-pronunciation-guide/Lianfang-zun.mp3
 hen sheng|Hènshēng|https://archive.org/download/mdzs-pronunciation-guide/Hensheng%20%28Jin%20Guangyao%27s%20sword%29.mp3
 ## Mo Xuanyu (莫玄羽, Mò Xuányǔ)
 mo xuanyu|Mò Xuányǔ|https://archive.org/download/mdzs-pronunciation-guide/Mo%20Xuanyu.mp3
