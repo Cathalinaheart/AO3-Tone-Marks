@@ -1,6 +1,10 @@
 # AO3-Tone-Marks
 This is based on GodofLaundryBaskets <a href="https://godoflaundrybaskets.dreamwidth.org/3315.html">Google Docs Tone Mark Script.</a> It will display the tone marks over the supported chinese names, and if the audio is available allow you to click on that name and listen to the audio guide for that name recorded by <a href="https://lunatique.dreamwidth.org/221218.html">lunatique</a> or <a href="https://archiveofourown.org/users/nonplussed/profile">nonplussed</a> directly on the AO3 page.
 
+## Known issues
+
+As of November 6 '24, this script is currently affected by a [bug in TamperMonkey](https://github.com/Tampermonkey/tampermonkey/issues/2201); it will allegedly be fixed soon (version 5.3.6215), but the current non-beta version appears to still be 5.3.2. You can [install Tampermonkey beta](https://www.tampermonkey.net/index.php) or use [Violentmonkey](https://violentmonkey.github.io/get-it/) to work around the issue. The various *monkey extensions work best when only one is enabled; you'll want to uninstall or temporarily disable whichever one you're not using.
+
 ## Installation
 There are two versions: One that also adds an on-page audio pronunciation guide and one that does just the pinyin replacement.
 For both you need to have tampermonkey/greasemonkey installed.  Then you just need to click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks.pub.user.js">here for the pinyin replacement only</a> to install/update it or click <a href="https://github.com/Cathalinaheart/AO3-Tone-Marks/raw/main/Tone_Marks_withAudio.pub.user.js"> here for the pinyin replacement with audio guide version</a>.
